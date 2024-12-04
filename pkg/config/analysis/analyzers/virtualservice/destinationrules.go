@@ -17,7 +17,6 @@ package virtualservice
 import (
 	"fmt"
 	"log"
-	"runtime/debug"
 
 	"istio.io/api/networking/v1alpha3"
 	"istio.io/istio/pkg/config"
@@ -35,7 +34,6 @@ var _ analysis.Analyzer = &DestinationRuleAnalyzer{}
 
 // Metadata implements Analyzer
 func (d *DestinationRuleAnalyzer) Metadata() analysis.Metadata {
-	fmt.Printf("UUU METADATA")
 	return analysis.Metadata{
 		Name:        "virtualservice.DestinationRuleAnalyzer",
 		Description: "Checks the destination rules associated with each virtual service",
@@ -52,7 +50,6 @@ func (d *DestinationRuleAnalyzer) Analyze(ctx analysis.Context) {
 	destHostsAndSubsets := initDestHostsAndSubsets(ctx)
 
 	log.Printf("UUU Trying VirtualService")
-	debug.PrintStack()
 	ctx.ForEach(gvk.VirtualService, func(r *resource.Instance) bool {
 		log.Printf("UUU found VirtualService")
 		d.analyzeVirtualService(r, ctx, destHostsAndSubsets)
