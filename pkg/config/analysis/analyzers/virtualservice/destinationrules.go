@@ -16,6 +16,8 @@ package virtualservice
 
 import (
 	"fmt"
+	"log"
+	"runtime/debug"
 
 	"istio.io/api/networking/v1alpha3"
 	"istio.io/istio/pkg/config"
@@ -48,7 +50,10 @@ func (d *DestinationRuleAnalyzer) Analyze(ctx analysis.Context) {
 	// To avoid repeated iteration, precompute the set of existing destination host+subset combinations
 	destHostsAndSubsets := initDestHostsAndSubsets(ctx)
 
+	log.Printf("UUU Trying VirtualService")
+	debug.PrintStack()
 	ctx.ForEach(gvk.VirtualService, func(r *resource.Instance) bool {
+		log.Printf("UUU found VirtualService")
 		d.analyzeVirtualService(r, ctx, destHostsAndSubsets)
 		return true
 	})
