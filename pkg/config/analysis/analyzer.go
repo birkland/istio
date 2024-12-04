@@ -55,7 +55,7 @@ func Combine(name string, analyzers ...Analyzer) CombinedAnalyzer {
 func (c *InternalCombinedAnalyzer) RelevantSubset(kinds sets.Set[config.GroupVersionKind]) CombinedAnalyzer {
 
 	var selected []Analyzer
-	if len(c.analyzers == 0) {
+	if len(c.analyzers) == 0 {
 		log.Printf("UUU analyzers!  Not determining relevant")
 	}
 	for _, a := range c.analyzers {
