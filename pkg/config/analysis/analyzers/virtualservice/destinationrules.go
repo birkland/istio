@@ -35,6 +35,7 @@ var _ analysis.Analyzer = &DestinationRuleAnalyzer{}
 
 // Metadata implements Analyzer
 func (d *DestinationRuleAnalyzer) Metadata() analysis.Metadata {
+	fmt.Printf("UUU METADATA")
 	return analysis.Metadata{
 		Name:        "virtualservice.DestinationRuleAnalyzer",
 		Description: "Checks the destination rules associated with each virtual service",

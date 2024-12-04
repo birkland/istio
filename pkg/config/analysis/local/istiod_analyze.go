@@ -18,6 +18,7 @@ import (
 	"context"
 	"fmt"
 	"io"
+	"log"
 	"os"
 	"strings"
 
@@ -104,6 +105,8 @@ func NewIstiodAnalyzer(analyzer analysis.CombinedAnalyzer, namespace,
 	if cr == nil {
 		cr = func(config.GroupVersionKind) {}
 	}
+
+	log.Printf("UUU new analyzer")
 
 	// Get the closure of all input collections for our analyzer, paying attention to transforms
 	kubeResources := kuberesource.ConvertInputsToSchemas(analyzer.Metadata().Inputs)
