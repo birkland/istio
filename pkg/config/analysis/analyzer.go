@@ -15,6 +15,8 @@
 package analysis
 
 import (
+	"log"
+
 	"istio.io/istio/pkg/config"
 	"istio.io/istio/pkg/config/analysis/scope"
 	"istio.io/istio/pkg/config/schema/collection"
@@ -51,6 +53,19 @@ func Combine(name string, analyzers ...Analyzer) CombinedAnalyzer {
 }
 
 func (c *InternalCombinedAnalyzer) RelevantSubset(kinds sets.Set[config.GroupVersionKind]) CombinedAnalyzer {
+	
+	for _, kind := range kinds.UnsortedList() {
+		for _, a := range c.analyzers {
+			for _, inputKind := range a.Metadata().Inputs {
+				if kind.Group == inputKind.Group && kind.Kind == inputKind.Kind && kind.Version != inputKind.Version {
+					log.Printf("UUU BAD input version %s does not match analyzer version %s", kind, inputKind)
+				} else {
+					log.Printf("UUU GOOD %s", kind)
+				}
+			}
+		}
+	}
+
 	var selected []Analyzer
 	for _, a := range c.analyzers {
 		for _, inputKind := range a.Metadata().Inputs {
@@ -60,6 +75,7 @@ func (c *InternalCombinedAnalyzer) RelevantSubset(kinds sets.Set[config.GroupVer
 			}
 		}
 	}
+	log.Printf("%d to analyze", len(selected))
 	return Combine("subset", selected...)
 }
 
