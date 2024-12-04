@@ -55,8 +55,16 @@ func Combine(name string, analyzers ...Analyzer) CombinedAnalyzer {
 func (c *InternalCombinedAnalyzer) RelevantSubset(kinds sets.Set[config.GroupVersionKind]) CombinedAnalyzer {
 
 	var selected []Analyzer
+	if len(c.analyzers == 0) {
+		log.Printf("UUU analyzers!  Not determining relevant")
+	}
 	for _, a := range c.analyzers {
+
+		if len(a.Metadata().Inputs) == 0 {
+			log.Printf("UUU %s has no inputs! not determining relevant analyzers", a.Metadata().Name)
+		}
 		for _, inputKind := range a.Metadata().Inputs {
+			log.Printf("UUU determining if input kind is relevant: %s", inputKind)
 			if kinds.Contains(inputKind) {
 				log.Printf("UUU found analyzer for %s", inputKind)
 				selected = append(selected, a)
@@ -66,7 +74,7 @@ func (c *InternalCombinedAnalyzer) RelevantSubset(kinds sets.Set[config.GroupVer
 			}
 		}
 	}
-	log.Printf("%d to analyze", len(selected))
+	log.Printf("UUU %d to analyze", len(selected))
 	return Combine("subset", selected...)
 }
 
