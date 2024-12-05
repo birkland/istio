@@ -132,6 +132,7 @@ func NewIstiodAnalyzer(analyzer analysis.CombinedAnalyzer, namespace,
 }
 
 func (sa *IstiodAnalyzer) ReAnalyzeSubset(kinds sets.Set[config.GroupVersionKind], cancel <-chan struct{}) (AnalysisResult, error) {
+	log.Printf("%T is going to analyze relevant subsets", sa.analyzer)
 	subset := sa.analyzer.RelevantSubset(kinds)
 	log.Printf("UUU re-analyzing subset for %d kinds using analyzers %s", kinds.Len(), subset.AnalyzerNames())
 	return sa.internalAnalyze(subset, cancel)
