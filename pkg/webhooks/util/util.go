@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"istio.io/istio/pilot/pkg/keycertbundle"
+	"istio.io/istio/123/pilot/pkg/keycertbundle"
 )
 
 type ConfigError struct {

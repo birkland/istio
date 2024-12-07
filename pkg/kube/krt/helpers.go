@@ -24,8 +24,8 @@ import (
 	acmetav1 "k8s.io/client-go/applyconfigurations/meta/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 // GetKey returns the key for the provided object.

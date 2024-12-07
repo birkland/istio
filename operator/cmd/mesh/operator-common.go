@@ -21,9 +21,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	_ "k8s.io/client-go/plugin/pkg/client/auth" //  Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 type operatorCommonArgs struct {

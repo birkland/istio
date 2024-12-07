@@ -19,8 +19,8 @@ import (
 
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xds"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xds"
 )
 
 func TestRDS(t *testing.T) {

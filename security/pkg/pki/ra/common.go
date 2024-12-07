@@ -24,10 +24,10 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/slices"
-	raerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
-	caserver "istio.io/istio/security/pkg/server/ca"
+	"istio.io/istio/123/pkg/slices"
+	raerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
+	caserver "istio.io/istio/123/security/pkg/server/ca"
 )
 
 // RegistrationAuthority : Registration Authority interface.

@@ -25,11 +25,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	istioKube "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var (

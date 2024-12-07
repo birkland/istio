@@ -28,14 +28,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // Validates basic xds proxy flow by proxying one CDS requests end to end.

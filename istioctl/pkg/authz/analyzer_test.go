@@ -23,7 +23,7 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 
-	"istio.io/istio/istioctl/pkg/util/configdump"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
 )
 
 func TestNewAnalyzer(t *testing.T) {

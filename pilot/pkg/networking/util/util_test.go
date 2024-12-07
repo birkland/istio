@@ -31,15 +31,15 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	xdsutil "istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	xdsutil "istio.io/istio/123/pkg/wellknown"
 )
 
 var testCla = &endpoint.ClusterLoadAssignment{

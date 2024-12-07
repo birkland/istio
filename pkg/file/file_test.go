@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func copyTest(t *testing.T, copyFn func(srcFilepath, targetDir, targetFilename string) error) {

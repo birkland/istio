@@ -17,10 +17,10 @@ package core
 import (
 	tls "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pilot/pkg/security/authn"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pilot/pkg/security/authn"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
 )
 
 // FilterChainMatchOptions describes options used for filter chain matches.

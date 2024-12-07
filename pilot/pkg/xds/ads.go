@@ -29,17 +29,17 @@ import (
 	"google.golang.org/grpc/status"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/autoregistration"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	labelutil "istio.io/istio/pilot/pkg/serviceregistry/util/label"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/xds"
+	"istio.io/istio/123/pilot/pkg/autoregistration"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	labelutil "istio.io/istio/123/pilot/pkg/serviceregistry/util/label"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/xds"
 )
 
 var (

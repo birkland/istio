@@ -15,7 +15,7 @@
 package fuzz
 
 import (
-	"istio.io/istio/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/mesh"
 )
 
 func FuzzParseMeshNetworks(data []byte) int {

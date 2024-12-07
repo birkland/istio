@@ -17,11 +17,11 @@ package collections
 import (
 	"errors"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/config/validation"
-	testconfig "istio.io/istio/pkg/test/config"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config/validation"
+	testconfig "istio.io/istio/123/pkg/test/config"
 )
 
 var (
@@ -33,7 +33,7 @@ var (
 		Group:         "test.istio.io",
 		Version:       "v1",
 		Proto:         "config.MockConfig",
-		ProtoPackage:  "istio.io/istio/pkg/test/config",
+		ProtoPackage:  "istio.io/istio/123/pkg/test/config",
 		ValidateProto: func(cfg config.Config) (validation.Warning, error) {
 			if cfg.Spec.(*testconfig.MockConfig).Key == "" {
 				return nil, errors.New("empty key")

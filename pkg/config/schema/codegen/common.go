@@ -25,9 +25,9 @@ import (
 	"strings"
 	"text/template"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/schema/ast"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/schema/ast"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 func Run() error {
@@ -103,7 +103,7 @@ func Run() error {
 			"Packages":     inp.Packages,
 			"PackageName":  "collections",
 			"FilePrefix":   "// +build !agent",
-			"CustomImport": `  "istio.io/istio/pkg/config/validation/envoyfilter"`,
+			"CustomImport": `  "istio.io/istio/123/pkg/config/validation/envoyfilter"`,
 		}),
 		writeTemplate("pkg/config/schema/collections/collections.agent.gen.go", collectionsTemplate, map[string]any{
 			"Entries":      agentEntries,

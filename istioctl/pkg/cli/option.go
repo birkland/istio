@@ -20,7 +20,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 const (

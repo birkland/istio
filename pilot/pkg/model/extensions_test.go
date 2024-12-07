@@ -25,11 +25,11 @@ import (
 
 	extensions "istio.io/api/extensions/v1alpha1"
 	"istio.io/api/type/v1beta1"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	"istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	"istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestBuildDataSource(t *testing.T) {

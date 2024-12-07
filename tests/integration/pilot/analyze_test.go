@@ -25,14 +25,14 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/istioctl/pkg/analyze"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/tests/integration/helm"
+	"istio.io/istio/123/istioctl/pkg/analyze"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/tests/integration/helm"
 )
 
 const (

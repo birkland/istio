@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestSDSWriter_ValidCert(t *testing.T) {

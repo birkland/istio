@@ -28,9 +28,9 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	ktesting "k8s.io/client-go/testing"
 
-	"istio.io/istio/security/pkg/cmd"
-	"istio.io/istio/security/pkg/pki/util"
-	certutil "istio.io/istio/security/pkg/util"
+	"istio.io/istio/123/security/pkg/cmd"
+	"istio.io/istio/123/security/pkg/pki/util"
+	certutil "istio.io/istio/123/security/pkg/util"
 )
 
 const caNamespace = "default"

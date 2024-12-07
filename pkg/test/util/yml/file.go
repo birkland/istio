@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/test"
 )
 
 type docType string

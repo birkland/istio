@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/prometheus"
-	"istio.io/istio/pkg/test/util/retry"
-	util "istio.io/istio/tests/integration/telemetry"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/prometheus"
+	"istio.io/istio/123/pkg/test/util/retry"
+	util "istio.io/istio/123/tests/integration/telemetry"
 )
 
 const (

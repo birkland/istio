@@ -20,10 +20,10 @@ import (
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core/envoyfilter"
-	"istio.io/istio/pilot/pkg/networking/core/extension"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core/envoyfilter"
+	"istio.io/istio/123/pilot/pkg/networking/core/extension"
+	"istio.io/istio/123/pkg/log"
 )
 
 // BuildExtensionConfiguration returns the list of extension configuration for the given proxy and list of names.

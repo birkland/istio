@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pkg/cluster"
+	"istio.io/istio/123/pkg/cluster"
 )
 
 const (

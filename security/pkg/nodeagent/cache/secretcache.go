@@ -28,16 +28,16 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"istio.io/istio/pkg/backoff"
-	"istio.io/istio/pkg/file"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/queue"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/security/pkg/monitoring"
-	nodeagentutil "istio.io/istio/security/pkg/nodeagent/util"
-	pkiutil "istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/backoff"
+	"istio.io/istio/123/pkg/file"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/queue"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/security/pkg/monitoring"
+	nodeagentutil "istio.io/istio/123/security/pkg/nodeagent/util"
+	pkiutil "istio.io/istio/123/security/pkg/pki/util"
 )
 
 var (

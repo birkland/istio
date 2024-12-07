@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"istio.io/istio/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/object"
 )
 
 func TestFlushObjectCaches(t *testing.T) {

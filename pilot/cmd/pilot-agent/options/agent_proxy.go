@@ -15,7 +15,7 @@
 package options
 
 import (
-	istioagent "istio.io/istio/pkg/istio-agent"
+	istioagent "istio.io/istio/123/pkg/istio-agent"
 )
 
 // ProxyArgs provides all of the configuration parameters for the Pilot proxy.

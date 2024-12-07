@@ -17,18 +17,18 @@ package aggregate
 import (
 	"sync"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // The aggregate controller does not implement serviceregistry.Instance since it may be comprised of various

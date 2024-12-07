@@ -19,14 +19,14 @@ import (
 	"strings"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/gateway"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/gateway"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // ServerPort defines port for the gateway server.

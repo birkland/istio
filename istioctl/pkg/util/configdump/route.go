@@ -21,8 +21,8 @@ import (
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
 )
 
 // GetLastUpdatedDynamicRouteTime retrieves the LastUpdated timestamp of the

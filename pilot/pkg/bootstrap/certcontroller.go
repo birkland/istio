@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pilot/pkg/features"
-	tb "istio.io/istio/pilot/pkg/trustbundle"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/sleep"
-	"istio.io/istio/security/pkg/k8s/chiron"
-	"istio.io/istio/security/pkg/pki/ca"
-	certutil "istio.io/istio/security/pkg/util"
+	"istio.io/istio/123/pilot/pkg/features"
+	tb "istio.io/istio/123/pilot/pkg/trustbundle"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/sleep"
+	"istio.io/istio/123/security/pkg/k8s/chiron"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	certutil "istio.io/istio/123/security/pkg/util"
 )
 
 const (

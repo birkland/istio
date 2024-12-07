@@ -29,13 +29,13 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/tests/integration/pilot/forwardproxy"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/ports"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/tests/integration/pilot/forwardproxy"
 )
 
 const (

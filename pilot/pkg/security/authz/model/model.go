@@ -21,7 +21,7 @@ import (
 	rbacpb "github.com/envoyproxy/go-control-plane/envoy/config/rbac/v3"
 
 	authzpb "istio.io/api/security/v1beta1"
-	"istio.io/istio/pilot/pkg/security/trustdomain"
+	"istio.io/istio/123/pilot/pkg/security/trustdomain"
 )
 
 const (

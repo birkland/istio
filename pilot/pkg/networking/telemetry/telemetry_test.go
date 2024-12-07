@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
 )
 
 func TestBuildStatPrefix(t *testing.T) {

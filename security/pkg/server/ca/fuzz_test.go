@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pkg/fuzz"
-	"istio.io/istio/pkg/security"
-	mockca "istio.io/istio/security/pkg/pki/ca/mock"
-	caerror "istio.io/istio/security/pkg/pki/error"
+	"istio.io/istio/123/pkg/fuzz"
+	"istio.io/istio/123/pkg/security"
+	mockca "istio.io/istio/123/security/pkg/pki/ca/mock"
+	caerror "istio.io/istio/123/security/pkg/pki/error"
 )
 
 func FuzzCreateCertificate(f *testing.F) {

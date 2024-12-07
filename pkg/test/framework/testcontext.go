@@ -22,16 +22,16 @@ import (
 	"path"
 	"testing"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/errors"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/yml"
-	"istio.io/istio/pkg/tracing"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/errors"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config"
+	"istio.io/istio/123/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/yml"
+	"istio.io/istio/123/pkg/tracing"
 )
 
 // TestContext is a test-level context that can be created as part of test executing tests.

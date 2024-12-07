@@ -32,12 +32,12 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 var (

@@ -34,17 +34,17 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client/interceptor"
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/cache"
-	"istio.io/istio/operator/pkg/helmreconciler"
-	"istio.io/istio/operator/pkg/manifest"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/cache"
+	"istio.io/istio/123/operator/pkg/helmreconciler"
+	"istio.io/istio/123/operator/pkg/manifest"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/log"
 )
 
 // cmdType is one of the commands used to generate and optionally apply a manifest.

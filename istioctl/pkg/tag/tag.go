@@ -27,17 +27,17 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/util"
-	"istio.io/istio/istioctl/pkg/util/formatting"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/analyzers/webhook"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/analysis/local"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/util"
+	"istio.io/istio/123/istioctl/pkg/util/formatting"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/webhook"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/analysis/local"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
 )
 
 const (

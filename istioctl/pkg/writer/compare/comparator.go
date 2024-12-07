@@ -28,7 +28,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"istio.io/istio/istioctl/pkg/util/configdump"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
 )
 
 // Comparator diffs between a config dump from Istiod and one from Envoy

@@ -29,13 +29,13 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/serviceregistry/util/label"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/security"
-	"istio.io/istio/pkg/log"
-	netutil "istio.io/istio/pkg/util/net"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/util/label"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/security"
+	"istio.io/istio/123/pkg/log"
+	netutil "istio.io/istio/123/pkg/util/net"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Constants for duration fields

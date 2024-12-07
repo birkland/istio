@@ -21,16 +21,16 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/protocol"
-	dnsProto "istio.io/istio/pkg/dns/proto"
-	dnsServer "istio.io/istio/pkg/dns/server"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/protocol"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
+	dnsServer "istio.io/istio/123/pkg/dns/server"
+	"istio.io/istio/123/pkg/test"
 )
 
 // nolint

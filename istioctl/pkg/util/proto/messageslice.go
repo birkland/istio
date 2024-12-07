@@ -19,7 +19,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // MessageSlice allows us to marshal slices of protobuf messages like clusters/listeners/routes/endpoints correctly

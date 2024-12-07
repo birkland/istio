@@ -15,10 +15,10 @@
 package fixtures
 
 import (
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 // Context is a test fixture of analysis.Context

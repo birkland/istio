@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
 )
 
 func TestTproxy(t *testing.T) {

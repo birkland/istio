@@ -27,13 +27,13 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pilot/pkg/util/network"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/server/endpoint"
+	"istio.io/istio/123/pilot/pkg/util/network"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/server/endpoint"
 )
 
 // Config for an echo server Instance.

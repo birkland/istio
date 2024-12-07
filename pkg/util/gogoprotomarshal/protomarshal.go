@@ -20,7 +20,7 @@ import (
 	"github.com/gogo/protobuf/jsonpb" // nolint: depguard
 	"github.com/gogo/protobuf/proto"  // nolint: depguard
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // ApplyJSON unmarshals a JSON string into a proto message. Unknown fields are allowed

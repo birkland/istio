@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/resource"
-	testKube "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
+	istioKube "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	testKube "istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 const (

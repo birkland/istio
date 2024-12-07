@@ -21,7 +21,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 )
 
 const (

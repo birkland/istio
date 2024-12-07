@@ -23,13 +23,13 @@ import (
 	certv1 "k8s.io/api/certificates/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/test/csrctrl/signer"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/test/csrctrl/signer"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 const RequestLifeTimeAnnotationForCertManager = "experimental.cert-manager.io/request-duration"

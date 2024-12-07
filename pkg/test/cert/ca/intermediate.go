@@ -21,9 +21,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/test/cert"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/test/util/tmpl"
+	"istio.io/istio/123/pkg/test/cert"
+	"istio.io/istio/123/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test/util/tmpl"
 )
 
 const (

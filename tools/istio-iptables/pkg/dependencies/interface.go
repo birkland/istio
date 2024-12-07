@@ -17,7 +17,7 @@ package dependencies
 import (
 	"io"
 
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 // Dependencies is used as abstraction for the commands used from the operating system

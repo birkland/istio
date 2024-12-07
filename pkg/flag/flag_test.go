@@ -19,8 +19,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestBind(t *testing.T) {

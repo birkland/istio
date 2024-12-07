@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/tools/bug-report/pkg/config"
-	"istio.io/istio/tools/bug-report/pkg/util/match"
+	"istio.io/istio/123/tools/bug-report/pkg/config"
+	"istio.io/istio/123/tools/bug-report/pkg/util/match"
 )
 
 const (

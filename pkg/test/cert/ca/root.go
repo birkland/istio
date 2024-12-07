@@ -18,7 +18,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"istio.io/istio/pkg/test/cert"
+	"istio.io/istio/123/pkg/test/cert"
 )
 
 var rootCAConf = `

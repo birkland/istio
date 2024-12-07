@@ -29,9 +29,9 @@ import (
 	jose "github.com/go-jose/go-jose/v3"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

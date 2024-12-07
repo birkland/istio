@@ -17,10 +17,10 @@ package model
 import (
 	"errors"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/maps"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/maps"
 )
 
 type FakeStore struct {

@@ -17,7 +17,7 @@ package model
 import (
 	"sync"
 
-	"istio.io/istio/pkg/cluster"
+	"istio.io/istio/123/pkg/cluster"
 )
 
 // AddressMap provides a thread-safe mapping of addresses for each Kubernetes cluster.

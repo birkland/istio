@@ -21,7 +21,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	binversion "istio.io/istio/operator/version"
+	binversion "istio.io/istio/123/operator/version"
 )
 
 var NeverMatch = &metav1.LabelSelector{

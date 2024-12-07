@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"time"
 
-	echoclient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/forwarder"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	echoclient "istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/test/echo/server/forwarder"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type sendFunc func(req *proto.ForwardEchoRequest) (echoclient.Responses, error)

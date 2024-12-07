@@ -27,16 +27,16 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

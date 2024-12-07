@@ -23,7 +23,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pkg/config"
+	"istio.io/istio/123/pkg/config"
 )
 
 func TestResourceLock_Lock(t *testing.T) {

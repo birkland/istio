@@ -20,7 +20,7 @@ import (
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
 )
 
 // GetDynamicClusterDump retrieves a cluster dump with just dynamic active clusters in it

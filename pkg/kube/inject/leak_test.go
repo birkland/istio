@@ -17,7 +17,7 @@ package inject
 import (
 	"testing"
 
-	"istio.io/istio/tests/util/leak"
+	"istio.io/istio/123/tests/util/leak"
 )
 
 func TestMain(m *testing.M) {

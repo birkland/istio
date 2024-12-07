@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 
 	"istio.io/api/label"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var (

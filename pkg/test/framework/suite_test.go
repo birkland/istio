@@ -22,10 +22,10 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/test/framework/components/environment/kube"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/framework/components/environment/kube"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func defaultExitFn(_ int) {}

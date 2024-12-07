@@ -20,7 +20,7 @@ import (
 	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestMerge(t *testing.T) {

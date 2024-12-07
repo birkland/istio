@@ -22,8 +22,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Task to be performed.

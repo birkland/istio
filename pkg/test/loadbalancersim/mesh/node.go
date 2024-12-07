@@ -18,10 +18,10 @@ import (
 	"math"
 	"time"
 
-	"istio.io/istio/pkg/test/loadbalancersim/locality"
-	"istio.io/istio/pkg/test/loadbalancersim/network"
-	"istio.io/istio/pkg/test/loadbalancersim/timer"
-	"istio.io/istio/pkg/test/loadbalancersim/timeseries"
+	"istio.io/istio/123/pkg/test/loadbalancersim/locality"
+	"istio.io/istio/123/pkg/test/loadbalancersim/network"
+	"istio.io/istio/123/pkg/test/loadbalancersim/timer"
+	"istio.io/istio/123/pkg/test/loadbalancersim/timeseries"
 )
 
 var _ network.Connection = &Node{}

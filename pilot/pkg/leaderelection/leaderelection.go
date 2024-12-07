@@ -26,12 +26,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/leaderelection/k8sleaderelection"
-	"istio.io/istio/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/revisions"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/leaderelection/k8sleaderelection"
+	"istio.io/istio/123/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/revisions"
 )
 
 // Various locks used throughout the code

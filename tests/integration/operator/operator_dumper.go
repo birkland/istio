@@ -20,9 +20,9 @@
 package operator
 
 import (
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 // operatorDumper dumps the logs of in-cluster operator at suite completion

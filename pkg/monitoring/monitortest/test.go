@@ -24,11 +24,11 @@ import (
 	dto "github.com/prometheus/client_model/go"
 	"go.opentelemetry.io/otel/attribute"
 
-	"istio.io/istio/pkg/lazy"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/lazy"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type MetricsTest struct {

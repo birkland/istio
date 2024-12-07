@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/validation/agent"
 )
 
 type HTTPRouteType int

@@ -17,8 +17,8 @@ package kube
 import (
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 func Build(ctx resource.Context, configs []echo.Config) (echo.Instances, error) {

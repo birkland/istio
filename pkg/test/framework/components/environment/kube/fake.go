@@ -17,9 +17,9 @@ package kube
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/cluster/kube"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/cluster/kube"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 var _ resource.Environment = FakeEnvironment{}

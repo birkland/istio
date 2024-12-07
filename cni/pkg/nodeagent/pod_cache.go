@@ -23,8 +23,8 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/zdsapi"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/zdsapi"
 )
 
 var ErrPodNotFound = errors.New("netns not provided, but is needed as pod is not in cache")

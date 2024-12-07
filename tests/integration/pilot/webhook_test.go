@@ -30,8 +30,8 @@ import (
 	"istio.io/api/label"
 	networking "istio.io/api/networking/v1alpha3"
 	"istio.io/client-go/pkg/apis/networking/v1alpha3"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestWebhook(t *testing.T) {

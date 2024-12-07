@@ -17,7 +17,7 @@ package metrics
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/name"
 )
 
 // CountCRMergeFail increments the count of CR merge failure

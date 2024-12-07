@@ -17,7 +17,7 @@ package url
 import (
 	"fmt"
 
-	"istio.io/istio/operator/version"
+	"istio.io/istio/123/operator/version"
 )
 
 var (

@@ -25,12 +25,12 @@ import (
 
 	"istio.io/api/annotation"
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/util/network"
-	"istio.io/istio/pkg/bootstrap"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/validation/agent"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/util/network"
+	"istio.io/istio/123/pkg/bootstrap"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/log"
 )
 
 // ConstructProxyConfig returns proxyConfig

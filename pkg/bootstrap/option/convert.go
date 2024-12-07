@@ -29,11 +29,11 @@ import (
 
 	meshAPI "istio.io/api/mesh/v1alpha1"
 	networkingAPI "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 // TransportSocket wraps UpstreamTLSContext

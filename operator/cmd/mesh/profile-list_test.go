@@ -21,9 +21,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 func TestProfileList(t *testing.T) {

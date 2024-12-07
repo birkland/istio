@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/jwt"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/jwt"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

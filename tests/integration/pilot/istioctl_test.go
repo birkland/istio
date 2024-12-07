@@ -31,13 +31,13 @@ import (
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	commonDeployment "istio.io/istio/pkg/test/framework/components/echo/common/deployment"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	commonDeployment "istio.io/istio/123/pkg/test/framework/components/echo/common/deployment"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 var (

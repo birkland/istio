@@ -17,9 +17,9 @@ package metrics_test
 import (
 	"testing"
 
-	"istio.io/istio/pkg/collateral/metrics"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/collateral/metrics"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestExportedMetrics(t *testing.T) {

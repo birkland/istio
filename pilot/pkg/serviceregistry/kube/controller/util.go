@@ -28,11 +28,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/labels"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/labels"
 )
 
 func getLabelValue(metadata metav1.ObjectMeta, label string, fallBackLabel string) string {

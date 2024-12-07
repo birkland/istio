@@ -15,8 +15,8 @@
 package multicluster
 
 import (
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type Fake struct {

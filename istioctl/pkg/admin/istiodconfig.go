@@ -33,10 +33,10 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/completion"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/completion"
+	"istio.io/istio/123/pkg/log"
 )
 
 type flagState interface {

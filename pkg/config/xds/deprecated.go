@@ -14,7 +14,7 @@
 
 package xds
 
-import "istio.io/istio/pkg/wellknown"
+import "istio.io/istio/123/pkg/wellknown"
 
 var (
 	// DeprecatedFilterNames is to support both canonical filter names

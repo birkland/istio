@@ -17,7 +17,7 @@ package sidecar
 import (
 	"sort"
 
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 func getNames(entries []*resource.Instance) []string {

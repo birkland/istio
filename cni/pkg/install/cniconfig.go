@@ -25,10 +25,10 @@ import (
 
 	"github.com/containernetworking/cni/libcni"
 
-	"istio.io/istio/cni/pkg/config"
-	"istio.io/istio/cni/pkg/plugin"
-	"istio.io/istio/cni/pkg/util"
-	"istio.io/istio/pkg/file"
+	"istio.io/istio/123/cni/pkg/config"
+	"istio.io/istio/123/cni/pkg/plugin"
+	"istio.io/istio/123/cni/pkg/util"
+	"istio.io/istio/123/pkg/file"
 )
 
 func createCNIConfigFile(ctx context.Context, cfg *config.InstallConfig) (string, error) {

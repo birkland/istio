@@ -17,8 +17,8 @@ package labels_test
 import (
 	"testing"
 
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestInstance(t *testing.T) {

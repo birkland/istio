@@ -22,8 +22,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 var gatewayYAML = `

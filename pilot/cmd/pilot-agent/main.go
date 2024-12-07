@@ -18,11 +18,11 @@ import (
 	"os"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/cmd/pilot-agent/app"
-	istioagent "istio.io/istio/pkg/istio-agent"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/security/pkg/nodeagent/sds"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/app"
+	istioagent "istio.io/istio/123/pkg/istio-agent"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/security/pkg/nodeagent/sds"
 )
 
 // TODO: get the config and bootstrap from istiod, by passing the env

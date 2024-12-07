@@ -22,9 +22,9 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"sigs.k8s.io/yaml"
 
-	pkgAPI "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/util/assert"
+	pkgAPI "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var (

@@ -24,16 +24,16 @@ import (
 
 	"k8s.io/apiserver/pkg/storage/names"
 
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/http/headers"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/crd"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
-	"istio.io/istio/pkg/test/framework/components/prometheus"
-	"istio.io/istio/pkg/test/util/retry"
-	util "istio.io/istio/tests/integration/telemetry"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/http/headers"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/crd"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/match"
+	"istio.io/istio/123/pkg/test/framework/components/prometheus"
+	"istio.io/istio/123/pkg/test/util/retry"
+	util "istio.io/istio/123/tests/integration/telemetry"
 )
 
 const (

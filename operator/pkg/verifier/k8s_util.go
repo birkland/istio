@@ -21,8 +21,8 @@ import (
 	v1batch "k8s.io/api/batch/v1"
 	apimachinery_schema "k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 func verifyDeploymentStatus(deployment *appsv1.Deployment) error {

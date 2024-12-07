@@ -15,7 +15,7 @@
 package cafile
 
 import (
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pkg/security"
 )
 
 // CACertFilePath stores the OS CA certificate file path

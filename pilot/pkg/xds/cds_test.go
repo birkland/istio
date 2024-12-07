@@ -24,16 +24,16 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestCDS(t *testing.T) {

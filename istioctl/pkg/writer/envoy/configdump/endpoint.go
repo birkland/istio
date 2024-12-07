@@ -27,10 +27,10 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/util/proto"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/istioctl/pkg/util/proto"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type EndpointFilter struct {

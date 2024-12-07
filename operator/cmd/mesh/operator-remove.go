@@ -22,13 +22,13 @@ import (
 	"github.com/spf13/cobra"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/istioctl/pkg/cli"
-	iopv1alpha1 "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/helmreconciler"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	iopv1alpha1 "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/helmreconciler"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type operatorRemoveArgs struct {

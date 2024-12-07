@@ -24,10 +24,10 @@ import (
 	"github.com/hashicorp/golang-lru/v2/simplelru"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var enableStats = func() bool {

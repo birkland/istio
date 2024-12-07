@@ -26,13 +26,13 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/label"
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/operator/pkg/util/progress"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/operator/pkg/util/progress"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var (

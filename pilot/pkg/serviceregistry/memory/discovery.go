@@ -19,17 +19,17 @@ import (
 	"net/netip"
 	"sync"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/workloadapi"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/workloadapi"
 )
 
 // ServiceDiscovery is a mock discovery interface

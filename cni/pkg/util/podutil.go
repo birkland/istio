@@ -26,7 +26,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/constants"
 )
 
 var annotationPatch = []byte(fmt.Sprintf(

@@ -30,8 +30,8 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/name"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var wasmLog = log.RegisterScope("wasm", "")

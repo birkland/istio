@@ -27,12 +27,12 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/validation/agent"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/util/protomarshal"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // DefaultProxyConfig for individual proxies

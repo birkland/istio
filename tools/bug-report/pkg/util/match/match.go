@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 func MatchesMap(selection, cluster map[string]string) bool {

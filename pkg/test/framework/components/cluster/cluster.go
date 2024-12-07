@@ -17,7 +17,7 @@ package cluster
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 )
 
 // Cluster in a multicluster environment.

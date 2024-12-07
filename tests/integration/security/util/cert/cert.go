@@ -27,15 +27,15 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/security/pkg/pki/ca"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/security/pkg/pki/ca"
 )
 
 // DumpCertFromSidecar gets the certificates served by the destination.

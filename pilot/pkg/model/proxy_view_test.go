@@ -19,8 +19,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/network"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/network"
 )
 
 func TestProxyView(t *testing.T) {

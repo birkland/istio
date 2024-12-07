@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/component"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/component"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 func TestOrderedKeys(t *testing.T) {

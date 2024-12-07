@@ -23,11 +23,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/security/pkg/pki/ca"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/security/pkg/pki/ca"
 )
 
 const testNamespace = "istio-system"

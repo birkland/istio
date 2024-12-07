@@ -23,17 +23,17 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/config/constants"
-	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/crd"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	testKube "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/config/constants"
+	istioKube "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/crd"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	testKube "istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var _ io.Closer = &kubeComponent{}

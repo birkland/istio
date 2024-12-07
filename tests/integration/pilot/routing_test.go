@@ -20,8 +20,8 @@ package pilot
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/tests/integration/pilot/common"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/tests/integration/pilot/common"
 )
 
 func TestTraffic(t *testing.T) {

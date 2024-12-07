@@ -17,12 +17,12 @@ package bootstrap
 import (
 	"fmt"
 
-	"istio.io/istio/pilot/pkg/serviceregistry/aggregate"
-	kubecontroller "istio.io/istio/pilot/pkg/serviceregistry/kube/controller"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pilot/pkg/serviceregistry/serviceentry"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/aggregate"
+	kubecontroller "istio.io/istio/123/pilot/pkg/serviceregistry/kube/controller"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/serviceentry"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func (s *Server) ServiceController() *aggregate.Controller {

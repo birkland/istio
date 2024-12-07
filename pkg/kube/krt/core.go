@@ -15,9 +15,9 @@
 package krt
 
 import (
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 var log = istiolog.RegisterScope("krt", "")

@@ -21,11 +21,11 @@ import (
 	gateway "sigs.k8s.io/gateway-api/apis/v1beta1"
 
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pilot/test/mock"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/test/mock"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestConvertIstioKind(t *testing.T) {

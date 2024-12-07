@@ -26,15 +26,15 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/tests/integration/security/util/cert"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/match"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/tests/integration/security/util/cert"
 )
 
 const (

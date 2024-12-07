@@ -20,11 +20,11 @@ import (
 
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/xds/endpoints"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/hash"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/xds/endpoints"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/hash"
 )
 
 var (

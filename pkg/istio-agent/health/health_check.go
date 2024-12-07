@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/cmd/pilot-agent/status"
-	"istio.io/istio/pilot/cmd/pilot-agent/status/ready"
-	"istio.io/istio/pkg/kube/apimirror"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/ready"
+	"istio.io/istio/123/pkg/kube/apimirror"
 )
 
 type WorkloadHealthChecker struct {

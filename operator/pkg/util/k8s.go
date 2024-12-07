@@ -27,9 +27,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 
 	"istio.io/api/label"
-	iopv1alpha1 "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
+	iopv1alpha1 "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
 )
 
 // GKString differs from default representation of GroupKind

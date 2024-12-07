@@ -20,7 +20,7 @@ import (
 	"net"
 	"net/http"
 
-	"istio.io/istio/pkg/hbone"
+	"istio.io/istio/123/pkg/hbone"
 )
 
 var _ Instance = &connectInstance{}

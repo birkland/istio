@@ -27,11 +27,11 @@ import (
 	ktesting "k8s.io/client-go/testing"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 type mockMeshConfigHolder struct {

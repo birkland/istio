@@ -14,7 +14,7 @@
 
 package common
 
-import "istio.io/istio/pkg/config/protocol"
+import "istio.io/istio/123/pkg/config/protocol"
 
 // TLSSettings defines TLS configuration for Echo server
 type TLSSettings struct {

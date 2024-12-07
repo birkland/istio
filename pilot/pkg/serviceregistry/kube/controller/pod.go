@@ -20,12 +20,12 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // PodCache is an eventually consistent pod cache

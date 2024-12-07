@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/rand"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestNewSet(t *testing.T) {

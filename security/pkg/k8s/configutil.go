@@ -21,9 +21,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
 )
 
 // InsertDataToConfigMap inserts a data to a configmap in a namespace.

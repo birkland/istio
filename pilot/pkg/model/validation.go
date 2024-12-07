@@ -20,8 +20,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/validation/agent"
 )
 
 // UnixAddressPrefix is the prefix used to indicate an address is for a Unix Domain socket. It is used in

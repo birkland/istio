@@ -24,12 +24,12 @@ import (
 	"github.com/onsi/gomega/types"
 	labels2 "k8s.io/apimachinery/pkg/labels"
 
-	name2 "istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
+	name2 "istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
 )
 
 // PathValue is a path/value type.

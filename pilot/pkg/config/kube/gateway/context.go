@@ -23,11 +23,11 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // GatewayContext contains a minimal subset of push context functionality to be exposed to GatewayAPIControllers

@@ -24,12 +24,12 @@ import (
 	networkingv1beta1 "istio.io/api/networking/v1beta1"
 	security_beta "istio.io/api/security/v1beta1"
 	telemetry "istio.io/api/telemetry/v1alpha1"
-	"istio.io/istio/pilot/pkg/config/kube/crdclient"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/validation"
-	"istio.io/istio/pkg/config/validation/envoyfilter"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pilot/pkg/config/kube/crdclient"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/validation"
+	"istio.io/istio/123/pkg/config/validation/envoyfilter"
+	"istio.io/istio/123/pkg/kube"
 )
 
 func FuzzConfigValidation(data []byte) int {

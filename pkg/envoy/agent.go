@@ -25,9 +25,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pkg/http"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/http"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var errAbort = errors.New("proxy aborted")

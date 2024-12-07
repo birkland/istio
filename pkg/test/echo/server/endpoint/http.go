@@ -33,10 +33,10 @@ import (
 	"github.com/pires/go-proxyproto"
 	"golang.org/x/net/http2"
 
-	"istio.io/istio/pkg/h2c"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/h2c"
+	"istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

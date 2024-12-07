@@ -21,12 +21,12 @@ import (
 	"k8s.io/apimachinery/pkg/version"
 
 	"istio.io/api/operator/v1alpha1"
-	iop "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/component"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/util/sets"
+	iop "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/component"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // IstioControlPlane is an installation of an Istio control plane.

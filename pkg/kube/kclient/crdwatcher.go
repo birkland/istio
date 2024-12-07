@@ -24,12 +24,12 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/gateway-api/pkg/consts"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/schema/gvr"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/log"
 )
 
 type crdWatcher struct {

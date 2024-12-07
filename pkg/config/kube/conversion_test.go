@@ -19,8 +19,8 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 func TestConvertProtocol(t *testing.T) {

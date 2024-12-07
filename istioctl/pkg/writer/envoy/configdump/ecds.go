@@ -23,7 +23,7 @@ import (
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 const typeURLPrefix = "type.googleapis.com/"

@@ -24,10 +24,10 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pilot/pkg/features"
-	istiogrpc "istio.io/istio/pilot/pkg/grpc"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	istiogrpc "istio.io/istio/123/pilot/pkg/grpc"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // ResourceDelta records the difference in requested resources by an XDS client

@@ -17,8 +17,8 @@ package tmpl
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/file"
 )
 
 // Evaluate parses the template and then executes it with the given parameters.

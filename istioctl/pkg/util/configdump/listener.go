@@ -20,7 +20,7 @@ import (
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
 )
 
 // GetDynamicListenerDump retrieves a listener dump with just dynamic active listeners in it

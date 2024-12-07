@@ -25,9 +25,9 @@ import (
 
 	"github.com/stoewer/go-strcase"
 
-	"istio.io/istio/pkg/config/schema/ast"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/schema/ast"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 //go:embed templates/gvk.go.tmpl

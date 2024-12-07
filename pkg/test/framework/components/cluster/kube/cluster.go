@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
 )
 
 var _ echo.Cluster = &Cluster{}

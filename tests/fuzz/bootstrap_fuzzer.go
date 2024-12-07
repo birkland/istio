@@ -21,8 +21,8 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pilot/pkg/bootstrap"
-	"istio.io/istio/pkg/config/mesh"
+	"istio.io/istio/123/pilot/pkg/bootstrap"
+	"istio.io/istio/123/pkg/config/mesh"
 )
 
 func FuzzNewBootstrapServer(data []byte) int {

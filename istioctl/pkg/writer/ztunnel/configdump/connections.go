@@ -23,8 +23,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
 )
 
 type ConnectionsFilter struct {

@@ -25,13 +25,13 @@ import (
 	klabels "k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"istio.io/istio/cni/pkg/config"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/monitoring/monitortest"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/cni/pkg/config"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/monitoring/monitortest"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 func TestMatchesFilter(t *testing.T) {

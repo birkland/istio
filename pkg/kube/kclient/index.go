@@ -17,8 +17,8 @@ package kclient
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/slices"
 )
 
 type Index[K any, O controllers.ComparableObject] interface {

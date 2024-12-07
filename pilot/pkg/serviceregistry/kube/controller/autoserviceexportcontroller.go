@@ -25,15 +25,15 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	mcsapi "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
-	"istio.io/istio/pilot/pkg/model"
-	serviceRegistryKube "istio.io/istio/pilot/pkg/serviceregistry/kube"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/kube/mcs"
+	"istio.io/istio/123/pilot/pkg/model"
+	serviceRegistryKube "istio.io/istio/123/pilot/pkg/serviceregistry/kube"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/kube/mcs"
 )
 
 type autoServiceExportController struct {

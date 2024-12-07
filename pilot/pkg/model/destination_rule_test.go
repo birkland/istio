@@ -19,7 +19,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestConsolidatedDestRuleEquals(t *testing.T) {

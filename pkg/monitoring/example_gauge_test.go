@@ -14,7 +14,7 @@
 
 package monitoring_test
 
-import "istio.io/istio/pkg/monitoring"
+import "istio.io/istio/123/pkg/monitoring"
 
 var pushLatency = monitoring.NewGauge(
 	"push_latency_seconds",

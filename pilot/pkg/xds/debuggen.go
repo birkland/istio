@@ -26,8 +26,8 @@ import (
 	"google.golang.org/grpc/status"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
 )
 
 var activeNamespaceDebuggers = map[string]struct{}{

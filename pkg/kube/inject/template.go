@@ -30,9 +30,9 @@ import (
 	"sigs.k8s.io/yaml"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 var InjectionFuncmap = createInjectionFuncmap()

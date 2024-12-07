@@ -20,8 +20,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
 )
 
 var _ Target = Instances{}

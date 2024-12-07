@@ -24,9 +24,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/validation"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/validation"
 )
 
 // Schema for a resource.

@@ -18,11 +18,11 @@ import (
 	"sync"
 	"testing"
 
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/test/mock"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/test/mock"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 func TestMonitorLifecycle(t *testing.T) {

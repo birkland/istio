@@ -33,9 +33,9 @@ import (
 	gatewayapi "sigs.k8s.io/gateway-api/apis/v1"
 	gatewayapibeta "sigs.k8s.io/gateway-api/apis/v1beta1"
 
-	"istio.io/istio/pilot/pkg/config/kube/gateway"
-	"istio.io/istio/pkg/config/constants"
-	kubelib "istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pilot/pkg/config/kube/gateway"
+	"istio.io/istio/123/pkg/config/constants"
+	kubelib "istio.io/istio/123/pkg/kube"
 )
 
 // InferPodInfo Uses name to infer namespace if the passed name contains namespace information.

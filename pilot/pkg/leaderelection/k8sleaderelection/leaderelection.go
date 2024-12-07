@@ -67,7 +67,7 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/utils/clock"
 
-	"istio.io/istio/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
+	"istio.io/istio/123/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
 )
 
 const (

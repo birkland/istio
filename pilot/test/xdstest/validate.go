@@ -24,9 +24,9 @@ import (
 	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 
-	istio_route "istio.io/istio/pilot/pkg/networking/core/route"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pkg/util/sets"
+	istio_route "istio.io/istio/123/pilot/pkg/networking/core/route"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func ValidateListeners(t testing.TB, ls []*listener.Listener) {

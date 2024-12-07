@@ -32,10 +32,10 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/config"
-	"istio.io/istio/pkg/testcerts"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/config"
+	"istio.io/istio/123/pkg/testcerts"
 )
 
 const (

@@ -20,11 +20,11 @@ import (
 	"istio.io/api/annotation"
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	"istio.io/api/networking/v1beta1"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 type EffectiveProxyConfigResolver struct {

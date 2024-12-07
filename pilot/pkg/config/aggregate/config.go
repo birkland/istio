@@ -20,11 +20,11 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var errorUnsupported = errors.New("unsupported operation: the config aggregator is read-only")

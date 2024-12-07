@@ -22,8 +22,8 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/log"
 )
 
 type Watcher struct {

@@ -31,11 +31,11 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	authzmodel "istio.io/istio/pilot/pkg/security/authz/model"
-	"istio.io/istio/pkg/config/validation/agent"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/model"
+	authzmodel "istio.io/istio/123/pilot/pkg/security/authz/model"
+	"istio.io/istio/123/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pkg/security"
 )
 
 func TestExtractBearerToken(t *testing.T) {

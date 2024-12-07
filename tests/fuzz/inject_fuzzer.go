@@ -19,8 +19,8 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube/inject"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube/inject"
 )
 
 func FuzzIntoResourceFile(data []byte) int {

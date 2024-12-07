@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/version"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/install/k8sversion"
-	"istio.io/istio/manifests"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/install/k8sversion"
+	"istio.io/istio/123/manifests"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/log"
 )
 
 const (

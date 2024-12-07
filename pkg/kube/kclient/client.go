@@ -26,17 +26,17 @@ import (
 	apitypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pilot/pkg/features"
-	istiogvr "istio.io/istio/pkg/config/schema/gvr"
-	"istio.io/istio/pkg/config/schema/kubeclient"
-	types "istio.io/istio/pkg/config/schema/kubetypes"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/informerfactory"
-	"istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	istiogvr "istio.io/istio/123/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/config/schema/kubeclient"
+	types "istio.io/istio/123/pkg/config/schema/kubetypes"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/informerfactory"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type fullClient[T controllers.Object] struct {

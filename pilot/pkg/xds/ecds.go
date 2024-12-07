@@ -20,14 +20,14 @@ import (
 
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	credscontroller "istio.io/istio/pilot/pkg/credentials"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	"istio.io/istio/pilot/pkg/networking/core"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/sets"
+	credscontroller "istio.io/istio/123/pilot/pkg/credentials"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	"istio.io/istio/123/pilot/pkg/networking/core"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // EcdsGenerator generates ECDS configuration.

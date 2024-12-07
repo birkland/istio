@@ -25,12 +25,12 @@ import (
 	"go.uber.org/atomic"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/xds/endpoints"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/xds/endpoints"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

@@ -29,15 +29,15 @@ import (
 	_ "google.golang.org/grpc/xds"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/endpoint"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/test/echo/server/endpoint"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type echoCfg struct {

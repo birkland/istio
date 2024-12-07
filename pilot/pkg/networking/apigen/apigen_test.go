@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 // Creates an in-process discovery server, using the same code as Istiod, but

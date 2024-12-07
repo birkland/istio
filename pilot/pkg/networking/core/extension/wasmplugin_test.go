@@ -28,8 +28,8 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	extensions "istio.io/api/extensions/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 var (

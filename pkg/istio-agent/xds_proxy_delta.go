@@ -28,13 +28,13 @@ import (
 	"google.golang.org/grpc/metadata"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/channels"
-	"istio.io/istio/pkg/istio-agent/metrics"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/wasm"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/channels"
+	"istio.io/istio/123/pkg/istio-agent/metrics"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/wasm"
 )
 
 // sendDeltaRequest is a small wrapper around sending to con.requestsChan. This ensures that we do not

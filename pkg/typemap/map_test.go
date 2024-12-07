@@ -17,9 +17,9 @@ package typemap_test
 import (
 	"testing"
 
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/typemap"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/typemap"
 )
 
 type TestStruct struct {

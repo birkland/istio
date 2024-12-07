@@ -5,8 +5,8 @@ package gvk
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvr"
 )
 
 var (

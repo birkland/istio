@@ -22,16 +22,16 @@ import (
 	klabels "k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	kubesr "istio.io/istio/pilot/pkg/serviceregistry/kube"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/kube/mcs"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	kubesr "istio.io/istio/123/pilot/pkg/serviceregistry/kube"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/kube/mcs"
 )
 
 type exportedService struct {

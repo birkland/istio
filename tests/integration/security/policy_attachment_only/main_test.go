@@ -20,14 +20,14 @@ package policyattachmentonly
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/authz"
-	"istio.io/istio/pkg/test/framework/components/echo/common/deployment"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/jwt"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/authz"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/deployment"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/jwt"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 var (

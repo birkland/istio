@@ -18,9 +18,9 @@ import (
 	"testing"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/test"
 )
 
 func TestIsTLSServer(t *testing.T) {

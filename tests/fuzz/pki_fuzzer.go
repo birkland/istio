@@ -20,7 +20,7 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 // FuzzVerifyCertificate implements a fuzzer

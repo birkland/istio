@@ -22,12 +22,12 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/util/runtime"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/proto/merge"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/util/runtime"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/proto/merge"
 )
 
 // ApplyClusterMerge processes the MERGE operation and merges the supplied configuration to the matched clusters.

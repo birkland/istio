@@ -39,14 +39,14 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/rand"
 
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/http/headers"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/crd"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/http/headers"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/crd"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestAccessLogs(t *testing.T) {

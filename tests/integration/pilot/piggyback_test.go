@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestPiggyback(t *testing.T) {

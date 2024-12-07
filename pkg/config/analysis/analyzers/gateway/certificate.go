@@ -16,13 +16,13 @@ package gateway
 
 import (
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/analyzers/util"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 type CertificateAnalyzer struct{}

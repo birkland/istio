@@ -16,8 +16,8 @@ package authn
 
 import (
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TrustDomainsForValidation(meshConfig *meshconfig.MeshConfig) []string {

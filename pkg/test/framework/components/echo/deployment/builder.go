@@ -25,17 +25,17 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/kube"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/kube"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Builder for a group of collaborating Echo Instances. Once built, all Instances in the

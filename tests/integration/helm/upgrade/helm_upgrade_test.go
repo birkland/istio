@@ -22,11 +22,11 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/util/image"
-	helmtest "istio.io/istio/tests/integration/helm"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/util/image"
+	helmtest "istio.io/istio/123/tests/integration/helm"
 )
 
 var (

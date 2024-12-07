@@ -17,7 +17,7 @@ package url
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestURL(t *testing.T) {

@@ -17,11 +17,11 @@ package xds
 import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type WorkloadGenerator struct {

@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	metadatafake "k8s.io/client-go/metadata/fake"
 
-	"istio.io/istio/pkg/config/schema/gvr"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test"
 )
 
 func MakeCRD(t test.Failer, c kube.Client, g schema.GroupVersionResource) {

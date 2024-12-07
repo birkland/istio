@@ -24,8 +24,8 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestNodeMetadata(t *testing.T) {

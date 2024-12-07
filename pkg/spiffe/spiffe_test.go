@@ -30,9 +30,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

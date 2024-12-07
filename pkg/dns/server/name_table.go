@@ -17,11 +17,11 @@ package server
 import (
 	"strings"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/config/constants"
-	dnsProto "istio.io/istio/pkg/dns/proto"
-	netutil "istio.io/istio/pkg/util/net"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/config/constants"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
+	netutil "istio.io/istio/123/pkg/util/net"
 )
 
 // Config for building the name table.

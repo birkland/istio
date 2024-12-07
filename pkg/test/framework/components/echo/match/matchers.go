@@ -16,9 +16,9 @@ package match
 
 import (
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
 )
 
 // Any doesn't filter out any echos.

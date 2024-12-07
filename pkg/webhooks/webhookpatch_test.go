@@ -27,10 +27,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/keycertbundle"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/keycertbundle"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var caBundle0 = []byte(`-----BEGIN CERTIFICATE-----

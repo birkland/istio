@@ -22,13 +22,13 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/config/labels"
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/kube/kubetypes"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config/labels"
+	kubelib "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 var log = istiolog.RegisterScope("untaint", "CNI node-untaint controller")

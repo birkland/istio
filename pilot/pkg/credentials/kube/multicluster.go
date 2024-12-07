@@ -17,9 +17,9 @@ package kube
 import (
 	"fmt"
 
-	"istio.io/istio/pilot/pkg/credentials"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/kube/multicluster"
+	"istio.io/istio/123/pilot/pkg/credentials"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/kube/multicluster"
 )
 
 // Multicluster structure holds the remote kube Controllers and multicluster specific attributes.

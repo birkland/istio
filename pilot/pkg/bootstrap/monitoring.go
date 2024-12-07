@@ -20,11 +20,11 @@ import (
 	"net/http"
 	"time"
 
-	commonFeatures "istio.io/istio/pkg/features"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring"
-	istioNetUtil "istio.io/istio/pkg/util/net"
-	"istio.io/istio/pkg/version"
+	commonFeatures "istio.io/istio/123/pkg/features"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/monitoring"
+	istioNetUtil "istio.io/istio/123/pkg/util/net"
+	"istio.io/istio/123/pkg/version"
 )
 
 type monitor struct {

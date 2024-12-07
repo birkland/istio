@@ -23,12 +23,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pkg/config/constants"
-	dnsProto "istio.io/istio/pkg/dns/proto"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pkg/config/constants"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
 )
 
 func TestNDS(t *testing.T) {

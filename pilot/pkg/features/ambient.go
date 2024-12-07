@@ -15,8 +15,8 @@
 package features
 
 import (
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/log"
 )
 
 var (

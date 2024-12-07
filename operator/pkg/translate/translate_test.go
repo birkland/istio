@@ -19,11 +19,11 @@ import (
 	"testing"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func Test_skipReplicaCountWithAutoscaleEnabled(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 
-	"istio.io/istio/pkg/http"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/http"
+	"istio.io/istio/123/pkg/log"
 )
 
 const (

@@ -23,9 +23,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/security/pkg/pki/ca"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 // IstioDNSSecretType is the Istio DNS secret annotation type

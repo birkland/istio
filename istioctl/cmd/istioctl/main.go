@@ -21,8 +21,8 @@ import (
 	// import all known client auth plugins
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"istio.io/istio/istioctl/cmd"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/cmd"
+	"istio.io/istio/123/pkg/log"
 )
 
 func main() {

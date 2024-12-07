@@ -40,12 +40,12 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/xds"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/forwarder"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/test/echo/server/forwarder"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var _ Instance = &grpcInstance{}

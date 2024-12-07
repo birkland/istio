@@ -17,7 +17,7 @@ package mesh
 import (
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/cli"
 )
 
 // ProfileCmd is a group of commands related to profile listing, dumping and diffing.

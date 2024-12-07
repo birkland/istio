@@ -20,7 +20,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	config2 "istio.io/istio/tools/bug-report/pkg/config"
+	config2 "istio.io/istio/123/tools/bug-report/pkg/config"
 )
 
 func TestShouldSkipPod(t *testing.T) {

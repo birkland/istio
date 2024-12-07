@@ -28,7 +28,7 @@ import (
 	yaml3 "k8s.io/apimachinery/pkg/util/yaml"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func ToYAMLGeneric(root any) ([]byte, error) {

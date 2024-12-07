@@ -24,8 +24,8 @@ import (
 	"github.com/mattn/go-isatty"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/env"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/env"
 )
 
 // Formatting options for Messages

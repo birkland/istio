@@ -27,12 +27,12 @@ import (
 	"github.com/google/uuid"
 	"github.com/miekg/dns"
 
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/config/host"
-	dnsProto "istio.io/istio/pkg/dns/proto"
-	istiolog "istio.io/istio/pkg/log"
-	netutil "istio.io/istio/pkg/util/net"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/config/host"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
+	istiolog "istio.io/istio/123/pkg/log"
+	netutil "istio.io/istio/123/pkg/util/net"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var log = istiolog.RegisterScope("dns", "Istio DNS proxy")

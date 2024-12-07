@@ -24,17 +24,17 @@ import (
 	"k8s.io/client-go/rest"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/keycertbundle"
-	"istio.io/istio/pilot/pkg/server"
-	"istio.io/istio/pilot/pkg/serviceregistry/aggregate"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/keycertbundle"
+	"istio.io/istio/123/pilot/pkg/server"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/aggregate"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

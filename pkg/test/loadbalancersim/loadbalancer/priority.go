@@ -15,7 +15,7 @@
 package loadbalancer
 
 import (
-	mesh2 "istio.io/istio/pkg/test/loadbalancersim/mesh"
+	mesh2 "istio.io/istio/123/pkg/test/loadbalancersim/mesh"
 )
 
 type PrioritySelector func(src *mesh2.Client, dest *mesh2.Node) uint32

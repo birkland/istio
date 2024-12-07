@@ -28,9 +28,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/pires/go-proxyproto"
 
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var _ Instance = &tcpInstance{}

@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/features"
 )
 
 func BenchmarkMetricsQueue(b *testing.B) {

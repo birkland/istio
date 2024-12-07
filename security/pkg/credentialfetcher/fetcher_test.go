@@ -17,8 +17,8 @@ package credentialfetcher
 import (
 	"testing"
 
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/security/pkg/credentialfetcher/plugin"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/security/pkg/credentialfetcher/plugin"
 )
 
 func TestNewCredFetcher(t *testing.T) {

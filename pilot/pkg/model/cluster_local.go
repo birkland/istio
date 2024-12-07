@@ -18,7 +18,7 @@ import (
 	"strings"
 	"sync"
 
-	"istio.io/istio/pkg/config/host"
+	"istio.io/istio/123/pkg/config/host"
 )
 
 var (

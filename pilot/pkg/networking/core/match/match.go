@@ -20,9 +20,9 @@ import (
 	network "github.com/envoyproxy/go-control-plane/envoy/extensions/matching/common_inputs/network/v3"
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/log"
 )
 
 var (

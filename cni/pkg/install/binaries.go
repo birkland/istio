@@ -18,8 +18,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Copies/mirrors any files present in a single source dir to N number of target dirs

@@ -22,7 +22,7 @@ import (
 
 	fuzzheaders "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/test"
 )
 
 const panicPrefix = "go-fuzz-skip: "

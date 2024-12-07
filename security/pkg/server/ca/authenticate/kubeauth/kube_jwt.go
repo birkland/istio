@@ -23,11 +23,11 @@ import (
 	"google.golang.org/grpc/metadata"
 	"k8s.io/client-go/kubernetes"
 
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/security/pkg/k8s/tokenreview"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/security/pkg/k8s/tokenreview"
 )
 
 const (

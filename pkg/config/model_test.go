@@ -27,7 +27,7 @@ import (
 	k8s "sigs.k8s.io/gateway-api/apis/v1"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/test/config"
+	"istio.io/istio/123/pkg/test/config"
 )
 
 func TestDeepCopy(t *testing.T) {

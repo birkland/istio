@@ -15,8 +15,8 @@
 package scopes
 
 import (
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/pkg/log"
 )
 
 // Required to get global logging to work

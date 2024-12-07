@@ -25,12 +25,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/test"
 )
 
 type pod struct {

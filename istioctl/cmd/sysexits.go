@@ -17,8 +17,8 @@ package cmd
 import (
 	"strings"
 
-	"istio.io/istio/istioctl/pkg/analyze"
-	"istio.io/istio/istioctl/pkg/util"
+	"istio.io/istio/123/istioctl/pkg/analyze"
+	"istio.io/istio/123/istioctl/pkg/util"
 )
 
 // Values should try to use sendmail-style values as in <sysexits.h>

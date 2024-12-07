@@ -30,9 +30,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/framework"
-	pkiutil "istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test/framework"
+	pkiutil "istio.io/istio/123/security/pkg/pki/util"
 )
 
 type Cert struct {

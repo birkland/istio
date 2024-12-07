@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/cni/pkg/constants"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/cni/pkg/constants"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestUDSLog(t *testing.T) {

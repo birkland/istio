@@ -24,10 +24,10 @@ import (
 
 	"istio.io/api/annotation"
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/validation/agent"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 type annotationValidationFunc func(value string) error

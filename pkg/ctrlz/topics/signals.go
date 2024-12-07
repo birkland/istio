@@ -19,8 +19,8 @@ import (
 	"os"
 	"syscall"
 
-	"istio.io/istio/pkg/ctrlz/fw"
-	"istio.io/istio/pkg/ctrlz/topics/assets"
+	"istio.io/istio/123/pkg/ctrlz/fw"
+	"istio.io/istio/123/pkg/ctrlz/topics/assets"
 )
 
 type signalsTopic struct{}

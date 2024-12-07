@@ -15,7 +15,7 @@
 package krt
 
 import (
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/slices"
 )
 
 func FetchOne[T any](ctx HandlerContext, c Collection[T], opts ...FetchOption) *T {

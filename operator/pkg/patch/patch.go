@@ -102,12 +102,12 @@ import (
 	yaml2 "gopkg.in/yaml.v2"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/operator/pkg/metrics"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/operator/pkg/metrics"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/log"
 )
 
 var scope = log.RegisterScope("patch", "patch")

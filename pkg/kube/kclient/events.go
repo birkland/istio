@@ -21,7 +21,7 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog/v2"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type EventRecorder struct {

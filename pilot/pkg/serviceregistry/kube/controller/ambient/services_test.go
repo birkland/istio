@@ -26,15 +26,15 @@ import (
 
 	networking "istio.io/api/networking/v1alpha3"
 	networkingclient "istio.io/client-go/pkg/apis/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/kube/krt/krttest"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/workloadapi"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/kube/krt/krttest"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/workloadapi"
 )
 
 func TestServiceEntryServices(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	router "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3"
 	hcm "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 func TestBuildRouterFilter(t *testing.T) {

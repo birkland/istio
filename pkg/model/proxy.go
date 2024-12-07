@@ -26,11 +26,11 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/serviceregistry/util/label"
-	networkutil "istio.io/istio/pilot/pkg/util/network"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/network"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/util/label"
+	networkutil "istio.io/istio/123/pilot/pkg/util/network"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/network"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // StringList is a list that will be marshaled to a comma separate string in Json

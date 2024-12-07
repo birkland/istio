@@ -28,17 +28,17 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/environment/kube"
-	"istio.io/istio/pkg/test/framework/config"
-	ferrors "istio.io/istio/pkg/test/framework/errors"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/prow"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/tracing"
+	kubelib "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/environment/kube"
+	"istio.io/istio/123/pkg/test/framework/config"
+	ferrors "istio.io/istio/123/pkg/test/framework/errors"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/prow"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/tracing"
 )
 
 // test.Run uses 0, 1, 2 exit codes. Use different exit codes for our framework.

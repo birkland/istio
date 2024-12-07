@@ -24,13 +24,13 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/security/pkg/pki/ca"
-	caerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	caerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 var serverCaLog = log.RegisterScope("serverca", "Citadel server log")

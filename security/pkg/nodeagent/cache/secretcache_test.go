@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring/monitortest"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/testcerts"
-	"istio.io/istio/security/pkg/nodeagent/caclient/providers/mock"
-	"istio.io/istio/security/pkg/nodeagent/cafile"
-	pkiutil "istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/monitoring/monitortest"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/testcerts"
+	"istio.io/istio/123/security/pkg/nodeagent/caclient/providers/mock"
+	"istio.io/istio/123/security/pkg/nodeagent/cafile"
+	pkiutil "istio.io/istio/123/security/pkg/pki/util"
 )
 
 func TestWorkloadAgentGenerateSecret(t *testing.T) {

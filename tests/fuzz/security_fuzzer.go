@@ -26,11 +26,11 @@ import (
 	"google.golang.org/grpc/peer"
 
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pkg/security"
-	mockca "istio.io/istio/security/pkg/pki/ca/mock"
-	"istio.io/istio/security/pkg/pki/util"
-	"istio.io/istio/security/pkg/server/ca"
-	"istio.io/istio/security/pkg/server/ca/authenticate"
+	"istio.io/istio/123/pkg/security"
+	mockca "istio.io/istio/123/security/pkg/pki/ca/mock"
+	"istio.io/istio/123/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/server/ca"
+	"istio.io/istio/123/security/pkg/server/ca/authenticate"
 )
 
 func FuzzGenCSR(data []byte) int {

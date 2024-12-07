@@ -17,9 +17,9 @@ package krt
 import (
 	"sync/atomic"
 
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 // dummyValue is a placeholder value for use with dummyCollection.

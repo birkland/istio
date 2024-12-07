@@ -34,8 +34,8 @@ import (
 	envoy_dns_cares "github.com/envoyproxy/go-control-plane/envoy/extensions/network/dns_resolver/cares/v3"
 	envoy_tls "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 const (

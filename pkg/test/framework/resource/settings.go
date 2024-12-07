@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	gwConformanceConfig "sigs.k8s.io/gateway-api/conformance/utils/config"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

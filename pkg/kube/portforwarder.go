@@ -28,7 +28,7 @@ import (
 	"k8s.io/client-go/tools/portforward"
 	"k8s.io/client-go/transport/spdy"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // PortForwarder manages the forwarding of a single port.

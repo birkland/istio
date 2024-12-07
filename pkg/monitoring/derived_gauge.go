@@ -21,8 +21,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	api "go.opentelemetry.io/otel/metric"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
 )
 
 type derivedGauge struct {

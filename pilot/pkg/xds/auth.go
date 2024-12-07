@@ -21,10 +21,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
 )
 
 // authenticate authenticates the ADS request using the configured authenticators.

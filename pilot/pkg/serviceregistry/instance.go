@@ -15,9 +15,9 @@
 package serviceregistry
 
 import (
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/cluster"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/cluster"
 )
 
 // Instance of a service registry. A single service registry combines the capabilities of service discovery

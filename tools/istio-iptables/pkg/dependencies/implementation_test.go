@@ -19,7 +19,7 @@ import (
 
 	utilversion "k8s.io/apimachinery/pkg/util/version"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestOverrideVersionIsCorrectlyParsed(t *testing.T) {

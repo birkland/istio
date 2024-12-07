@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"istio.io/istio/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/constants"
 )
 
 // StartHealthServer initializes and starts a web server that exposes liveness and readiness endpoints at port 8000.

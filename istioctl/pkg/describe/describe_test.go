@@ -32,10 +32,10 @@ import (
 	apiannotation "istio.io/api/annotation"
 	v1alpha32 "istio.io/api/networking/v1alpha3"
 	"istio.io/client-go/pkg/apis/networking/v1alpha3"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/util/configdump"
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 // execAndK8sConfigTestCase lets a test case hold some Envoy, Istio, and Kubernetes configuration

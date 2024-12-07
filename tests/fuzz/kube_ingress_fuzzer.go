@@ -21,10 +21,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/config/kube/ingress"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient"
+	"istio.io/istio/123/pilot/pkg/config/kube/ingress"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient"
 )
 
 func FuzzConvertIngressVirtualService(data []byte) int {

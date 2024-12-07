@@ -23,12 +23,12 @@ import (
 	"path"
 	"testing"
 
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/match"
 )
 
 const (

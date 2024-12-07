@@ -17,9 +17,9 @@ package multicluster
 import (
 	"sync"
 
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // ClusterStore is a collection of clusters

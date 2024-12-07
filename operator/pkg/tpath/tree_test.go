@@ -19,7 +19,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 func TestWritePathContext(t *testing.T) {

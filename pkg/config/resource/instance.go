@@ -16,7 +16,7 @@
 package resource
 
 import (
-	"istio.io/istio/pkg/config"
+	"istio.io/istio/123/pkg/config"
 )
 
 // Instance is the abstract representation of a versioned config resource in Istio.

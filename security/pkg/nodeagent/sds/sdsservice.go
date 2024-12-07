@@ -37,12 +37,12 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	mesh "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/backoff"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/xds"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/backoff"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/xds"
 )
 
 var sdsServiceLog = log.RegisterScope("sds", "SDS service debugging")

@@ -28,9 +28,9 @@ import (
 	"go.uber.org/atomic"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // DelayedListener is like net.Listener but delays the Listen() syscall.

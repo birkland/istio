@@ -21,15 +21,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pilot/pkg/bootstrap"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/cmd"
-	"istio.io/istio/pkg/collateral"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/ctrlz"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/pilot/pkg/bootstrap"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/cmd"
+	"istio.io/istio/123/pkg/collateral"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/ctrlz"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/version"
 )
 
 var (

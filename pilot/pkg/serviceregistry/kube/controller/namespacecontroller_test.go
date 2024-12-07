@@ -26,15 +26,15 @@ import (
 	"k8s.io/client-go/kubernetes"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/keycertbundle"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/kube/kclient"
-	filter "istio.io/istio/pkg/kube/namespace"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/keycertbundle"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/kube/kclient"
+	filter "istio.io/istio/123/pkg/kube/namespace"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestNamespaceController(t *testing.T) {

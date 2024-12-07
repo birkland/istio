@@ -26,8 +26,8 @@ import (
 	apiistioioapinetworkingv1beta1 "istio.io/client-go/pkg/apis/networking/v1beta1"
 	apiistioioapisecurityv1beta1 "istio.io/client-go/pkg/apis/security/v1beta1"
 	apiistioioapitelemetryv1alpha1 "istio.io/client-go/pkg/apis/telemetry/v1alpha1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 func getGvk(obj any) (config.GroupVersionKind, bool) {

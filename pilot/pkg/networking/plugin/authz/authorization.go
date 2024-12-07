@@ -18,10 +18,10 @@ import (
 	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	hcm "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pilot/pkg/security/authz/builder"
-	"istio.io/istio/pilot/pkg/security/trustdomain"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pilot/pkg/security/authz/builder"
+	"istio.io/istio/123/pilot/pkg/security/trustdomain"
 )
 
 type ActionType int

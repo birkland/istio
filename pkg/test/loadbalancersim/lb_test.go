@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pkg/test/loadbalancersim/loadbalancer"
-	"istio.io/istio/pkg/test/loadbalancersim/locality"
-	"istio.io/istio/pkg/test/loadbalancersim/mesh"
-	"istio.io/istio/pkg/test/loadbalancersim/network"
-	"istio.io/istio/pkg/test/loadbalancersim/timeseries"
+	"istio.io/istio/123/pkg/test/loadbalancersim/loadbalancer"
+	"istio.io/istio/123/pkg/test/loadbalancersim/locality"
+	"istio.io/istio/123/pkg/test/loadbalancersim/mesh"
+	"istio.io/istio/123/pkg/test/loadbalancersim/network"
+	"istio.io/istio/123/pkg/test/loadbalancersim/timeseries"
 )
 
 func TestLoadBalancing(t *testing.T) {

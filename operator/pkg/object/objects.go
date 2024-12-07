@@ -32,12 +32,12 @@ import (
 	k8syaml "k8s.io/apimachinery/pkg/util/yaml"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/helm"
-	names "istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/helm"
+	names "istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/log"
 )
 
 const (

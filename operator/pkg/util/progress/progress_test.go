@@ -19,7 +19,7 @@ import (
 	"io"
 	"testing"
 
-	"istio.io/istio/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/name"
 )
 
 func TestProgressLog(t *testing.T) {

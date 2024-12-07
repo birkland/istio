@@ -23,10 +23,10 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/operator/pkg/manifest"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/util/clog"
+	"istio.io/istio/123/operator/pkg/manifest"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util/clog"
 )
 
 type profileDumpArgs struct {

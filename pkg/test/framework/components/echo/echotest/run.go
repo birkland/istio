@@ -20,13 +20,13 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/istio/ingress"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/istio/ingress"
 )
 
 type (

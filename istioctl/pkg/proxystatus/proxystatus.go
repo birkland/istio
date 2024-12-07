@@ -23,15 +23,15 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/completion"
-	"istio.io/istio/istioctl/pkg/multixds"
-	"istio.io/istio/istioctl/pkg/util/ambient"
-	"istio.io/istio/istioctl/pkg/writer/compare"
-	"istio.io/istio/istioctl/pkg/writer/pilot"
-	pilotxds "istio.io/istio/pilot/pkg/xds"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/completion"
+	"istio.io/istio/123/istioctl/pkg/multixds"
+	"istio.io/istio/123/istioctl/pkg/util/ambient"
+	"istio.io/istio/123/istioctl/pkg/writer/compare"
+	"istio.io/istio/123/istioctl/pkg/writer/pilot"
+	pilotxds "istio.io/istio/123/pilot/pkg/xds"
+	"istio.io/istio/123/pkg/log"
 )
 
 var configDumpFile string

@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/operator/pkg/compare"
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/compare"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 // YAMLSuffix is the suffix of a YAML file.

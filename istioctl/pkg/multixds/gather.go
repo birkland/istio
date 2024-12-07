@@ -34,11 +34,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/xds"
-	pilotxds "istio.io/istio/pilot/pkg/xds"
-	"istio.io/istio/pkg/kube"
-	istioversion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/xds"
+	pilotxds "istio.io/istio/123/pilot/pkg/xds"
+	"istio.io/istio/123/pkg/kube"
+	istioversion "istio.io/istio/123/pkg/version"
 )
 
 const (

@@ -17,10 +17,10 @@ package krt
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type join[T any] struct {

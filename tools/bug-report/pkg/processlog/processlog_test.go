@@ -21,9 +21,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/tools/bug-report/pkg/config"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/tools/bug-report/pkg/config"
 )
 
 func TestProcessLogsFormat(t *testing.T) {

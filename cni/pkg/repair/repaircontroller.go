@@ -23,11 +23,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/cni/pkg/config"
-	"istio.io/istio/cni/pkg/plugin"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
+	"istio.io/istio/123/cni/pkg/config"
+	"istio.io/istio/123/cni/pkg/plugin"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
 )
 
 type Controller struct {

@@ -30,13 +30,13 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/protomarshal"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

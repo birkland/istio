@@ -43,13 +43,13 @@ import (
 
 	"istio.io/api/annotation"
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/bootstrap/platform"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/util/protomarshal"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/bootstrap/platform"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/version"
 )
 
 type stats struct {

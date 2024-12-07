@@ -27,14 +27,14 @@ import (
 	mcsapi "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/kube/mcs"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/kube/mcs"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var serviceExportTimeout = retry.Timeout(time.Second * 2)

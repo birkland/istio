@@ -22,13 +22,13 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/yml"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/yml"
 )
 
 const (

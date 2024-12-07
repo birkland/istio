@@ -20,7 +20,7 @@ import (
 	rawbuffer "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/raw_buffer/v3"
 	metadata "github.com/envoyproxy/go-control-plane/envoy/type/metadata/v3"
 
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 var TunnelHostMetadata = []*internalupstream.InternalUpstreamTransport_MetadataValueSource{

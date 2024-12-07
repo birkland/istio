@@ -16,8 +16,8 @@ package envoyfilter
 import (
 	"sync"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/monitoring"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 type Result string

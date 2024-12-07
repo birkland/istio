@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 var scope = log.RegisterScope("util", "util")

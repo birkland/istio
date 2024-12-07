@@ -20,14 +20,14 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/config/visibility"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/util/protomarshal"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/config/visibility"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // SelectVirtualServices selects the virtual services by matching given services' host names.

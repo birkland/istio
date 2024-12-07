@@ -19,10 +19,10 @@ import (
 	"net/netip"
 	"time"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 // PortHTTPName is the HTTP port name

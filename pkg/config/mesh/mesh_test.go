@@ -23,10 +23,10 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/validation/agent"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/validation/agent"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func TestApplyProxyConfig(t *testing.T) {

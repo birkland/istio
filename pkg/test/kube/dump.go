@@ -36,13 +36,13 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/prow"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/prow"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type wellKnownContainer string

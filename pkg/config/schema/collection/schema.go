@@ -17,8 +17,8 @@ package collection
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/resource"
 )
 
 // Schema for a collection.

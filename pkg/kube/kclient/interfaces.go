@@ -19,7 +19,7 @@ import (
 	apitypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/controllers"
 )
 
 type Untyped = Informer[controllers.Object]

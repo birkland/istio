@@ -22,7 +22,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func TestRequestPrincipal(t *testing.T) {

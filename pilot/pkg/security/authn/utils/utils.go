@@ -18,12 +18,12 @@ import (
 	tls "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pilot/pkg/networking/util"
-	authn_model "istio.io/istio/pilot/pkg/security/model"
-	protovalue "istio.io/istio/pkg/proto"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	authn_model "istio.io/istio/123/pilot/pkg/security/model"
+	protovalue "istio.io/istio/123/pkg/proto"
 )
 
 // SupportedCiphers for server side TLS configuration.

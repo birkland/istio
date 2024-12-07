@@ -24,12 +24,12 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/multixds"
-	"istio.io/istio/istioctl/pkg/util"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/multixds"
+	"istio.io/istio/123/istioctl/pkg/util"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/kube"
 )
 
 func HandlerForRetrieveDebugList(kubeClient kube.CLIClient,

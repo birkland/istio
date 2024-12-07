@@ -20,12 +20,12 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	"istio.io/api/type/v1beta1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test"
 )
 
 func TestPolicyMatcher(t *testing.T) {

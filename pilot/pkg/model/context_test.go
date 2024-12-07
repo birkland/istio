@@ -22,12 +22,12 @@ import (
 
 	structpb "google.golang.org/protobuf/types/known/structpb"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pilot/pkg/serviceregistry/mock"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/mock"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func TestServiceNode(t *testing.T) {

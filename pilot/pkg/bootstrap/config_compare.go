@@ -20,7 +20,7 @@ import (
 	gogoproto "github.com/gogo/protobuf/proto" // nolint: depguard
 	"google.golang.org/protobuf/proto"
 
-	"istio.io/istio/pkg/config"
+	"istio.io/istio/123/pkg/config"
 )
 
 // needsPush checks whether the passed in config has same spec and hence push needs

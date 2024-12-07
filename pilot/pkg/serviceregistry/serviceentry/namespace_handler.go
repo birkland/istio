@@ -15,8 +15,8 @@
 package serviceentry
 
 import (
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 // NamespaceDiscoveryHandler is to handle namespace selected or deselected because of discoverySelectors change,

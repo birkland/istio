@@ -20,9 +20,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/monitoring"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 var (

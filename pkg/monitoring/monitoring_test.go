@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"testing"
 
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/monitoring/monitortest"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/monitoring/monitortest"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

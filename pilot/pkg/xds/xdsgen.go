@@ -23,13 +23,13 @@ import (
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/lazy"
-	istioversion "istio.io/istio/pkg/version"
-	"istio.io/istio/pkg/xds"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/lazy"
+	istioversion "istio.io/istio/123/pkg/version"
+	"istio.io/istio/123/pkg/xds"
 )
 
 // IstioControlPlaneInstance defines the format Istio uses for when creating Envoy config.core.v3.ControlPlane.identifier

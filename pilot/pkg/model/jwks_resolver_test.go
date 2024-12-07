@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pilot/pkg/model/test"
-	"istio.io/istio/pkg/monitoring/monitortest"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/model/test"
+	"istio.io/istio/123/pkg/monitoring/monitortest"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

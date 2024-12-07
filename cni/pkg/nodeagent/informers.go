@@ -22,12 +22,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	klabels "k8s.io/apimachinery/pkg/labels"
 
-	"istio.io/istio/cni/pkg/util"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/monitoring"
+	"istio.io/istio/123/cni/pkg/util"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 var (

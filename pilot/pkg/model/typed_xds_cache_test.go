@@ -21,13 +21,13 @@ import (
 
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/hash"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/tests/util/leak"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/hash"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/tests/util/leak"
 )
 
 type entry struct {

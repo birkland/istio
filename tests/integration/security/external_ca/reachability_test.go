@@ -20,13 +20,13 @@ package externalca
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/echotest"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/echotest"
+	"istio.io/istio/123/pkg/test/framework/components/echo/match"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
 )
 
 // TestReachability verifies:

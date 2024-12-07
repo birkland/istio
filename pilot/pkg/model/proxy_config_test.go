@@ -26,11 +26,11 @@ import (
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	"istio.io/api/networking/v1beta1"
 	istioTypes "istio.io/api/type/v1beta1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 var now = time.Now()

@@ -26,16 +26,16 @@ import (
 
 	networking "istio.io/api/networking/v1alpha3"
 	"istio.io/api/security/v1beta1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core/listenertest"
-	"istio.io/istio/pilot/pkg/networking/telemetry"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core/listenertest"
+	"istio.io/istio/123/pilot/pkg/networking/telemetry"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 func TestBuildRedisFilter(t *testing.T) {

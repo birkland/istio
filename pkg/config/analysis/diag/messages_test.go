@@ -19,7 +19,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/url"
+	"istio.io/istio/123/pkg/url"
 )
 
 func TestMessages_Sort(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestServer(t *testing.T) {

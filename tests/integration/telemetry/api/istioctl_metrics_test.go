@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // TestIstioctlMetrics contains a basic validation of the experimental

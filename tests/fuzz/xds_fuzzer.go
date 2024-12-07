@@ -17,9 +17,9 @@ package fuzz
 import (
 	"testing"
 
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/test/xds"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/test/xds"
 )
 
 func init() {

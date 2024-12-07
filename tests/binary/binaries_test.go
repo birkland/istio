@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/version"
 )
 
 var (

@@ -25,10 +25,10 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pilot/pkg/util/network"
-	"istio.io/istio/pkg/env"
-	common_features "istio.io/istio/pkg/features"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/util/network"
+	"istio.io/istio/123/pkg/env"
+	common_features "istio.io/istio/123/pkg/features"
+	"istio.io/istio/123/pkg/log"
 )
 
 type envoy struct {

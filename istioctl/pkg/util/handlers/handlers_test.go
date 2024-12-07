@@ -31,7 +31,7 @@ import (
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 	"k8s.io/kubectl/pkg/scheme"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestInferPodInfo(t *testing.T) {

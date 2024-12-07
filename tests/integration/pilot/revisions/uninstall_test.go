@@ -29,15 +29,15 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/operator/pkg/helmreconciler"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/pkg/config/schema/gvr"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/operator/pkg/helmreconciler"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

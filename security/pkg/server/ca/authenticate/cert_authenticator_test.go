@@ -25,8 +25,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
 
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 type mockAuthInfo struct {

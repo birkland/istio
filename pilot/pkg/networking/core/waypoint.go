@@ -15,10 +15,10 @@
 package core
 
 import (
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

@@ -17,8 +17,8 @@ package krt
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/slices"
 )
 
 type Index[K comparable, O any] interface {

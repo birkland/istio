@@ -21,13 +21,13 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/security/pkg/server/ca/authenticate/kubeauth"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/security/pkg/server/ca/authenticate/kubeauth"
 )
 
 // MulticlusterNodeAuthorizor is is responsible for maintaining an index of ClusterNodeAuthenticators,

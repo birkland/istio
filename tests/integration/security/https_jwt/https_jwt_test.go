@@ -21,14 +21,14 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/http/headers"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/echotest"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/tests/common/jwt"
-	"istio.io/istio/tests/integration/security/util"
+	"istio.io/istio/123/pkg/http/headers"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/echotest"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/123/tests/common/jwt"
+	"istio.io/istio/123/tests/integration/security/util"
 )
 
 // TestJWTHTTPS tests the requestauth policy with https jwks server.

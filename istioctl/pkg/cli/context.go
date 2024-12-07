@@ -19,9 +19,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/rest"
 
-	"istio.io/istio/istioctl/pkg/util/handlers"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/istioctl/pkg/util/handlers"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 type Context interface {

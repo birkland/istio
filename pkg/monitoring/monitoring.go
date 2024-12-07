@@ -26,9 +26,9 @@ import (
 	api "go.opentelemetry.io/otel/metric"
 	"go.opentelemetry.io/otel/sdk/metric"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
 )
 
 var (

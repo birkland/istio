@@ -21,9 +21,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestLazySerial(t *testing.T) {

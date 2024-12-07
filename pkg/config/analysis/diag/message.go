@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"istio.io/api/analysis/v1alpha1"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/url"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/url"
 )
 
 // MessageType is a type of diagnostic message

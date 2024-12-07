@@ -15,8 +15,8 @@
 package config
 
 import (
-	"istio.io/istio/pkg/test/framework/components/echo/config/param"
-	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/components/echo/config/param"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
 )
 
 // Sources provides common operations that can be performed on a list of Source objects.

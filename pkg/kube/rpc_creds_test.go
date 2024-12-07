@@ -27,7 +27,7 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	clienttesting "k8s.io/client-go/testing"
 
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func Test_tokenSupplier_GetRequestMetadata(t *testing.T) {

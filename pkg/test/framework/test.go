@@ -22,10 +22,10 @@ import (
 
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/tracing"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/tracing"
 )
 
 type Test interface {

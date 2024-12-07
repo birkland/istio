@@ -23,8 +23,8 @@ import (
 	_ "github.com/howardjohn/unshare-go/userns"
 	"github.com/vishvananda/netns"
 
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/file"
 )
 
 func TestRunInSandbox(t *testing.T) {

@@ -19,8 +19,8 @@ package install_test
 import (
 	"testing"
 
-	install "istio.io/istio/cni/test"
-	"istio.io/istio/pkg/test/env"
+	install "istio.io/istio/123/cni/test"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 var (

@@ -27,9 +27,9 @@ import (
 	"github.com/containernetworking/cni/pkg/skel"
 	cniv1 "github.com/containernetworking/cni/pkg/types/100"
 
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/cni/pkg/nodeagent"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/nodeagent"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func fakeCNIEventClient(address string) CNIEventClient {

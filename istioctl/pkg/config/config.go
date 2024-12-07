@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"istio.io/istio/istioctl/pkg/root"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/env"
+	"istio.io/istio/123/istioctl/pkg/root"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/env"
 )
 
 // settableFlags are the flags used to istioctl

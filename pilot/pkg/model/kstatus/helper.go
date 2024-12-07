@@ -19,8 +19,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/slices"
 )
 
 const (

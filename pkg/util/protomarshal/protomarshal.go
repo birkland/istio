@@ -33,7 +33,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 var (

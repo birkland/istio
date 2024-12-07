@@ -25,11 +25,11 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/log"
 )
 
 var scope = log.RegisterScope("status",

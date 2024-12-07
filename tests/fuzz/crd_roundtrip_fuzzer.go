@@ -38,7 +38,7 @@ import (
 	clientnetworkingbeta "istio.io/client-go/pkg/apis/networking/v1beta1"
 	clientsecurity "istio.io/client-go/pkg/apis/security/v1beta1"
 	clienttelemetry "istio.io/client-go/pkg/apis/telemetry/v1alpha1"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 var (

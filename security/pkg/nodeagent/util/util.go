@@ -23,8 +23,8 @@ import (
 	"path"
 	"time"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/file"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/file"
 )
 
 var k8sInCluster = env.Register("KUBERNETES_SERVICE_HOST", "",

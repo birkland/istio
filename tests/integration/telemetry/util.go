@@ -26,12 +26,12 @@ import (
 	"github.com/prometheus/common/model"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/prometheus"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/prometheus"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // PromDiff compares a query with labels to a query of the same metric without labels, and notes the closest matching

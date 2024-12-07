@@ -22,10 +22,10 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"istio.io/istio/pkg/config/analysis/legacy/source/kube"
-	"istio.io/istio/pkg/config/resource"
-	r2 "istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/config/validation"
+	"istio.io/istio/123/pkg/config/analysis/legacy/source/kube"
+	"istio.io/istio/123/pkg/config/resource"
+	r2 "istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config/validation"
 )
 
 // K8SCollection1 describes the collection k8s/collection1

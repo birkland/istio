@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestConfigWriter_Prime(t *testing.T) {

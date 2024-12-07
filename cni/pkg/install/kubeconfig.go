@@ -24,10 +24,10 @@ import (
 	"k8s.io/client-go/tools/clientcmd/api/latest"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/cni/pkg/config"
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/file"
+	"istio.io/istio/123/cni/pkg/config"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/file"
 )
 
 type kubeconfig struct {

@@ -29,8 +29,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	xdscreds "google.golang.org/grpc/credentials/xds"
 
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/proto"
 )
 
 var _ io.Closer = &Client{}

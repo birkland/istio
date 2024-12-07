@@ -18,9 +18,9 @@ import (
 	"testing"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 func TestNeedsPush(t *testing.T) {

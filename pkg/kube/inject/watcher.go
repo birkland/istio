@@ -25,10 +25,10 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/watcher/configmapwatcher"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/istiomultierror"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/watcher/configmapwatcher"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/istiomultierror"
 )
 
 // Watcher watches for and reacts to injection config updates.

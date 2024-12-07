@@ -20,8 +20,8 @@ import (
 
 	authenticationv1 "k8s.io/api/authentication/v1"
 
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 // TestGetTokenReviewResult verifies that getTokenReviewResult returns expected {<namespace>, <serviceaccountname>}.

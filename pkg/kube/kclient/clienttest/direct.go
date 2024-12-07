@@ -23,11 +23,11 @@ import (
 	klabels "k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"istio.io/istio/pkg/config/schema/kubeclient"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/config/schema/kubeclient"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/test"
 )
 
 type directClient[T controllers.Object, PT any, TL runtime.Object] struct {

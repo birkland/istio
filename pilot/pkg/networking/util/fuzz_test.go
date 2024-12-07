@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/fuzz"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/fuzz"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func FuzzShallowCopyTrafficPolicy(f *testing.F) {

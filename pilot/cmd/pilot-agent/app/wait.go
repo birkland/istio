@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 var (

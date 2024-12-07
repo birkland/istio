@@ -23,13 +23,13 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	corexds "istio.io/istio/pilot/pkg/networking/core"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	corexds "istio.io/istio/123/pilot/pkg/networking/core"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // BuildClusters handles a gRPC CDS request, used with the 'ApiListener' style of requests.

@@ -20,8 +20,8 @@ import (
 	. "github.com/onsi/gomega"
 	"sigs.k8s.io/yaml"
 
-	cluster2 "istio.io/istio/tools/bug-report/pkg/cluster"
-	config2 "istio.io/istio/tools/bug-report/pkg/config"
+	cluster2 "istio.io/istio/123/tools/bug-report/pkg/cluster"
+	config2 "istio.io/istio/123/tools/bug-report/pkg/config"
 )
 
 var (

@@ -24,8 +24,8 @@ import (
 
 	capi "k8s.io/api/certificates/v1"
 
-	"istio.io/istio/pkg/test/csrctrl/authority"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/test/csrctrl/authority"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 type Signer struct {

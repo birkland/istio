@@ -26,14 +26,14 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/operator/pkg/metrics"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/patch"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/operator/pkg/metrics"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/patch"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

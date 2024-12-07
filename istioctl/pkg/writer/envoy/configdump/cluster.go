@@ -24,10 +24,10 @@ import (
 	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/util/proto"
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/config/host"
+	"istio.io/istio/123/istioctl/pkg/util/proto"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/config/host"
 )
 
 // ClusterFilter is used to pass filter information into cluster based config writer print functions

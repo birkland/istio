@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type Tracker[T comparable] struct {

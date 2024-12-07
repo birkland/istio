@@ -21,14 +21,14 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	fuzz "github.com/google/gofuzz"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/visibility"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/visibility"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestGetByPort(t *testing.T) {

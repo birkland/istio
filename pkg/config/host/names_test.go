@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	"istio.io/istio/pkg/config/host"
+	"istio.io/istio/123/pkg/config/host"
 )
 
 func TestNamesIntersection(t *testing.T) {

@@ -28,12 +28,12 @@ import (
 	"k8s.io/client-go/util/workqueue"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/keycertbundle"
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/webhooks/util"
+	"istio.io/istio/123/pilot/pkg/keycertbundle"
+	kubelib "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/webhooks/util"
 )
 
 var (

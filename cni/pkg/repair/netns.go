@@ -24,7 +24,7 @@ import (
 	"github.com/prometheus/procfs"
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 func getPidNamespace(pid int) string {

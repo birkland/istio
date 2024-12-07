@@ -21,8 +21,8 @@ import (
 
 	matcherpb "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 
-	"istio.io/istio/pilot/pkg/security/authz/matcher"
-	"istio.io/istio/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pilot/pkg/security/authz/matcher"
+	"istio.io/istio/123/pilot/pkg/xds/filters"
 )
 
 // convertToPort converts a port string to a uint32.

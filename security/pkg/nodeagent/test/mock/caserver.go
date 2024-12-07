@@ -28,10 +28,10 @@ import (
 	"google.golang.org/grpc/status"
 
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	caerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	caerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 var caServerLog = log.RegisterScope("ca", "CA service debugging")

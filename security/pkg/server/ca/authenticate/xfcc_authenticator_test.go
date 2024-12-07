@@ -27,7 +27,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pkg/security"
 )
 
 func TestIsTrustedAddress(t *testing.T) {

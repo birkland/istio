@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pkg/test/framework"
-	kubecluster "istio.io/istio/pkg/test/framework/components/cluster/kube"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	kubetest "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/tests/integration/pilot/common"
+	"istio.io/istio/123/pkg/test/framework"
+	kubecluster "istio.io/istio/123/pkg/test/framework/components/cluster/kube"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	kubetest "istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/tests/integration/pilot/common"
 )
 
 func TestXFFGateway(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
 )
 
 func IsZtunnelPod(client kube.CLIClient, podName, podNamespace string) bool {

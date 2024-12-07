@@ -29,8 +29,8 @@ import (
 	rbactcp "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/rbac/v3"
 	"google.golang.org/protobuf/proto"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

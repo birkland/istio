@@ -24,12 +24,12 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 // Cluster that can deploy echo instances.

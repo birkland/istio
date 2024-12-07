@@ -28,13 +28,13 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	pconstants "istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/cni/pkg/ipset"
-	"istio.io/istio/cni/pkg/iptables"
-	"istio.io/istio/cni/pkg/scopes"
-	"istio.io/istio/cni/pkg/util"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/util/sets"
+	pconstants "istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/ipset"
+	"istio.io/istio/123/cni/pkg/iptables"
+	"istio.io/istio/123/cni/pkg/scopes"
+	"istio.io/istio/123/cni/pkg/util"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var log = scopes.CNIAgent

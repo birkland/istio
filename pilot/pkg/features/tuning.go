@@ -18,7 +18,7 @@ import (
 	"runtime"
 	"time"
 
-	"istio.io/istio/pkg/env"
+	"istio.io/istio/123/pkg/env"
 )
 
 // Define performance tuning related features here.

@@ -24,12 +24,12 @@ import (
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	authpb "istio.io/api/security/v1beta1"
 	selectorpb "istio.io/api/type/v1beta1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 func TestAuthorizationPolicies_ListAuthorizationPolicies(t *testing.T) {

@@ -24,8 +24,8 @@ import (
 	envoy_admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 
-	"istio.io/istio/istioctl/pkg/util/configdump"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
 )
 
 // Analyzer that can be used to check authorization policy.

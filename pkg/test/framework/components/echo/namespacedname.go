@@ -18,8 +18,8 @@ import (
 	"sort"
 	"strings"
 
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // NamespacedName represents the full name of a service.

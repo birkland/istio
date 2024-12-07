@@ -17,7 +17,7 @@ package envoyfilter
 import (
 	"testing"
 
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/slices"
 )
 
 func TestReplaceAndInsert(t *testing.T) {

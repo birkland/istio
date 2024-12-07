@@ -19,9 +19,9 @@ import (
 
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type XdsCacheImpl struct {

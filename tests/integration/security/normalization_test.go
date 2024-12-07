@@ -25,11 +25,11 @@ import (
 	"testing"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
-	"istio.io/istio/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/match"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
 )
 
 func supportedPercentEncode(i int) bool {

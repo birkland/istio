@@ -25,13 +25,13 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/types"
 
-	istiolabels "istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/mesh"
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
-	netutil "istio.io/istio/pkg/util/net"
+	istiolabels "istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/mesh"
+	kubelib "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
+	netutil "istio.io/istio/123/pkg/util/net"
 )
 
 var statusLog = log.RegisterScope("ingress status", "")

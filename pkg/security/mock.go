@@ -25,10 +25,10 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 type DirectSecretManager struct {

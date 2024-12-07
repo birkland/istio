@@ -17,7 +17,7 @@ package concurrent
 import (
 	"time"
 
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type Debouncer[T comparable] struct{}

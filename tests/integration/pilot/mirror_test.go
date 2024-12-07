@@ -26,12 +26,12 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"k8s.io/apimachinery/pkg/util/rand"
 
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common/deployment"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/deployment"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 //	Virtual service topology

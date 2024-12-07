@@ -21,12 +21,12 @@ import (
 	klabels "k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/kube/kubetypes"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 type informer[I controllers.ComparableObject] struct {

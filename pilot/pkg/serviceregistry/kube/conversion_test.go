@@ -26,9 +26,9 @@ import (
 
 	"istio.io/api/annotation"
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/kube"
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/kube"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 var (

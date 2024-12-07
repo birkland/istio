@@ -22,16 +22,16 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"istio.io/istio/pilot/pkg/model"
-	mock_config "istio.io/istio/pilot/test/mock"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	mock_config "istio.io/istio/123/pilot/test/mock"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // getByMessageName finds a schema by message name if it is available

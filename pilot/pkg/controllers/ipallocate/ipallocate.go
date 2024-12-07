@@ -27,15 +27,15 @@ import (
 
 	apiv1alpha3 "istio.io/api/networking/v1alpha3"
 	networkingv1alpha3 "istio.io/client-go/pkg/apis/networking/v1alpha3"
-	autoallocate "istio.io/istio/pilot/pkg/networking/serviceentry"
-	"istio.io/istio/pkg/config"
-	cfghost "istio.io/istio/pkg/config/host"
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	autoallocate "istio.io/istio/123/pilot/pkg/networking/serviceentry"
+	"istio.io/istio/123/pkg/config"
+	cfghost "istio.io/istio/123/pkg/config/host"
+	kubelib "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var log = istiolog.RegisterScope("ip-autoallocate", "IP autoallocate controller")

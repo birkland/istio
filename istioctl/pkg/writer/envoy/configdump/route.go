@@ -26,10 +26,10 @@ import (
 	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/util/proto"
-	pilot_util "istio.io/istio/pilot/pkg/networking/util"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/istioctl/pkg/util/proto"
+	pilot_util "istio.io/istio/123/pilot/pkg/networking/util"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // RouteFilter is used to pass filter information into route based config writer print functions

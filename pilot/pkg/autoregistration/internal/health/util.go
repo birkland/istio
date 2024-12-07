@@ -16,8 +16,8 @@ package health
 
 import (
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pilot/pkg/model/status"
-	"istio.io/istio/pkg/config"
+	"istio.io/istio/123/pilot/pkg/model/status"
+	"istio.io/istio/123/pkg/config"
 )
 
 // IsEligibleForHealthStatusUpdates returns true if a given WorkloadEntry

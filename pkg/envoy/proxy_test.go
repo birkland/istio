@@ -21,8 +21,8 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/model"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/model"
 )
 
 func TestEnvoyArgs(t *testing.T) {

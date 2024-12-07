@@ -21,12 +21,12 @@ import (
 	"net/http"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/echotest"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	ingressutil "istio.io/istio/tests/integration/security/sds_ingress/util"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/echotest"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	ingressutil "istio.io/istio/123/tests/integration/security/sds_ingress/util"
 )
 
 // TestSingleTlsGateway_SecretRotation tests a single TLS ingress gateway with SDS enabled.

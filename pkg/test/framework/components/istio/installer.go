@@ -26,13 +26,13 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"istio.io/istio/operator/cmd/mesh"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/kube"
-	testenv "istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/123/operator/cmd/mesh"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/kube"
+	testenv "istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 var _ resource.Dumper = &installer{}

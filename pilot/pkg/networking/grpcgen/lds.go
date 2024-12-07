@@ -31,14 +31,14 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/security/authn"
-	authzmodel "istio.io/istio/pilot/pkg/security/authz/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pkg/istio-agent/grpcxds"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/security/authn"
+	authzmodel "istio.io/istio/123/pilot/pkg/security/authz/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pkg/istio-agent/grpcxds"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var supportedFilters = []*hcm.HttpFilter{

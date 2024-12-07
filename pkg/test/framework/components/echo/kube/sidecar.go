@@ -26,12 +26,12 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	// Import all XDS config types
-	_ "istio.io/istio/pkg/config/xds"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/protomarshal"
+	_ "istio.io/istio/123/pkg/config/xds"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 const (

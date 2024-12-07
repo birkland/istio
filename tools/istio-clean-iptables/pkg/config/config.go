@@ -21,11 +21,11 @@ import (
 
 	"github.com/miekg/dns"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/log"
-	netutil "istio.io/istio/pkg/util/net"
-	types "istio.io/istio/tools/istio-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/log"
+	netutil "istio.io/istio/123/pkg/util/net"
+	types "istio.io/istio/123/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 func DefaultConfig() *Config {

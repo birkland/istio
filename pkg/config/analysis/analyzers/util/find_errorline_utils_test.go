@@ -20,8 +20,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	legacykube "istio.io/istio/pkg/config/analysis/legacy/source/kube"
-	"istio.io/istio/pkg/config/resource"
+	legacykube "istio.io/istio/123/pkg/config/analysis/legacy/source/kube"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 var fieldMap = map[string]int{

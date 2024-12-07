@@ -26,8 +26,8 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/security/pkg/util"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/security/pkg/util"
 )
 
 var gcecredLog = log.RegisterScope("gcecred", "GCE credential fetcher for istio agent")

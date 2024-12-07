@@ -29,11 +29,11 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/completion"
-	"istio.io/istio/istioctl/pkg/util"
-	"istio.io/istio/istioctl/pkg/writer/table"
-	analyzer_util "istio.io/istio/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/completion"
+	"istio.io/istio/123/istioctl/pkg/util"
+	"istio.io/istio/123/istioctl/pkg/writer/table"
+	analyzer_util "istio.io/istio/123/pkg/config/analysis/analyzers/util"
 )
 
 var labelPairs string

@@ -17,8 +17,8 @@ package metrics
 import (
 	"strings"
 
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/slices"
 )
 
 var charReplacer = strings.NewReplacer("/", "_", ".", "_", " ", "_", "-", "")

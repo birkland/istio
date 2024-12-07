@@ -15,10 +15,10 @@
 package core
 
 import (
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	dnsProto "istio.io/istio/pkg/dns/proto"
-	dnsServer "istio.io/istio/pkg/dns/server"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
+	dnsServer "istio.io/istio/123/pkg/dns/server"
 )
 
 // BuildNameTable produces a table of hostnames and their associated IPs that can then

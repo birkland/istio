@@ -20,10 +20,10 @@ import (
 	"strings"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/bootstrap/platform"
-	istioagent "istio.io/istio/pkg/istio-agent"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/wasm"
+	"istio.io/istio/123/pkg/bootstrap/platform"
+	istioagent "istio.io/istio/123/pkg/istio-agent"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/wasm"
 )
 
 // Similar with ISTIO_META_, which is used to customize the node metadata - this customizes extra header.

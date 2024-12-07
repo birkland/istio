@@ -15,11 +15,11 @@
 package xds
 
 import (
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // UnAffectedConfigKinds contains config types which does not affect certain proxy types.

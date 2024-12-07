@@ -15,9 +15,9 @@
 package loadbalancer
 
 import (
-	mesh2 "istio.io/istio/pkg/test/loadbalancersim/mesh"
-	network2 "istio.io/istio/pkg/test/loadbalancersim/network"
-	"istio.io/istio/pkg/test/loadbalancersim/timeseries"
+	mesh2 "istio.io/istio/123/pkg/test/loadbalancersim/mesh"
+	network2 "istio.io/istio/123/pkg/test/loadbalancersim/network"
+	"istio.io/istio/123/pkg/test/loadbalancersim/timeseries"
 )
 
 type WeightedConnection struct {

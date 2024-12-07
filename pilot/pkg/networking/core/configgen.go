@@ -20,8 +20,8 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	dnsProto "istio.io/istio/pkg/dns/proto"
+	"istio.io/istio/123/pilot/pkg/model"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
 )
 
 // ConfigGenerator represents the interfaces to be implemented by code that generates xDS responses

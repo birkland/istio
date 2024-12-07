@@ -21,7 +21,7 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/istioctl/pkg/writer/compare"
+	"istio.io/istio/123/istioctl/pkg/writer/compare"
 )
 
 func createIstiodDumps(f *fuzz.ConsumeFuzzer) (map[string][]byte, error) {

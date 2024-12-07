@@ -30,9 +30,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"istio.io/istio/cni/pkg/ipset"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/cni/pkg/ipset"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestMeshDataplaneAddsAnnotationOnAdd(t *testing.T) {

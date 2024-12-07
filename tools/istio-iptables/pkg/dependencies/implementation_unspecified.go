@@ -21,7 +21,7 @@ import (
 	"errors"
 	"io"
 
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 // ErrNotImplemented is returned when a requested feature is not implemented.

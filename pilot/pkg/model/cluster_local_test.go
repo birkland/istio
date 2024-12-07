@@ -20,9 +20,9 @@ import (
 	. "github.com/onsi/gomega"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/mesh"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/mesh"
 )
 
 func TestIsClusterLocal(t *testing.T) {

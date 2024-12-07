@@ -20,7 +20,7 @@ import (
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 func TestListenerFilter_Verify(t *testing.T) {

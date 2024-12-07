@@ -21,8 +21,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/url"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/url"
 )
 
 func TestMessage_String(t *testing.T) {

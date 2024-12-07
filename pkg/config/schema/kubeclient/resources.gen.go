@@ -12,10 +12,10 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pkg/config/schema/gvr"
-	"istio.io/istio/pkg/kube/informerfactory"
-	ktypes "istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/kube/informerfactory"
+	ktypes "istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/ptr"
 
 	k8sioapiadmissionregistrationv1 "k8s.io/api/admissionregistration/v1"
 	k8sioapiappsv1 "k8s.io/api/apps/v1"

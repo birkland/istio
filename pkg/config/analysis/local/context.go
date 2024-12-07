@@ -20,17 +20,17 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"istio.io/istio/pilot/pkg/config/file"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/analysis/legacy/source/kube"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collections"
-	sresource "istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/config/file"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/analysis/legacy/source/kube"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	sresource "istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/log"
 )
 
 // NewContext allows tests to use istiodContext without exporting it.  returned context is not threadsafe.

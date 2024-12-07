@@ -21,8 +21,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 func TestKind(t *testing.T) {

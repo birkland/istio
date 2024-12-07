@@ -25,15 +25,15 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/api/label"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/ambient"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
-	"istio.io/istio/pkg/test/framework/components/echo/deployment"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/ambient"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/ports"
+	"istio.io/istio/123/pkg/test/framework/components/echo/deployment"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 // Config for new echo deployment.

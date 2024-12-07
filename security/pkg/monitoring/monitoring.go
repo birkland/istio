@@ -14,7 +14,7 @@
 
 package monitoring
 
-import "istio.io/istio/pkg/monitoring"
+import "istio.io/istio/123/pkg/monitoring"
 
 // RequestType specifies the type of request we are monitoring. Current supported are CSR and TokenExchange
 var RequestType = monitoring.CreateLabel("request_type")

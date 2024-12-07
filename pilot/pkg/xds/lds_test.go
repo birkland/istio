@@ -23,14 +23,14 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/wellknown"
-	"istio.io/istio/tests/util"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/wellknown"
+	"istio.io/istio/123/tests/util"
 )
 
 // TestLDS using isolated namespaces

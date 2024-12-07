@@ -32,12 +32,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/security/pkg/pki/ca"
-	pkiutil "istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	pkiutil "istio.io/istio/123/security/pkg/pki/util"
 )
 
 const (

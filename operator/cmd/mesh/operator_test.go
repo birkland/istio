@@ -25,12 +25,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var (

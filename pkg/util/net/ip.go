@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"net/netip"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // IsValidIPAddress Tell whether the given IP address is valid or not

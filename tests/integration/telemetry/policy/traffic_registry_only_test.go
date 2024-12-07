@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework/components/prometheus"
+	"istio.io/istio/123/pkg/test/framework/components/prometheus"
 )
 
 func TestOutboundTrafficPolicy_RegistryOnly(t *testing.T) {

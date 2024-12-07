@@ -20,15 +20,15 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/keycertbundle"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/security/pkg/k8s"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/keycertbundle"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/security/pkg/k8s"
 )
 
 const (

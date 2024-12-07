@@ -15,9 +15,9 @@
 package analysis
 
 import (
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 // IteratorFn is used to iterate over a set of collection entries. It must return true to keep iterating.

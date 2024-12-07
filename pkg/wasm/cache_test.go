@@ -39,7 +39,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/google/go-containerregistry/pkg/v1/types"
 
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Wasm header = magic number (4 bytes) + Wasm spec version (4 bytes).

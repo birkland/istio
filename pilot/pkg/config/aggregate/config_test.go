@@ -23,14 +23,14 @@ import (
 	. "github.com/onsi/gomega"
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestAggregateStoreBasicMake(t *testing.T) {

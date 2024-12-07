@@ -22,8 +22,8 @@ import (
 	. "github.com/onsi/gomega"
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pilot/pkg/server"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/server"
+	"istio.io/istio/123/pkg/test"
 )
 
 func TestStartWithError(t *testing.T) {

@@ -30,13 +30,13 @@ import (
 
 	extensions "istio.io/api/extensions/v1alpha1"
 	typeapi "istio.io/api/type/v1beta1"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	istionetworking "istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
-	pm "istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	istionetworking "istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	pm "istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 const (

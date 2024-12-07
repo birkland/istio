@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"istio.io/istio/pkg/h2c"
+	"istio.io/istio/123/pkg/h2c"
 )
 
 func NewServer() *http.Server {

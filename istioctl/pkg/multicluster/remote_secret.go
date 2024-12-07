@@ -36,14 +36,14 @@ import (
 	"k8s.io/client-go/tools/clientcmd/api"
 	"k8s.io/client-go/tools/clientcmd/api/latest"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/util"
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/util"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/log"
 )
 
 var (

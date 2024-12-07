@@ -27,8 +27,8 @@ import (
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/util/clusters"
-	"istio.io/istio/istioctl/pkg/util/proto"
+	"istio.io/istio/123/istioctl/pkg/util/clusters"
+	"istio.io/istio/123/istioctl/pkg/util/proto"
 )
 
 // EndpointFilter is used to pass filter information into route based config writer print functions

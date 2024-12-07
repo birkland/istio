@@ -16,10 +16,10 @@ package options
 
 import (
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/cmd/pilot-agent/status"
-	"istio.io/istio/pilot/cmd/pilot-agent/status/ready"
-	istioagent "istio.io/istio/pkg/istio-agent"
-	"istio.io/istio/pkg/model"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/ready"
+	istioagent "istio.io/istio/123/pkg/istio-agent"
+	"istio.io/istio/123/pkg/model"
 )
 
 func NewStatusServerOptions(ipv6 bool, t model.NodeType, proxyConfig *meshconfig.ProxyConfig, agent *istioagent.Agent) *status.Options {

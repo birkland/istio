@@ -17,7 +17,7 @@
 package metrics
 
 import (
-	"istio.io/istio/pkg/monitoring"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 var (

@@ -31,12 +31,12 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	tpb "istio.io/api/telemetry/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pilot/pkg/xds/requestidextension"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/xds/requestidextension"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestConfigureTracingExhaustiveness(t *testing.T) {

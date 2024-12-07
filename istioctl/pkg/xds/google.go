@@ -28,7 +28,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type meshAuthCredentials struct {

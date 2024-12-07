@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"istio.io/istio/pkg/test/loadbalancersim/network"
+	"istio.io/istio/123/pkg/test/loadbalancersim/network"
 )
 
 type LeastRequestSettings struct {

@@ -18,8 +18,8 @@ import (
 	"errors"
 	"testing"
 
-	"istio.io/istio/istioctl/pkg/analyze"
-	"istio.io/istio/istioctl/pkg/util"
+	"istio.io/istio/123/istioctl/pkg/analyze"
+	"istio.io/istio/123/istioctl/pkg/util"
 )
 
 var KnownErrorCode = map[error]int{

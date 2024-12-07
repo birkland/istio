@@ -24,8 +24,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestTaintsRemoved(t *testing.T) {

@@ -25,11 +25,11 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	k8stesting "k8s.io/client-go/testing"
 
-	cluster2 "istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/util/sets"
+	cluster2 "istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func makeSecret(name string, data map[string]string, secretType corev1.SecretType) *corev1.Secret {

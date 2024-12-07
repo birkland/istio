@@ -17,7 +17,7 @@ package xds
 import (
 	"sync"
 
-	"istio.io/istio/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/model"
 )
 
 type PushQueue struct {

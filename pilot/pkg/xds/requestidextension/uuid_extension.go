@@ -19,7 +19,7 @@ import (
 	uuid_extension "github.com/envoyproxy/go-control-plane/envoy/extensions/request_id/uuid/v3"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 var UUIDRequestIDExtension = &hcm.RequestIDExtension{

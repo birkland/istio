@@ -29,11 +29,11 @@ import (
 	_ "google.golang.org/grpc/xds"
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"istio.io/istio/pkg/cmd"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/proto"
-	"istio.io/istio/pkg/test/echo/server/forwarder"
+	"istio.io/istio/123/pkg/cmd"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/test/echo/server/forwarder"
 )
 
 var (

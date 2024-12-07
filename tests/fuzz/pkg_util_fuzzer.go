@@ -15,7 +15,7 @@
 package fuzz
 
 import (
-	"istio.io/istio/security/pkg/util"
+	"istio.io/istio/123/security/pkg/util"
 )
 
 func FuzzJwtUtil(data []byte) int {

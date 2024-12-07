@@ -26,14 +26,14 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/util/xdsfake"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/util/xdsfake"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Prepare k8s. This can be used in multiple tests, to

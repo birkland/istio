@@ -20,14 +20,14 @@ import (
 	"time"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // TestRegistration is an e2e test for registration. Most tests are in autoregister package, but this

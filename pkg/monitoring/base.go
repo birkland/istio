@@ -17,7 +17,7 @@ package monitoring
 import (
 	"go.opentelemetry.io/otel/attribute"
 
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/slices"
 )
 
 type baseMetric struct {

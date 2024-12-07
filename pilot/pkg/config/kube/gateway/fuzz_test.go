@@ -17,7 +17,7 @@ package gateway
 import (
 	"testing"
 
-	"istio.io/istio/pkg/fuzz"
+	"istio.io/istio/123/pkg/fuzz"
 )
 
 func FuzzConvertResources(f *testing.F) {

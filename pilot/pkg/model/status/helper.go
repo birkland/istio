@@ -16,8 +16,8 @@ package status
 
 import (
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/slices"
 )
 
 const (

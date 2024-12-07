@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	k8syaml "k8s.io/apimachinery/pkg/util/yaml"
 
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestHash(t *testing.T) {

@@ -23,16 +23,16 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo/common/deployment"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/tests/integration/pilot/common"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/deployment"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/tests/integration/pilot/common"
 )
 
 var (

@@ -23,14 +23,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	kubecontroller "istio.io/istio/pilot/pkg/serviceregistry/kube/controller"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	kubecontroller "istio.io/istio/123/pilot/pkg/serviceregistry/kube/controller"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func newFakeController() (model.ConfigStoreController, kube.Client) {

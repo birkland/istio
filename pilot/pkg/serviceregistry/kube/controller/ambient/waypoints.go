@@ -26,13 +26,13 @@ import (
 	gatewayv1 "sigs.k8s.io/gateway-api/apis/v1"
 	"sigs.k8s.io/gateway-api/apis/v1beta1"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/workloadapi"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/workloadapi"
 )
 
 type InboundBinding struct {

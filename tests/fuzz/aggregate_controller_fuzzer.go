@@ -21,8 +21,8 @@ import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/serviceregistry"
-	"istio.io/istio/pilot/pkg/serviceregistry/aggregate"
+	"istio.io/istio/123/pilot/pkg/serviceregistry"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/aggregate"
 )
 
 var meshHolder fuzzMeshConfigHolder

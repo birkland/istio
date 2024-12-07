@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"istio.io/istio/pilot/cmd/pilot-agent/metrics"
-	"istio.io/istio/pilot/cmd/pilot-agent/status/util"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/metrics"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/util"
 )
 
 // Probe for readiness.

@@ -17,7 +17,7 @@ package utils
 import (
 	"os"
 
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/test"
 )
 
 type NopTester struct{}

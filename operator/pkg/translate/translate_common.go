@@ -20,9 +20,9 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 // IsComponentEnabledInSpec reports whether the given component is enabled in the given spec.

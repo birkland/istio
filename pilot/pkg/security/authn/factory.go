@@ -17,8 +17,8 @@ package authn
 import (
 	hcm "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/labels"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/labels"
 )
 
 // NoOverride is an alias for MTLSUnknown to more clearly convey intent for InboundMTLSSettings

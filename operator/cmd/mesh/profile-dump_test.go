@@ -22,7 +22,7 @@ import (
 
 	"github.com/kylelemons/godebug/diff"
 
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 func TestProfileDump(t *testing.T) {

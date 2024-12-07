@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/hbone"
-	"istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/hbone"
+	"istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/echo/proto"
 )
 
 var _ protocol = &tlsProtocol{}

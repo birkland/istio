@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 func TestValidate(t *testing.T) {

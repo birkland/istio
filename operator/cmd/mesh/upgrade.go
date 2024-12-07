@@ -17,8 +17,8 @@ package mesh
 import (
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/operator/pkg/util/clog"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/operator/pkg/util/clog"
 )
 
 type upgradeArgs struct {

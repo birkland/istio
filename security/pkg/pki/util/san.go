@@ -21,7 +21,7 @@ import (
 	"net/netip"
 	"strings"
 
-	"istio.io/istio/pkg/spiffe"
+	"istio.io/istio/123/pkg/spiffe"
 )
 
 // IdentityType represents type of an identity. This is used to properly encode

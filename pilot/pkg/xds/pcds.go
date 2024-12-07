@@ -18,10 +18,10 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
 	mesh "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	tb "istio.io/istio/pilot/pkg/trustbundle"
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	tb "istio.io/istio/123/pilot/pkg/trustbundle"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 // PcdsGenerator generates proxy configuration for proxies to consume

@@ -24,11 +24,11 @@ import (
 	apiextensions "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // SupportsGatewayAPI checks if the gateway API is supported.

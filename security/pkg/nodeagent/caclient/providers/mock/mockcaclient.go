@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 var (

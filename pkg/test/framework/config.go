@@ -23,17 +23,17 @@ import (
 	"go.uber.org/atomic"
 	"golang.org/x/sync/errgroup"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/file"
-	"istio.io/istio/pkg/test/util/tmpl"
-	"istio.io/istio/pkg/test/util/yml"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/123/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test/util/tmpl"
+	"istio.io/istio/123/pkg/test/util/yml"
 )
 
 var _ config.Factory = &configFactory{}

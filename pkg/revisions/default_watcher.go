@@ -21,9 +21,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	"istio.io/api/label"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
 )
 
 const (

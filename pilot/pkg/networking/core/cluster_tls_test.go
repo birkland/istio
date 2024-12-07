@@ -30,16 +30,16 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	authn_model "istio.io/istio/pilot/pkg/security/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	authn_model "istio.io/istio/123/pilot/pkg/security/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 func TestApplyUpstreamTLSSettings(t *testing.T) {

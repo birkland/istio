@@ -24,8 +24,8 @@ import (
 
 	cmp2 "github.com/google/go-cmp/cmp"
 
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/tests/util/leak"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/tests/util/leak"
 )
 
 type s struct {

@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pilot/pkg/request"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/request"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

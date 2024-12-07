@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/util/smallset"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/smallset"
 )
 
 func TestSet(t *testing.T) {

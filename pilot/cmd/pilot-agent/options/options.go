@@ -19,12 +19,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"istio.io/istio/pilot/cmd/pilot-agent/status"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/jwt"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/wasm"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/jwt"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/wasm"
 )
 
 var (

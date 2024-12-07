@@ -19,15 +19,15 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/api/label"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/analyzers/maturity"
-	"istio.io/istio/pkg/config/analysis/analyzers/util"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/maturity"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // K8sAnalyzer checks for misplaced and invalid Istio annotations in K8s resources

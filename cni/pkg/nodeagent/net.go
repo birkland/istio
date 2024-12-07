@@ -23,9 +23,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/cni/pkg/iptables"
-	"istio.io/istio/pkg/slices"
-	dep "istio.io/istio/tools/istio-iptables/pkg/dependencies"
+	"istio.io/istio/123/cni/pkg/iptables"
+	"istio.io/istio/123/pkg/slices"
+	dep "istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
 )
 
 // Adapts CNI to ztunnel server. decoupled from k8s for easier integration testing.

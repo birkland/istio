@@ -27,10 +27,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/cni/pkg/util"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/cni/pkg/util"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestProcessAddEventGoodPayload(t *testing.T) {

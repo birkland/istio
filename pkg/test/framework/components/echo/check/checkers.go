@@ -24,14 +24,14 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"google.golang.org/grpc/codes"
 
-	"istio.io/istio/pkg/config/protocol"
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/istio/ingress"
-	"istio.io/istio/pkg/util/istiomultierror"
+	"istio.io/istio/123/pkg/config/protocol"
+	echoClient "istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/istio/ingress"
+	"istio.io/istio/123/pkg/util/istiomultierror"
 )
 
 // Each applies the given per-response function across all responses.

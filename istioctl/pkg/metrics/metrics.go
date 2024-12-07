@@ -29,11 +29,11 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/completion"
-	"istio.io/istio/istioctl/pkg/dashboard"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/completion"
+	"istio.io/istio/123/istioctl/pkg/dashboard"
+	"istio.io/istio/123/pkg/log"
 )
 
 var (

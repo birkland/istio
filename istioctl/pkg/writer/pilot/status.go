@@ -26,10 +26,10 @@ import (
 	xdsstatus "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	"k8s.io/apimachinery/pkg/util/duration"
 
-	"istio.io/istio/istioctl/pkg/multixds"
-	"istio.io/istio/pilot/pkg/model"
-	xdsresource "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/multixds"
+	"istio.io/istio/123/pilot/pkg/model"
+	xdsresource "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/log"
 )
 
 // XdsStatusWriter enables printing of sync status using multiple xdsapi.DiscoveryResponse Istiod responses

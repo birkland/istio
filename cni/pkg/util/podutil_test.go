@@ -21,8 +21,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestGetPodIPIfPodIPPresent(t *testing.T) {

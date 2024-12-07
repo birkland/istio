@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc"
 
 	mesh "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/uds"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/uds"
 )
 
 const (

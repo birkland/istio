@@ -27,10 +27,10 @@ import (
 	uatomic "go.uber.org/atomic"
 	"google.golang.org/grpc"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func createProxies(n int) []*Connection {

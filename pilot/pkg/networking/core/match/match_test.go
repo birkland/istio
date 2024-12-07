@@ -20,7 +20,7 @@ import (
 	matcher "github.com/cncf/xds/go/xds/type/matcher/v3"
 	"github.com/google/go-cmp/cmp"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func TestCleanupEmptyMaps(t *testing.T) {

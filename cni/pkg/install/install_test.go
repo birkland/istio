@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/cni/pkg/config"
-	testutils "istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/cni/pkg/config"
+	testutils "istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestCheckInstall(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
 )
 
 const (

@@ -24,8 +24,8 @@ import (
 	matcherv3 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 
 	authzpb "istio.io/api/security/v1beta1"
-	"istio.io/istio/pilot/pkg/security/trustdomain"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/security/trustdomain"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func TestModel_MigrateTrustDomain(t *testing.T) {

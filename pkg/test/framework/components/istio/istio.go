@@ -26,13 +26,13 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istio/ingress"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/istio/ingress"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 // OperatorValues is the map of the values from the installed operator yaml.

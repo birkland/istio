@@ -31,15 +31,15 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	telemetrypb "istio.io/api/telemetry/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking"
-	authz_model "istio.io/istio/pilot/pkg/security/authz/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pilot/pkg/xds/requestidextension"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking"
+	authz_model "istio.io/istio/123/pilot/pkg/security/authz/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pilot/pkg/xds/requestidextension"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

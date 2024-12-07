@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 var log = istiolog.RegisterScope("controllers", "common controller logic")

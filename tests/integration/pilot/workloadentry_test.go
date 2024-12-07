@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/crd"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/crd"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/ports"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // TestWorkloadEntryGateway covers a model of multi-network where we rely on writing WorkloadEntry

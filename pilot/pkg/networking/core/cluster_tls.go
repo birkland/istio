@@ -27,16 +27,16 @@ import (
 
 	"istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	sec_model "istio.io/istio/pilot/pkg/security/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	sec_model "istio.io/istio/123/pilot/pkg/security/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 var istioMtlsTransportSocketMatch = &structpb.Struct{

@@ -18,9 +18,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/test/mock"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/test/mock"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 const (

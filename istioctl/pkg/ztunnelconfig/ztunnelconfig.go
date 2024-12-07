@@ -30,14 +30,14 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/kubectl/pkg/util/podutils"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/completion"
-	ambientutil "istio.io/istio/istioctl/pkg/util/ambient"
-	ztunnelDump "istio.io/istio/istioctl/pkg/writer/ztunnel/configdump"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/completion"
+	ambientutil "istio.io/istio/123/istioctl/pkg/util/ambient"
+	ztunnelDump "istio.io/istio/123/istioctl/pkg/writer/ztunnel/configdump"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
 )
 
 const (

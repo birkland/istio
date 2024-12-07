@@ -23,7 +23,7 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/mesh"
 )
 
 func TestGetMeshConfig(t *testing.T) {

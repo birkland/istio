@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"istio.io/istio/cni/pkg/config"
-	testutils "istio.io/istio/pilot/test/util"
+	"istio.io/istio/123/cni/pkg/config"
+	testutils "istio.io/istio/123/pilot/test/util"
 )
 
 const (

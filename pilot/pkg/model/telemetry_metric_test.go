@@ -21,8 +21,8 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	tpb "istio.io/api/telemetry/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestTelemetryMetricsExhaustiveness(t *testing.T) {

@@ -24,13 +24,13 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	v1alpha12 "istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1/validation"
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/operator/pkg/manifest"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1/validation"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/operator/pkg/manifest"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 const operatorSubdirFilePath = "manifests"

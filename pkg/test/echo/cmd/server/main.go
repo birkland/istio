@@ -25,11 +25,11 @@ import (
 	"go.uber.org/atomic"
 	_ "google.golang.org/grpc/xds" // To install the xds resolvers and balancers.
 
-	"istio.io/istio/pkg/cmd"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/server"
+	"istio.io/istio/123/pkg/cmd"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/server"
 )
 
 var (

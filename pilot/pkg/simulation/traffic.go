@@ -32,15 +32,15 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/yl2chen/cidranger"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/config/host"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/config/host"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var log = istiolog.RegisterScope("simulation", "")

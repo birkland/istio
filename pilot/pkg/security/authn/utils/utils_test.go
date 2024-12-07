@@ -22,8 +22,8 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	model "istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking"
+	model "istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking"
 )
 
 func TestGetMinTLSVersion(t *testing.T) {

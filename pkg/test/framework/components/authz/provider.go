@@ -19,11 +19,11 @@ import (
 	"sort"
 	"strings"
 
-	"istio.io/istio/pkg/config/protocol"
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/echo/match"
+	"istio.io/istio/123/pkg/config/protocol"
+	echoClient "istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/echo/match"
 )
 
 // API used by a Provider. Either HTTP or GRPC.

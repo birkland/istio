@@ -25,11 +25,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/tools/bug-report/pkg/common"
-	config2 "istio.io/istio/tools/bug-report/pkg/config"
-	"istio.io/istio/tools/bug-report/pkg/util/path"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/tools/bug-report/pkg/common"
+	config2 "istio.io/istio/123/tools/bug-report/pkg/config"
+	"istio.io/istio/123/tools/bug-report/pkg/util/path"
 )
 
 var versionRegex = regexp.MustCompile(`.*(\d\.\d\.\d).*`)

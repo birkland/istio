@@ -19,8 +19,8 @@ import (
 
 	tls "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 
-	common_features "istio.io/istio/pkg/features"
-	"istio.io/istio/pkg/log"
+	common_features "istio.io/istio/123/pkg/features"
+	"istio.io/istio/123/pkg/log"
 )
 
 var fipsCiphers = []string{

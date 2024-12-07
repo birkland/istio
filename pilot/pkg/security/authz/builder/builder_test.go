@@ -24,15 +24,15 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/security/trustdomain"
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/security/trustdomain"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 const (

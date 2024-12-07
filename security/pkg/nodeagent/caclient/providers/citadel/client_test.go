@@ -33,16 +33,16 @@ import (
 	"google.golang.org/grpc/status"
 
 	pb "istio.io/api/security/v1alpha1"
-	testutil "istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/monitoring/monitortest"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/security/pkg/credentialfetcher/plugin"
-	"istio.io/istio/security/pkg/monitoring"
+	testutil "istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/monitoring/monitortest"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/security/pkg/credentialfetcher/plugin"
+	"istio.io/istio/123/security/pkg/monitoring"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	pconstants "istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/cni/pkg/pluginlistener"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/sleep"
+	pconstants "istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/pluginlistener"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/sleep"
 )
 
 // Just a composite of the CNI plugin add event struct + some extracted "args"

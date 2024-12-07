@@ -26,10 +26,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/adsc"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/adsc"
+	"istio.io/istio/123/pkg/kube"
 )
 
 const (

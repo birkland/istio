@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
 )
 
 var scope = log.RegisterScope("retry", "logs for retries")

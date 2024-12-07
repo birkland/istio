@@ -30,13 +30,13 @@ import (
 	"sigs.k8s.io/yaml"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 type configMap struct {

@@ -17,9 +17,9 @@ package namespace
 import (
 	"time"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 // Config contains configuration information about the namespace instance

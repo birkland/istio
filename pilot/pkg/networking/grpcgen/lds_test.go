@@ -21,9 +21,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/istio-agent/grpcxds"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/istio-agent/grpcxds"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var node = &model.Proxy{DNSDomain: "ns.svc.cluster.local", Metadata: &model.NodeMetadata{Namespace: "ns"}}

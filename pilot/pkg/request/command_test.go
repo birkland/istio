@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/tests/util"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/tests/util"
 )
 
 type pilotStubHandler struct {

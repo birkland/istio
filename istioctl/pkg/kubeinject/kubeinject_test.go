@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/util/testutil"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/util/testutil"
 )
 
 func TestKubeInject(t *testing.T) {

@@ -26,14 +26,14 @@ import (
 	"go.uber.org/atomic"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config"
-	"istio.io/istio/pkg/test/framework/resource/config/cleanup"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/yml"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config"
+	"istio.io/istio/123/pkg/test/framework/resource/config/cleanup"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/yml"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // SuiteContext contains suite-level items used during runtime.

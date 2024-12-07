@@ -17,9 +17,9 @@ package core_test
 import (
 	"testing"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/simulation"
-	"istio.io/istio/pilot/test/xds"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/simulation"
+	"istio.io/istio/123/pilot/test/xds"
 )
 
 // TestPeerAuthenticationPassthrough tests the PeerAuthentication policy applies correctly on the passthrough filter chain,

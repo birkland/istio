@@ -17,12 +17,12 @@ package core_test
 import (
 	"testing"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/simulation"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/test/util/tmpl"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/simulation"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/test/util/tmpl"
 )
 
 func TestDisablePortTranslation(t *testing.T) {

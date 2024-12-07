@@ -28,14 +28,14 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core/loadbalancer"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core/loadbalancer"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 // applyTrafficPolicy applies the trafficPolicy defined within destinationRule,

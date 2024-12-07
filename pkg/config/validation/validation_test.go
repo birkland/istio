@@ -31,10 +31,10 @@ import (
 	security_beta "istio.io/api/security/v1beta1"
 	telemetry "istio.io/api/telemetry/v1alpha1"
 	api "istio.io/api/type/v1beta1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 const (

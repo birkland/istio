@@ -17,7 +17,7 @@
 package local
 
 import (
-	"istio.io/istio/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/analysis/diag"
 )
 
 const (

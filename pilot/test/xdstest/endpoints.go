@@ -21,7 +21,7 @@ import (
 
 	endpointv3 "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
 
-	"istio.io/istio/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/networking/util"
 )
 
 type LbEpInfo struct {

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	citadel "istio.io/istio/security/pkg/nodeagent/caclient/providers/citadel"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	citadel "istio.io/istio/123/security/pkg/nodeagent/caclient/providers/citadel"
 )
 
 // WARNING WARNING WARNING

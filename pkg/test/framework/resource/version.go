@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"strings"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/test/framework/config"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/test/framework/config"
 )
 
 var _ config.Value = &RevVerMap{}

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Clusters is an ordered list of Cluster instances.

@@ -17,7 +17,7 @@ package controller
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pkg/monitoring"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 var (

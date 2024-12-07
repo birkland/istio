@@ -23,11 +23,11 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
-	"istio.io/istio/pkg/test/framework/components/echo/deployment"
-	"istio.io/istio/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/ports"
+	"istio.io/istio/123/pkg/test/framework/components/echo/deployment"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
 )
 
 // TestRevisionTraffic checks that traffic between all revisions specified works.

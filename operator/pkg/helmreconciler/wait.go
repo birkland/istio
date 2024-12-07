@@ -30,10 +30,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	kctldeployment "k8s.io/kubectl/pkg/util/deployment"
 
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/util/progress"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/util/progress"
+	"istio.io/istio/123/pkg/kube"
 )
 
 const (

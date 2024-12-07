@@ -27,11 +27,11 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/log"
-	testenv "istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/tracing"
-	"istio.io/istio/pkg/util/sets"
-	pkgversion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/pkg/log"
+	testenv "istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/tracing"
+	"istio.io/istio/123/pkg/util/sets"
+	pkgversion "istio.io/istio/123/pkg/version"
 )
 
 func main() {

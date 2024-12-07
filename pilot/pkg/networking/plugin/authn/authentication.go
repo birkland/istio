@@ -17,10 +17,10 @@ package authn
 import (
 	hcm "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pilot/pkg/security/authn"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pilot/pkg/security/authn"
+	"istio.io/istio/123/pkg/log"
 )
 
 var authnLog = log.RegisterScope("authn", "authn debugging")

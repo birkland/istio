@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 const (

@@ -30,14 +30,14 @@ import (
 	gatewayapiclient "sigs.k8s.io/gateway-api/pkg/client/clientset/versioned"
 
 	istioclient "istio.io/client-go/pkg/clientset/versioned"
-	"istio.io/istio/pilot/pkg/util/informermetric"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/kubetypes"
-	"istio.io/istio/pkg/kube/informerfactory"
-	ktypes "istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/typemap"
+	"istio.io/istio/123/pilot/pkg/util/informermetric"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/kubetypes"
+	"istio.io/istio/123/pkg/kube/informerfactory"
+	ktypes "istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/typemap"
 )
 
 type ClientGetter interface {

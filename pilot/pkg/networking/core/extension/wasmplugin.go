@@ -22,11 +22,11 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	extensions "istio.io/api/extensions/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config/xds"
-	"istio.io/istio/pkg/util/sets"
-	_ "istio.io/istio/pkg/wasm" // include for registering wasm logging scope
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config/xds"
+	"istio.io/istio/123/pkg/util/sets"
+	_ "istio.io/istio/123/pkg/wasm" // include for registering wasm logging scope
 )
 
 var defaultConfigSource = &core.ConfigSource{

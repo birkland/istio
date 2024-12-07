@@ -20,13 +20,13 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/analyzers/util"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 // AlphaAnalyzer checks for alpha Istio annotations in K8s resources

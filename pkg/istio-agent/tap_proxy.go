@@ -23,9 +23,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	istiogrpc "istio.io/istio/pilot/pkg/grpc"
-	istiokeepalive "istio.io/istio/pkg/keepalive"
-	"istio.io/istio/pkg/log"
+	istiogrpc "istio.io/istio/123/pilot/pkg/grpc"
+	istiokeepalive "istio.io/istio/123/pkg/keepalive"
+	"istio.io/istio/123/pkg/log"
 )
 
 type tapProxy struct {

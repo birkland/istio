@@ -31,16 +31,16 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/apis/istio"
-	iopv1alpha1 "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/version"
-	oversion "istio.io/istio/operator/version"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/operator/pkg/apis/istio"
+	iopv1alpha1 "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/version"
+	oversion "istio.io/istio/123/operator/version"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

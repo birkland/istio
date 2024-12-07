@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"sync"
 
-	"istio.io/istio/pilot/cmd/pilot-agent/status/ready"
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/istio-agent/grpcxds"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/ready"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/istio-agent/grpcxds"
 )
 
 var _ ready.Prober = &probe{}

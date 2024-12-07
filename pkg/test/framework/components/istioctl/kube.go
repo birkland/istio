@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"istio.io/istio/istioctl/cmd"
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
+	"istio.io/istio/123/istioctl/cmd"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 // We cannot invoke the istioctl library concurrently due to the number of global variables

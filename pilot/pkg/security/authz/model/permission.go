@@ -21,7 +21,7 @@ import (
 	uri_template "github.com/envoyproxy/go-control-plane/envoy/extensions/path/match/uri_template/v3"
 	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 func permissionAny() *rbacpb.Permission {

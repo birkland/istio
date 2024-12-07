@@ -27,10 +27,10 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/validation"
-	"istio.io/istio/pkg/config/xds"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/validation"
+	"istio.io/istio/123/pkg/config/xds"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 type (

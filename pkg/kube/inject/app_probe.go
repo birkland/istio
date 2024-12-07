@@ -24,9 +24,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pilot/cmd/pilot-agent/status"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // ShouldRewriteAppHTTPProbers returns if we should rewrite apps' probers config.

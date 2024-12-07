@@ -19,12 +19,12 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/slices"
 )
 
 var protocols = []protocol.Instance{

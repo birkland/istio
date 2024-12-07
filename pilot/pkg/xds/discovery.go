@@ -28,14 +28,14 @@ import (
 	"golang.org/x/time/rate"
 	"google.golang.org/grpc"
 
-	"istio.io/istio/pilot/pkg/autoregistration"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core/envoyfilter"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pilot/pkg/autoregistration"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core/envoyfilter"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/security"
 )
 
 var periodicRefreshMetrics = 10 * time.Second

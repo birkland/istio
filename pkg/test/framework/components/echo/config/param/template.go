@@ -18,7 +18,7 @@ import (
 	"text/template"
 	"text/template/parse"
 
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Template that has been parsed to search for template parameters.

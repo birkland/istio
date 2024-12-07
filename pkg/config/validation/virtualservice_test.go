@@ -21,7 +21,7 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
+	"istio.io/istio/123/pkg/config"
 )
 
 func TestValidateChainingVirtualService(t *testing.T) {

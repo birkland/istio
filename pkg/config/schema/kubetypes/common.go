@@ -20,10 +20,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/typemap"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/typemap"
 )
 
 func MustGVRFromType[T runtime.Object]() schema.GroupVersionResource {

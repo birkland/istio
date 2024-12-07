@@ -17,7 +17,7 @@ package structured
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // Error represents structured error information, for optional use in scope.X or log.X calls.

@@ -26,7 +26,7 @@ import (
 
 	clock "k8s.io/utils/clock/testing"
 
-	rl "istio.io/istio/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
+	rl "istio.io/istio/123/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
 )
 
 type fakeLock struct {

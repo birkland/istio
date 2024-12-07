@@ -24,7 +24,7 @@ import (
 
 	multierror "github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/http"
+	"istio.io/istio/123/pkg/http"
 )
 
 const (

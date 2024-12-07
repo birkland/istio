@@ -17,8 +17,8 @@ package serviceentry
 import (
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type hostPort struct {

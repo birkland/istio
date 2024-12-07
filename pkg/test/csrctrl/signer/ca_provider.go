@@ -25,8 +25,8 @@ import (
 	"k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/keyutil"
 
-	"istio.io/istio/pkg/test/cert/ca"
-	"istio.io/istio/pkg/test/csrctrl/authority"
+	"istio.io/istio/123/pkg/test/cert/ca"
+	"istio.io/istio/123/pkg/test/csrctrl/authority"
 )
 
 func newCAProvider(signerRoot, signerName string) (*caProvider, error) {

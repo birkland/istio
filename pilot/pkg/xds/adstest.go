@@ -25,9 +25,9 @@ import (
 	"google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/grpc"
 
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/test"
 )
 
 func NewAdsTest(t test.Failer, conn *grpc.ClientConn) *AdsTest {

@@ -15,9 +15,9 @@
 package mock
 
 import (
-	"istio.io/istio/security/pkg/pki/ca"
-	caerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	caerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 // FakeCA is a mock of CertificateAuthority.

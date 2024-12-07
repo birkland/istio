@@ -34,11 +34,11 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/util/sets"
-	istioversion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/util/sets"
+	istioversion "istio.io/istio/123/pkg/version"
 )
 
 var cronJobNameRegexp = regexp.MustCompile(`(.+)-\d{8,10}$`)

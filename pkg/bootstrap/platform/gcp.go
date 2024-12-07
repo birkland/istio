@@ -30,11 +30,11 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/lazy"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/lazy"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

@@ -19,11 +19,11 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collection"
-	resource2 "istio.io/istio/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	resource2 "istio.io/istio/123/pkg/config/schema/resource"
 )
 
 type analyzer struct {

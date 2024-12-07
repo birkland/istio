@@ -25,17 +25,17 @@ import (
 
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 
-	"istio.io/istio/pkg/http/headers"
-	"istio.io/istio/pkg/test"
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/check"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/test/util/structpath"
+	"istio.io/istio/123/pkg/http/headers"
+	"istio.io/istio/123/pkg/test"
+	echoClient "istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/check"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/util/structpath"
 )
 
 // TestEgressGatewayTls brings up an cluster and will ensure that the TLS origination at

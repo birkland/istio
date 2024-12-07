@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/cni/pkg/scopes"
-	testutil "istio.io/istio/pilot/test/util"
-	dep "istio.io/istio/tools/istio-iptables/pkg/dependencies"
+	"istio.io/istio/123/cni/pkg/scopes"
+	testutil "istio.io/istio/123/pilot/test/util"
+	dep "istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
 )
 
 func TestIptables(t *testing.T) {

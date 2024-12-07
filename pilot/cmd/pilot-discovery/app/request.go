@@ -20,7 +20,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pilot/pkg/request"
+	"istio.io/istio/123/pilot/pkg/request"
 )
 
 var requestCmd = &cobra.Command{

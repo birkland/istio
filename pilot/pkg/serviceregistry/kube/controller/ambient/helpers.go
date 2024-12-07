@@ -21,9 +21,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/workloadapi"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/workloadapi"
 )
 
 // name format: <cluster>/<group>/<kind>/<namespace>/<name></section-name>

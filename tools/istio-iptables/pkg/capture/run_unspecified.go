@@ -19,7 +19,7 @@ package capture
 import (
 	"errors"
 
-	"istio.io/istio/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/config"
 )
 
 // ErrNotImplemented is returned when a requested feature is not implemented.

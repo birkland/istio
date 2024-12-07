@@ -43,14 +43,14 @@ import (
 	"istio.io/api/label"
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	proxyConfig "istio.io/api/networking/v1beta1"
-	opconfig "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/mesh"
-	common_features "istio.io/istio/pkg/features"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	opconfig "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/mesh"
+	common_features "istio.io/istio/123/pkg/features"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 // InjectionPolicy determines the policy for injecting the

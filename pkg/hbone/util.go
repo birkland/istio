@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	istiolog "istio.io/istio/pkg/log"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 // createBuffer to get a buffer. io.Copy uses 32k.

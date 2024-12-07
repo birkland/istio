@@ -23,12 +23,12 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"istio.io/istio/pkg/log"
-	testenv "istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/tracing"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/tools/docker-builder/builder"
-	"istio.io/istio/tools/docker-builder/dockerfile"
+	"istio.io/istio/123/pkg/log"
+	testenv "istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/tracing"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/tools/docker-builder/builder"
+	"istio.io/istio/123/tools/docker-builder/dockerfile"
 )
 
 // RunCrane builds docker images using go-containerregistry, rather than relying on Docker. This

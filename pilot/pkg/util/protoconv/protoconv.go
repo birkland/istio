@@ -23,8 +23,8 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/log"
 )
 
 // MessageToAnyWithError converts from proto message to proto Any

@@ -20,9 +20,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/util/testutil"
-	"istio.io/istio/pkg/config/analysis/diag"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/util/testutil"
+	"istio.io/istio/123/pkg/config/analysis/diag"
 )
 
 func TestErrorOnIssuesFound(t *testing.T) {

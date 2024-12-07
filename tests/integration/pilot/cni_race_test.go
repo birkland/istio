@@ -27,17 +27,17 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common/ports"
-	"istio.io/istio/pkg/test/framework/components/echo/deployment"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/shell"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	istioKube "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/ports"
+	"istio.io/istio/123/pkg/test/framework/components/echo/deployment"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/shell"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 func TestCNIRaceRepair(t *testing.T) {

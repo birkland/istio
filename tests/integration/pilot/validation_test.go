@@ -26,13 +26,13 @@ import (
 	json "github.com/go-jose/go-jose/v3/json"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/test/datasets/validation"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/util/yml"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/test/datasets/validation"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/util/yml"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type testData string

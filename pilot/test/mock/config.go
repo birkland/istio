@@ -26,13 +26,13 @@ import (
 	networking "istio.io/api/networking/v1alpha3"
 	authz "istio.io/api/security/v1beta1"
 	api "istio.io/api/type/v1beta1"
-	"istio.io/istio/pilot/pkg/model"
-	config2 "istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/config"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/model"
+	config2 "istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test/config"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var (

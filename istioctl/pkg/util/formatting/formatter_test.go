@@ -19,8 +19,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/url"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/url"
 )
 
 func TestFormatter_PrintLog(t *testing.T) {

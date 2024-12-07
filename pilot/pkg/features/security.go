@@ -19,9 +19,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Define security related features here.

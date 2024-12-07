@@ -26,9 +26,9 @@ import (
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
 
-	"istio.io/istio/pilot/pkg/features"
-	istiokeepalive "istio.io/istio/pkg/keepalive"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	istiokeepalive "istio.io/istio/123/pkg/keepalive"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func ServerOptions(options *istiokeepalive.Options, interceptors ...grpc.UnaryServerInterceptor) []grpc.ServerOption {

@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/kube"
-	"istio.io/istio/tests/common/jwt"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/tests/common/jwt"
 )
 
 const (

@@ -23,7 +23,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/cni/pkg/iptables"
+	"istio.io/istio/123/cni/pkg/iptables"
 )
 
 //go:embed testdata/cgroupns

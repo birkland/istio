@@ -21,10 +21,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	meshapi "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/log"
 )
 
 type MeshConfig struct {

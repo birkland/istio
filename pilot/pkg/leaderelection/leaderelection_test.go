@@ -27,8 +27,8 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	k8stesting "k8s.io/client-go/testing"
 
-	"istio.io/istio/pkg/revisions"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/revisions"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const testLock = "test-lock"

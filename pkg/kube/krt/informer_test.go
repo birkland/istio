@@ -24,13 +24,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"istio.io/istio/pkg/config/schema/kubeclient"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/schema/kubeclient"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestNewInformer(t *testing.T) {

@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/cni/pkg/scopes"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/network"
-	"istio.io/istio/pkg/uds"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/scopes"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/network"
+	"istio.io/istio/123/pkg/uds"
 )
 
 var (

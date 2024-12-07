@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"time"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/sleep"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/sleep"
 )
 
 // Network-related utility functions

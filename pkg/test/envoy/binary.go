@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 var envoyFileNamePattern = regexp.MustCompile("^envoy$|^envoy-[a-f0-9]+$|^envoy-debug-[a-f0-9]+$")

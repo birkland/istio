@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/exp/constraints"
 
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // Set is an immutable set optimized for *small number of items*. For general purposes, Sets is likely better

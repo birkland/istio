@@ -21,10 +21,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	testutil "istio.io/istio/pilot/test/util"
-	"istio.io/istio/tools/istio-clean-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
-	dep "istio.io/istio/tools/istio-iptables/pkg/dependencies"
+	testutil "istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/tools/istio-clean-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
+	dep "istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
 )
 
 func constructTestConfig() *config.Config {

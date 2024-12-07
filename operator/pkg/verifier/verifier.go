@@ -33,16 +33,16 @@ import (
 
 	"istio.io/api/label"
 	operatprv1alpha1 "istio.io/api/operator/v1alpha1"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	operator_istio "istio.io/istio/operator/pkg/apis/istio"
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/controlplane"
-	"istio.io/istio/operator/pkg/helmreconciler"
-	"istio.io/istio/operator/pkg/manifest"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	operator_istio "istio.io/istio/123/operator/pkg/apis/istio"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/controlplane"
+	"istio.io/istio/123/operator/pkg/helmreconciler"
+	"istio.io/istio/123/operator/pkg/manifest"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/kube"
 )
 
 // specialKinds is a map of special kinds to their corresponding kind names, which do not follow the

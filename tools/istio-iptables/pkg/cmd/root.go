@@ -20,13 +20,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pkg/flag"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/tools/istio-iptables/pkg/capture"
-	"istio.io/istio/tools/istio-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
-	dep "istio.io/istio/tools/istio-iptables/pkg/dependencies"
-	"istio.io/istio/tools/istio-iptables/pkg/validation"
+	"istio.io/istio/123/pkg/flag"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/tools/istio-iptables/pkg/capture"
+	"istio.io/istio/123/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
+	dep "istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
+	"istio.io/istio/123/tools/istio-iptables/pkg/validation"
 )
 
 const InvalidDropByIptables = "INVALID_DROP"

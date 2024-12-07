@@ -28,14 +28,14 @@ import (
 	"github.com/spf13/pflag"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/multixds"
-	"istio.io/istio/operator/cmd/mesh"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/xds"
-	"istio.io/istio/pkg/proxy"
-	istioVersion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/multixds"
+	"istio.io/istio/123/operator/cmd/mesh"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/xds"
+	"istio.io/istio/123/pkg/proxy"
+	istioVersion "istio.io/istio/123/pkg/version"
 )
 
 func NewVersionCommand(ctx cli.Context) *cobra.Command {

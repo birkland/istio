@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/test"
 )
 
 // Cannot use assert.assertEqual due to import loop

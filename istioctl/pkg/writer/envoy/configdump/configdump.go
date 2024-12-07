@@ -23,9 +23,9 @@ import (
 	adminv3 "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/util/configdump"
-	sdscompare "istio.io/istio/istioctl/pkg/writer/compare/sds"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
+	sdscompare "istio.io/istio/123/istioctl/pkg/writer/compare/sds"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // ConfigWriter is a writer for processing responses from the Envoy Admin config_dump endpoint

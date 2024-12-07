@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"strings"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // DrainListeners drains inbound listeners of Envoy so that inflight requests

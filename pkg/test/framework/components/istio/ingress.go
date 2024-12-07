@@ -25,17 +25,17 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/http/headers"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/test/framework/components/echo/common"
-	"istio.io/istio/pkg/test/framework/components/environment/kube"
-	"istio.io/istio/pkg/test/framework/components/istio/ingress"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/http/headers"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common"
+	"istio.io/istio/123/pkg/test/framework/components/environment/kube"
+	"istio.io/istio/123/pkg/test/framework/components/istio/ingress"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

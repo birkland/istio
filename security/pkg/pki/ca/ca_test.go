@@ -29,8 +29,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	caerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
+	caerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 var (

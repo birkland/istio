@@ -23,8 +23,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/label"
-	iopv1alpha1 "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/pkg/kube"
+	iopv1alpha1 "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/pkg/kube"
 )
 
 // PodFilteredInfo represents a small subset of fields from

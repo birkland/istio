@@ -27,8 +27,8 @@ import (
 	cmdtesting "k8s.io/kubectl/pkg/cmd/testing"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type execTestCase struct {

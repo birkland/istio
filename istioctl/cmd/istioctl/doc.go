@@ -13,4 +13,4 @@
 // limitations under the License.
 
 // Command istioctl is a Istio configuration command line utility.
-package main // import "istio.io/istio/istioctl/cmd/istioctl"
+package main // import "istio.io/istio/123/istioctl/cmd/istioctl"

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/echo/proto"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/echo/proto"
 )
 
 type Config struct {

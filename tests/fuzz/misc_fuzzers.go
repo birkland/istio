@@ -24,17 +24,17 @@ import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
 	"istio.io/api/operator/v1alpha1"
-	"istio.io/istio/operator/pkg/apis/istio"
-	"istio.io/istio/operator/pkg/apis/istio/v1alpha1/validation"
-	"istio.io/istio/operator/pkg/controlplane"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/patch"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/validate"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/operator/pkg/apis/istio"
+	"istio.io/istio/123/operator/pkg/apis/istio/v1alpha1/validation"
+	"istio.io/istio/123/operator/pkg/controlplane"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/patch"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/validate"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 func FuzzCheckIstioOperatorSpec(data []byte) int {

@@ -42,11 +42,11 @@ import (
 	celconfig "k8s.io/apiserver/pkg/apis/cel"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/yml"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/yml"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Validator returns a new validator for custom resources

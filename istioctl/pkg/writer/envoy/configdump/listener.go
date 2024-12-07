@@ -29,11 +29,11 @@ import (
 	tcp "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/tcp_proxy/v3"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/istioctl/pkg/util/proto"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/istioctl/pkg/util/proto"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

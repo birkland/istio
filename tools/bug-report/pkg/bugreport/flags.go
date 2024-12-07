@@ -24,9 +24,9 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/slices"
-	config2 "istio.io/istio/tools/bug-report/pkg/config"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/slices"
+	config2 "istio.io/istio/123/tools/bug-report/pkg/config"
 )
 
 var (

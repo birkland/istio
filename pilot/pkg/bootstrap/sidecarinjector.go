@@ -23,11 +23,11 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/webhooks"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/webhooks"
 )
 
 const (

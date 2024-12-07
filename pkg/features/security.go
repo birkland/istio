@@ -15,7 +15,7 @@
 package features
 
 import (
-	"istio.io/istio/pkg/env"
+	"istio.io/istio/123/pkg/env"
 )
 
 const (

@@ -22,11 +22,11 @@ import (
 	k8sv1 "sigs.k8s.io/gateway-api/apis/v1"
 	gateway "sigs.k8s.io/gateway-api/apis/v1beta1"
 
-	"istio.io/istio/pilot/pkg/model/kstatus"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/util/istiomultierror"
+	"istio.io/istio/123/pilot/pkg/model/kstatus"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/util/istiomultierror"
 )
 
 // ClassController is a controller that creates the default Istio GatewayClass(s). This will not

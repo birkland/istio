@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"istio.io/istio/istioctl/pkg/util/testutil"
-	"istio.io/istio/pkg/config/constants"
+	"istio.io/istio/123/istioctl/pkg/util/testutil"
+	"istio.io/istio/123/pkg/config/constants"
 )
 
 func TestConfigList(t *testing.T) {

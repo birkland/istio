@@ -15,7 +15,7 @@
 package workloadinstances
 
 import (
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // MultiValueMap represents a map where each key might be associated with

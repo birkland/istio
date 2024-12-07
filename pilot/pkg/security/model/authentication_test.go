@@ -26,10 +26,10 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
 )
 
 func TestConstructSdsSecretConfig(t *testing.T) {

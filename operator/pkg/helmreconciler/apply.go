@@ -22,12 +22,12 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"istio.io/istio/operator/pkg/cache"
-	"istio.io/istio/operator/pkg/metrics"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/util/progress"
+	"istio.io/istio/123/operator/pkg/cache"
+	"istio.io/istio/123/operator/pkg/metrics"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util/progress"
 )
 
 const fieldOwnerOperator = "istio-operator"

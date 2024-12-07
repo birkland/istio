@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 func TestReadLayeredYAMLs(t *testing.T) {

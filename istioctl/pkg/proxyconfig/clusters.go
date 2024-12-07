@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/pkg/cluster"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/pkg/cluster"
 )
 
 // TODO move to multicluster package; requires exposing some private funcs/vars in this package

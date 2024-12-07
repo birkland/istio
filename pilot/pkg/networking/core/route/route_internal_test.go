@@ -29,11 +29,11 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	authzmatcher "istio.io/istio/pilot/pkg/security/authz/matcher"
-	authz "istio.io/istio/pilot/pkg/security/authz/model"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	authzmatcher "istio.io/istio/123/pilot/pkg/security/authz/matcher"
+	authz "istio.io/istio/123/pilot/pkg/security/authz/model"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestIsCatchAllRoute(t *testing.T) {

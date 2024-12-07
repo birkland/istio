@@ -23,8 +23,8 @@ import (
 	"go.uber.org/atomic"
 	"gopkg.in/yaml.v3"
 
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/file"
 )
 
 const prefix = "istio.test"

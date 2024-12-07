@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"istio.io/istio/pkg/kube"
-	ktypes "istio.io/istio/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/kube"
+	ktypes "istio.io/istio/123/pkg/kube/kubetypes"
 )
 
 func TestCustomRegistration(t *testing.T) {

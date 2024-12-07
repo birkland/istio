@@ -25,10 +25,10 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 
 	pb "istio.io/api/security/v1alpha1"
-	istiogrpc "istio.io/istio/pilot/pkg/grpc"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/security/pkg/nodeagent/caclient"
+	istiogrpc "istio.io/istio/123/pilot/pkg/grpc"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/security/pkg/nodeagent/caclient"
 )
 
 const (

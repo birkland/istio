@@ -24,10 +24,10 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 func TestApplyJSON(t *testing.T) {

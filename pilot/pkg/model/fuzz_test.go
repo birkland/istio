@@ -17,9 +17,9 @@ package model
 import (
 	"testing"
 
-	"istio.io/istio/pkg/fuzz"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/fuzz"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func FuzzDeepCopyService(f *testing.F) {

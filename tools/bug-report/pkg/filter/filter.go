@@ -17,11 +17,11 @@ package filter
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/util/sets"
-	cluster2 "istio.io/istio/tools/bug-report/pkg/cluster"
-	"istio.io/istio/tools/bug-report/pkg/config"
-	"istio.io/istio/tools/bug-report/pkg/util/match"
-	"istio.io/istio/tools/bug-report/pkg/util/path"
+	"istio.io/istio/123/pkg/util/sets"
+	cluster2 "istio.io/istio/123/tools/bug-report/pkg/cluster"
+	"istio.io/istio/123/tools/bug-report/pkg/config"
+	"istio.io/istio/123/tools/bug-report/pkg/util/match"
+	"istio.io/istio/123/tools/bug-report/pkg/util/path"
 )
 
 // GetMatchingPaths returns a slice of matching paths, given a cluster tree and config.

@@ -1,4 +1,4 @@
-module istio.io/istio
+module istio.io/istio/123
 
 go 1.22.0
 

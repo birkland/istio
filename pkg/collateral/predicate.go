@@ -15,8 +15,8 @@
 package collateral
 
 import (
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/monitoring"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 // Predicates are a set of predicates to apply when generating collaterals.

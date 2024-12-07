@@ -22,7 +22,7 @@ import (
 	"k8s.io/kubectl/pkg/util/openapi"
 	"k8s.io/kubectl/pkg/validation"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type Factory struct {

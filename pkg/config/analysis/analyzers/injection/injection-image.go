@@ -22,13 +22,13 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/analyzers/util"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // ImageAnalyzer checks the image of auto-injection configured with the running proxies on pods.

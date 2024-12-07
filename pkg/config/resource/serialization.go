@@ -15,9 +15,9 @@
 package resource
 
 import (
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/kube/controllers"
 )
 
 // PilotConfigToInstance convert from config.Config, which has no associated proto, to MCP Resource proto.

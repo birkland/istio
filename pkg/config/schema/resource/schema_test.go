@@ -21,8 +21,8 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestValidate(t *testing.T) {

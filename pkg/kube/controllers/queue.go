@@ -22,8 +22,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/util/workqueue"
 
-	"istio.io/istio/pkg/config"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 type ReconcilerFn func(key types.NamespacedName) error

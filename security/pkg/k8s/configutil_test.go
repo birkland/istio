@@ -28,10 +28,10 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	ktesting "k8s.io/client-go/testing"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/test"
 )
 
 const (

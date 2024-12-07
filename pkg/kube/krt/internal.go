@@ -24,9 +24,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 
 	"istio.io/api/type/v1beta1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 // registerHandlerAsBatched is a helper to register the provided handler as a batched handler. This allows collections to

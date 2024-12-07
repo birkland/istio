@@ -17,7 +17,7 @@ package inject
 import (
 	"testing"
 
-	"istio.io/istio/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/constants"
 )
 
 func TestSystemNamespaces_Contains(t *testing.T) {

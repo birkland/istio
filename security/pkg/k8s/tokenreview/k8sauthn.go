@@ -23,7 +23,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pkg/security"
 )
 
 // nolint: lll

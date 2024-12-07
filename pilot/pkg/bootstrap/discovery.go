@@ -17,13 +17,13 @@ package bootstrap
 import (
 	"net/http"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/apigen"
-	"istio.io/istio/pilot/pkg/networking/core"
-	"istio.io/istio/pilot/pkg/networking/grpcgen"
-	"istio.io/istio/pilot/pkg/xds"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/cluster"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/apigen"
+	"istio.io/istio/123/pilot/pkg/networking/core"
+	"istio.io/istio/123/pilot/pkg/networking/grpcgen"
+	"istio.io/istio/123/pilot/pkg/xds"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/cluster"
 )
 
 func InitGenerators(

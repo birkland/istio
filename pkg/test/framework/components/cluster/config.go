@@ -15,7 +15,7 @@
 package cluster
 
 import (
-	"istio.io/istio/pkg/test/framework/config"
+	"istio.io/istio/123/pkg/test/framework/config"
 )
 
 type Config struct {

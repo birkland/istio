@@ -17,9 +17,9 @@ package repair
 import (
 	"context"
 
-	"istio.io/istio/cni/pkg/config"
-	"istio.io/istio/cni/pkg/scopes"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/cni/pkg/config"
+	"istio.io/istio/123/cni/pkg/scopes"
+	"istio.io/istio/123/pkg/kube"
 )
 
 var repairLog = scopes.CNIAgent

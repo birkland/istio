@@ -22,8 +22,8 @@ import (
 
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 func TestOrdering(t *testing.T) {

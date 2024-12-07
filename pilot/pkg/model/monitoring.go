@@ -14,7 +14,7 @@
 
 package model
 
-import "istio.io/istio/pkg/monitoring"
+import "istio.io/istio/123/pkg/monitoring"
 
 var providerLookupClusterFailures = monitoring.NewSum(
 	"provider_lookup_cluster_failures",

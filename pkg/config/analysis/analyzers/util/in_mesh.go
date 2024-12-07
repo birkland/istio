@@ -19,11 +19,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // DeploymentInMesh returns true if deployment is in the service mesh (has sidecar)

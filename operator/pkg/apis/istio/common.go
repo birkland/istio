@@ -20,9 +20,9 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/operator/v1alpha1"
-	operator_v1alpha1 "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/validate"
+	operator_v1alpha1 "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/validate"
 )
 
 // UnmarshalAndValidateIOPS unmarshals a string containing IstioOperator YAML, validates it, and returns a struct

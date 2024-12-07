@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/constants"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/constants"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 var authzLog = istiolog.RegisterScope("authorization", "Istio Authorization Policy")

@@ -25,9 +25,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/tests/integration/telemetry/tracing"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/tests/integration/telemetry/tracing"
 )
 
 // TestClientTracing exercises the trace generation features of Istio, based on the Envoy Trace driver for zipkin using

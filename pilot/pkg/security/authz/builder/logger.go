@@ -20,8 +20,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/istiomultierror"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/istiomultierror"
 )
 
 var authzLog = log.RegisterScope("authorization", "Istio Authorization Policy")

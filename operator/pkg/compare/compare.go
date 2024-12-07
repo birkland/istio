@@ -26,10 +26,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/tpath"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/tpath"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/log"
 )
 
 // YAMLCmpReporter is a custom reporter to generate tree based diff for YAMLs, used by cmp.Equal().

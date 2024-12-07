@@ -18,9 +18,9 @@ import (
 	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core"
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 // BuildHTTPRoutes supports per-VIP routes, as used by GRPC.

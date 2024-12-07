@@ -17,7 +17,7 @@ package util
 import (
 	"strings"
 
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 type ScopedFqdn string

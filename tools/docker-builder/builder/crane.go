@@ -34,8 +34,8 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/tarball"
 	"github.com/google/go-containerregistry/pkg/v1/types"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/tracing"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/tracing"
 )
 
 type BuildSpec struct {

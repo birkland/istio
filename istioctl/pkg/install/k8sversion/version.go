@@ -20,9 +20,9 @@ import (
 	goversion "github.com/hashicorp/go-version"
 	"k8s.io/apimachinery/pkg/version"
 
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/kube"
-	pkgVersion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/kube"
+	pkgVersion "istio.io/istio/123/pkg/version"
 )
 
 const (

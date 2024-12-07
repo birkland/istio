@@ -20,9 +20,9 @@ package ambient
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/echo/common/deployment"
-	"istio.io/istio/tests/integration/pilot/common"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/echo/common/deployment"
+	"istio.io/istio/123/tests/integration/pilot/common"
 )
 
 func TestTraffic(t *testing.T) {

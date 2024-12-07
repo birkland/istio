@@ -26,13 +26,13 @@ import (
 	"github.com/miekg/dns"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/network"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/istiomultierror"
-	netutil "istio.io/istio/pkg/util/net"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/network"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/istiomultierror"
+	netutil "istio.io/istio/123/pkg/util/net"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // NetworkGateway is the gateway of a network

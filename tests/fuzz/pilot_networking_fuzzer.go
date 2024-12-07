@@ -17,8 +17,8 @@ package fuzz
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/grpcgen"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/grpcgen"
 )
 
 func FuzzGrpcGenGenerate(data []byte) int {

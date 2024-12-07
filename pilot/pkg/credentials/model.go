@@ -15,7 +15,7 @@
 package credentials
 
 import (
-	"istio.io/istio/pkg/cluster"
+	"istio.io/istio/123/pkg/cluster"
 )
 
 // CertInfo wraps a certificate, key, and oscp staple information.

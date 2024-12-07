@@ -15,7 +15,7 @@
 package echo
 
 import (
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 // Instance is a component that provides access to a deployed echo service.

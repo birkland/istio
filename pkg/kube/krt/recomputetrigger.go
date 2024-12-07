@@ -17,7 +17,7 @@ package krt
 import (
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 // RecomputeTrigger trigger provides an escape hatch to allow krt transformations to depend on external state and recompute

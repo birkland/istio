@@ -22,7 +22,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/maps"
+	"istio.io/istio/123/pkg/maps"
 )
 
 // ConfigWriter is a writer for processing responses from the Ztunnel Admin config_dump endpoint

@@ -19,12 +19,12 @@ import (
 	"time"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var GlobalTime = time.Now()

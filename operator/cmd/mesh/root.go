@@ -19,10 +19,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	binversion "istio.io/istio/operator/version"
-	"istio.io/istio/pkg/url"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	binversion "istio.io/istio/123/operator/version"
+	"istio.io/istio/123/pkg/url"
+	"istio.io/istio/123/pkg/version"
 )
 
 var (

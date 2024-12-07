@@ -21,8 +21,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/env"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/env"
 )
 
 var AuthPlaintext = env.Register("XDS_AUTH_PLAINTEXT", false,

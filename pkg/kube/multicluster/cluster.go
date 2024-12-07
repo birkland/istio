@@ -21,13 +21,13 @@ import (
 	"go.uber.org/atomic"
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient"
-	filter "istio.io/istio/pkg/kube/namespace"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient"
+	filter "istio.io/istio/123/pkg/kube/namespace"
+	"istio.io/istio/123/pkg/log"
 )
 
 // Cluster defines cluster struct

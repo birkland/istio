@@ -37,7 +37,7 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/utils/clock"
 
-	rl "istio.io/istio/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
+	rl "istio.io/istio/123/pilot/pkg/leaderelection/k8sleaderelection/k8sresourcelock"
 )
 
 func createLockObject(t *testing.T, objectType, namespace, name string, record *rl.LeaderElectionRecord) (obj runtime.Object) {

@@ -19,9 +19,9 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // InsertedExtensionConfigurations returns extension configurations added via EnvoyFilter.

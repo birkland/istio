@@ -18,7 +18,7 @@ import (
 	"errors"
 	"strings"
 
-	"istio.io/istio/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/analysis/diag"
 )
 
 // MessageThreshold is a wrapper around Level to be used as a cobra command line argument.

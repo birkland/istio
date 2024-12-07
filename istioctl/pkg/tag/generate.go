@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/maps"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/maps"
 )
 
 const (

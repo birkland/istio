@@ -26,15 +26,15 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	extensions "istio.io/api/extensions/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestECDS(t *testing.T) {

@@ -33,13 +33,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	authn_model "istio.io/istio/pilot/pkg/security/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	authn_model "istio.io/istio/123/pilot/pkg/security/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type mockDeltaXdsServer struct{}

@@ -23,14 +23,14 @@ import (
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	securityBeta "istio.io/api/security/v1beta1"
 	selectorpb "istio.io/api/type/v1beta1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model/test"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/schema/gvk"
-	pkgtest "istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model/test"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	pkgtest "istio.io/istio/123/pkg/test"
 )
 
 const (

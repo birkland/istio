@@ -27,8 +27,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"k8s.io/client-go/util/jsonpath"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 var (

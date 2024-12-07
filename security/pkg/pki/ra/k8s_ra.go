@@ -25,11 +25,11 @@ import (
 	clientset "k8s.io/client-go/kubernetes"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/security/pkg/k8s/chiron"
-	"istio.io/istio/security/pkg/pki/ca"
-	raerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/security/pkg/k8s/chiron"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	raerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 // KubernetesRA integrated with an external CA using Kubernetes CSR API

@@ -27,8 +27,8 @@ import (
 	"golang.org/x/sys/unix"
 	utilversion "k8s.io/apimachinery/pkg/util/version"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 // TODO the entire `istio-iptables` package is linux-specific, I'm not sure we really need

@@ -31,9 +31,9 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	"istio.io/api/security/v1beta1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
 )
 
 const (

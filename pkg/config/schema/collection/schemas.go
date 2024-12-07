@@ -21,10 +21,10 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Schemas contains metadata about configuration resources.

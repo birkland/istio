@@ -23,10 +23,10 @@ import (
 	mcs "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/kube"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/kube"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestEndpointSliceFromMCSShouldBeIgnored(t *testing.T) {

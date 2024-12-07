@@ -20,10 +20,10 @@ import (
 	v1 "k8s.io/api/core/v1"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/watcher/configmapwatcher"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/watcher/configmapwatcher"
+	"istio.io/istio/123/pkg/log"
 )
 
 // NewConfigMapWatcher creates a new Watcher for changes to the given ConfigMap.

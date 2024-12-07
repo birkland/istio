@@ -17,7 +17,7 @@ package protocol_test
 import (
 	"testing"
 
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 func TestIsHTTP(t *testing.T) {

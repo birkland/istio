@@ -21,14 +21,14 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/credentials/kube"
-	"istio.io/istio/pilot/pkg/xds"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/analyzers/util"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pilot/pkg/credentials/kube"
+	"istio.io/istio/123/pilot/pkg/xds"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 // SecretAnalyzer checks a gateway's referenced secrets for correctness

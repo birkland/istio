@@ -29,8 +29,8 @@ import (
 
 	k8s "k8s.io/api/core/v1"
 
-	"istio.io/istio/security/pkg/pki/ca"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/pki/ca"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 const (

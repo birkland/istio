@@ -16,8 +16,8 @@ package gateway
 
 import (
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 // IsTLSServer returns true if this server is non HTTP, but with some TLS settings for termination/passthrough

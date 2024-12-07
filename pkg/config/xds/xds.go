@@ -28,7 +28,7 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // nolint: interfacer

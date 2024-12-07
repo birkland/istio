@@ -22,13 +22,13 @@ import (
 	"google.golang.org/protobuf/proto"
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	labelutil "istio.io/istio/pilot/pkg/serviceregistry/util/label"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/network"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	labelutil "istio.io/istio/123/pilot/pkg/serviceregistry/util/label"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/network"
 )
 
 // EndpointsByNetworkFilter is a network filter function to support Split Horizon EDS - filter the endpoints based on the network

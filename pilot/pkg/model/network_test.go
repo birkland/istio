@@ -25,15 +25,15 @@ import (
 	"github.com/miekg/dns"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pilot/pkg/serviceregistry/util/xdsfake"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/util/xdsfake"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestGatewayHostnames(t *testing.T) {

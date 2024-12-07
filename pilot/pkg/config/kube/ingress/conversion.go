@@ -28,13 +28,13 @@ import (
 	"istio.io/api/annotation"
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
 )
 
 const (

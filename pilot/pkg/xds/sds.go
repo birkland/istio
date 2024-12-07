@@ -32,15 +32,15 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
 	mesh "istio.io/api/mesh/v1alpha1"
-	credscontroller "istio.io/istio/pilot/pkg/credentials"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	securitymodel "istio.io/istio/pilot/pkg/security/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/sets"
+	credscontroller "istio.io/istio/123/pilot/pkg/credentials"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	securitymodel "istio.io/istio/123/pilot/pkg/security/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // SecretResource wraps the authnmodel type with cache functions implemented

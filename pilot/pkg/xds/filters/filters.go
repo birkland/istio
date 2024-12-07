@@ -40,9 +40,9 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	alpn "istio.io/api/envoy/config/filter/http/alpn/v2alpha1"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

@@ -26,11 +26,11 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/test/framework"
-	kubecluster "istio.io/istio/pkg/test/framework/components/cluster/kube"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/helm"
-	"istio.io/istio/tests/util/sanitycheck"
+	"istio.io/istio/123/pkg/test/framework"
+	kubecluster "istio.io/istio/123/pkg/test/framework/components/cluster/kube"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/helm"
+	"istio.io/istio/123/tests/util/sanitycheck"
 )
 
 // TestDefaultInstall tests Istio installation using Helm with default options

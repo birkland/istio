@@ -23,8 +23,8 @@ import (
 
 	utilversion "k8s.io/apimachinery/pkg/util/version"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 // XTablesExittype is the exit type of xtables commands.

@@ -16,14 +16,14 @@ package schema
 import (
 	"github.com/hashicorp/go-multierror"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis"
-	"istio.io/istio/pkg/config/analysis/diag"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collections"
-	sresource "istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/config/validation"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis"
+	"istio.io/istio/123/pkg/config/analysis/diag"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	sresource "istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config/validation"
 )
 
 // ValidationAnalyzer runs schema validation as an analyzer and reports any violations as messages

@@ -18,7 +18,7 @@ import (
 	"flag"
 	"time"
 
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 var (

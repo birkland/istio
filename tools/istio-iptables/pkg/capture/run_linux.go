@@ -21,9 +21,9 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/tools/istio-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
 )
 
 // configureTProxyRoutes configures ip firewall rules to enable TPROXY support.

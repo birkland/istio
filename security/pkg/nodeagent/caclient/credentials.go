@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/credentials"
 
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pkg/security"
 )
 
 // TokenProvider is a grpc PerRPCCredentials that can be used to attach a JWT token to each gRPC call.

@@ -33,12 +33,12 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	kt "k8s.io/client-go/testing"
 
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	csrctrl "istio.io/istio/pkg/test/csrctrl/controllers"
-	"istio.io/istio/pkg/test/util/assert"
-	pkiutil "istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
+	csrctrl "istio.io/istio/123/pkg/test/csrctrl/controllers"
+	"istio.io/istio/123/pkg/test/util/assert"
+	pkiutil "istio.io/istio/123/security/pkg/pki/util"
 )
 
 const (

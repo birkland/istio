@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Helper function to remove an item or timeout and return nil if there are no pending pushes

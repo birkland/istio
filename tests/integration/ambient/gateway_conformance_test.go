@@ -34,17 +34,17 @@ import (
 	gwfeatures "sigs.k8s.io/gateway-api/pkg/features"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pilot/pkg/config/kube/gateway"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework"
-	ambientComponent "istio.io/istio/pkg/test/framework/components/ambient"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/prow"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/config/kube/gateway"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework"
+	ambientComponent "istio.io/istio/123/pkg/test/framework/components/ambient"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/prow"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 // GatewayConformanceInputs defines inputs to the gateway conformance test.

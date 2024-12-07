@@ -18,13 +18,13 @@ import (
 	v1 "k8s.io/api/core/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/serviceregistry/kube"
-	labelutil "istio.io/istio/pilot/pkg/serviceregistry/util/label"
-	"istio.io/istio/pkg/config/labels"
-	kubeUtil "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/network"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/kube"
+	labelutil "istio.io/istio/123/pilot/pkg/serviceregistry/util/label"
+	"istio.io/istio/123/pkg/config/labels"
+	kubeUtil "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/network"
 )
 
 // EndpointBuilder is a stateful IstioEndpoint builder with metadata used to build IstioEndpoint

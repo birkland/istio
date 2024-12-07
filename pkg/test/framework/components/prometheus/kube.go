@@ -29,14 +29,14 @@ import (
 	"github.com/prometheus/common/model"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
-	testKube "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
+	istioKube "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
+	testKube "istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 const (

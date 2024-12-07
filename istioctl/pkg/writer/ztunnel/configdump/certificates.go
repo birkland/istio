@@ -24,7 +24,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // PrintSecretDump prints just the secret config dump to the ConfigWriter stdout

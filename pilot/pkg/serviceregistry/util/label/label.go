@@ -18,9 +18,9 @@ import (
 	"strings"
 
 	"istio.io/api/label"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/network"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/network"
 )
 
 // copied from https://github.com/kubernetes/api/blob/master/core/v1/well_known_labels.go

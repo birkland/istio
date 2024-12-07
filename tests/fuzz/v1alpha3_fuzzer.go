@@ -20,9 +20,9 @@ import (
 
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/core"
-	"istio.io/istio/tests/fuzz/utils"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/core"
+	"istio.io/istio/123/tests/fuzz/utils"
 )
 
 func init() {

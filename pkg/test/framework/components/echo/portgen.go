@@ -17,7 +17,7 @@ package echo
 import (
 	"math"
 
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 const (

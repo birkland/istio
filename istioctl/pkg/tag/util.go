@@ -24,7 +24,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/util"
+	"istio.io/istio/123/istioctl/pkg/util"
 )
 
 func GetRevisionWebhooks(ctx context.Context, client kubernetes.Interface) ([]admitv1.MutatingWebhookConfiguration, error) {

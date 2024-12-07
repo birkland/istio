@@ -28,10 +28,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"istio.io/istio/cni/pkg/iptables"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/tools/istio-iptables/pkg/dependencies"
+	"istio.io/istio/123/cni/pkg/iptables"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
 )
 
 func setupLogging() {

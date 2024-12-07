@@ -23,11 +23,11 @@ import (
 
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"istio.io/istio/pkg/http/headers"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/echo/common"
-	"istio.io/istio/pkg/test/echo/common/scheme"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pkg/http/headers"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/echo/common"
+	"istio.io/istio/123/pkg/test/echo/common/scheme"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 // HTTP settings

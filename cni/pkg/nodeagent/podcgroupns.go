@@ -28,8 +28,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type PodToNetns map[string]WorkloadInfo

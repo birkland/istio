@@ -18,11 +18,11 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
 	"istio.io/api/meta/v1alpha1"
-	"istio.io/istio/pilot/pkg/autoregistration/internal/state"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/model/status"
-	"istio.io/istio/pkg/kube/controllers"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/autoregistration/internal/state"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/model/status"
+	"istio.io/istio/123/pkg/kube/controllers"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 var log = istiolog.RegisterScope("wle", "wle controller debugging")

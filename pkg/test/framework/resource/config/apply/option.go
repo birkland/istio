@@ -14,7 +14,7 @@
 
 package apply
 
-import "istio.io/istio/pkg/test/framework/resource/config/cleanup"
+import "istio.io/istio/123/pkg/test/framework/resource/config/cleanup"
 
 // Option is a strategy for updating Options.
 type Option interface {

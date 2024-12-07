@@ -16,7 +16,7 @@
 
 package scope
 
-import "istio.io/istio/pkg/log"
+import "istio.io/istio/123/pkg/log"
 
 var (
 	// Analysis is a logging scope used by configuration analysis component.

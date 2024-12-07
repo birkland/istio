@@ -15,7 +15,7 @@
 package features
 
 import (
-	"istio.io/istio/pkg/env"
+	"istio.io/istio/123/pkg/env"
 )
 
 // Define common telemetry feature flags shared among the Istio components.

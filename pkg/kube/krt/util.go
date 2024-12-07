@@ -15,7 +15,7 @@
 package krt
 
 import (
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // BatchedEventFilter allows an event handler to have alternative event suppression mechanics to filter out unnecessary events.

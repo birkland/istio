@@ -17,9 +17,9 @@ package topics
 import (
 	"net/http"
 
-	"istio.io/istio/pkg/ctrlz/fw"
-	"istio.io/istio/pkg/ctrlz/topics/assets"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/pkg/ctrlz/fw"
+	"istio.io/istio/123/pkg/ctrlz/topics/assets"
+	"istio.io/istio/123/pkg/version"
 )
 
 type versionTopic struct{}

@@ -19,7 +19,7 @@ import (
 
 	uri_template "github.com/envoyproxy/go-control-plane/envoy/extensions/path/match/uri_template/v3"
 
-	"istio.io/istio/pkg/config/security"
+	"istio.io/istio/123/pkg/config/security"
 )
 
 var replacer = strings.NewReplacer(security.MatchOneTemplate, "*", security.MatchAnyTemplate, "**")

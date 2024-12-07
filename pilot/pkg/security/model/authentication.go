@@ -22,12 +22,12 @@ import (
 	tls "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/model/credentials"
-	"istio.io/istio/pilot/pkg/networking/util"
-	pm "istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/spiffe"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/model/credentials"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	pm "istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/spiffe"
 )
 
 const (

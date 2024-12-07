@@ -17,9 +17,9 @@ package xds
 import (
 	"time"
 
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/monitoring"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/monitoring"
 )
 
 var (

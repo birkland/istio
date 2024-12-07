@@ -34,11 +34,11 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/api/label"
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/cni/pkg/util"
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/util"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

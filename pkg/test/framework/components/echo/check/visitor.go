@@ -19,9 +19,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	echoClient "istio.io/istio/pkg/test/echo"
-	"istio.io/istio/pkg/test/framework/components/echo"
-	"istio.io/istio/pkg/util/istiomultierror"
+	echoClient "istio.io/istio/123/pkg/test/echo"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/util/istiomultierror"
 )
 
 // Visitor is performs a partial check operation on a single message.

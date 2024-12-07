@@ -19,10 +19,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/labels"
-	buildversion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/labels"
+	buildversion "istio.io/istio/123/pkg/version"
 )
 
 type operatorDumpArgs struct {

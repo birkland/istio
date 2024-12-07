@@ -21,7 +21,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"istio.io/istio/pilot/cmd/pilot-agent/status/testserver"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/testserver"
 )
 
 var (

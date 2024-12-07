@@ -20,7 +20,7 @@ import (
 
 	"github.com/pmezard/go-difflib/difflib"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // ClusterDiff prints a diff between Istiod and Envoy clusters to the passed writer

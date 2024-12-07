@@ -35,17 +35,17 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 
 	pb "istio.io/api/security/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/multicluster"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/util/sets"
-	mockca "istio.io/istio/security/pkg/pki/ca/mock"
-	caerror "istio.io/istio/security/pkg/pki/error"
-	"istio.io/istio/security/pkg/pki/util"
-	"istio.io/istio/security/pkg/server/ca/authenticate"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/multicluster"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/util/sets"
+	mockca "istio.io/istio/123/security/pkg/pki/ca/mock"
+	caerror "istio.io/istio/123/security/pkg/pki/error"
+	"istio.io/istio/123/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/server/ca/authenticate"
 )
 
 type mockAuthenticator struct {

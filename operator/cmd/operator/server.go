@@ -30,15 +30,15 @@ import (
 	ctrlmetrics "sigs.k8s.io/controller-runtime/pkg/metrics"
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	root "istio.io/istio/operator/cmd/mesh"
-	"istio.io/istio/operator/pkg/apis"
-	"istio.io/istio/operator/pkg/controller"
-	"istio.io/istio/operator/pkg/controller/istiocontrolplane"
-	"istio.io/istio/operator/pkg/metrics"
-	"istio.io/istio/pkg/ctrlz"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/version"
+	root "istio.io/istio/123/operator/cmd/mesh"
+	"istio.io/istio/123/operator/pkg/apis"
+	"istio.io/istio/123/operator/pkg/controller"
+	"istio.io/istio/123/operator/pkg/controller/istiocontrolplane"
+	"istio.io/istio/123/operator/pkg/metrics"
+	"istio.io/istio/123/pkg/ctrlz"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/version"
 )
 
 // Should match deploy/service.yaml

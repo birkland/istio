@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestMatchTLS(t *testing.T) {

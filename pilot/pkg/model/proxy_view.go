@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pkg/util/identifier"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/identifier"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // ProxyView provides a restricted view of mesh endpoints for a Proxy.

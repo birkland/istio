@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/constants"
 )
 
 // IsInternalGatewayReference returns true if gatewayName is referencing the internal

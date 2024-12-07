@@ -23,11 +23,11 @@ import (
 
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	"istio.io/istio/istioctl/pkg/util/configdump"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/xds"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	xdsfake "istio.io/istio/pilot/test/xds"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/xds"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	xdsfake "istio.io/istio/123/pilot/test/xds"
 )
 
 func TestSyncz(t *testing.T) {

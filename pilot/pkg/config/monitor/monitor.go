@@ -23,9 +23,9 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 // Monitor will poll a config function in order to update a ConfigStore as

@@ -26,8 +26,8 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/networking/core/route/retry"
-	"istio.io/istio/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/networking/core/route/retry"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
 )
 
 func TestRetry(t *testing.T) {

@@ -20,15 +20,15 @@ import (
 	"net/netip"
 	"strings"
 
-	"istio.io/istio/cni/pkg/ipset"
-	"istio.io/istio/cni/pkg/scopes"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/tools/istio-iptables/pkg/builder"
-	iptablesconfig "istio.io/istio/tools/istio-iptables/pkg/config"
-	iptablesconstants "istio.io/istio/tools/istio-iptables/pkg/constants"
-	dep "istio.io/istio/tools/istio-iptables/pkg/dependencies"
-	iptableslog "istio.io/istio/tools/istio-iptables/pkg/log"
+	"istio.io/istio/123/cni/pkg/ipset"
+	"istio.io/istio/123/cni/pkg/scopes"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/tools/istio-iptables/pkg/builder"
+	iptablesconfig "istio.io/istio/123/tools/istio-iptables/pkg/config"
+	iptablesconstants "istio.io/istio/123/tools/istio-iptables/pkg/constants"
+	dep "istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
+	iptableslog "istio.io/istio/123/tools/istio-iptables/pkg/log"
 )
 
 var log = scopes.CNIAgent

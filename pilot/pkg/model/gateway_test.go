@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // nolint lll

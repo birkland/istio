@@ -16,7 +16,7 @@ package serviceentry
 
 import (
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/network"
+	"istio.io/istio/123/pkg/network"
 )
 
 // return the mesh network for the workload entry. Empty string if not found.

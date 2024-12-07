@@ -17,7 +17,7 @@ package clusters
 import (
 	admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // Wrapper is a wrapper around the Envoy Clusters

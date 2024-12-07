@@ -17,10 +17,10 @@ package krttest
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 type MockCollection struct {

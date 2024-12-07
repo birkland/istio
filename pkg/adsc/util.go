@@ -18,9 +18,9 @@ import (
 	"crypto/tls"
 	"strings"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/security"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/security"
 )
 
 func getClientCertFn(config *Config) func(requestInfo *tls.CertificateRequestInfo) (*tls.Certificate, error) {

@@ -15,7 +15,7 @@
 package model
 
 import (
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

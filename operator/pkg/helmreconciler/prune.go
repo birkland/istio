@@ -30,17 +30,17 @@ import (
 
 	"istio.io/api/label"
 	"istio.io/api/operator/v1alpha1"
-	iopv1alpha1 "istio.io/istio/operator/pkg/apis/istio/v1alpha1"
-	"istio.io/istio/operator/pkg/cache"
-	"istio.io/istio/operator/pkg/metrics"
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/translate"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/proxy"
+	iopv1alpha1 "istio.io/istio/123/operator/pkg/apis/istio/v1alpha1"
+	"istio.io/istio/123/operator/pkg/cache"
+	"istio.io/istio/123/operator/pkg/metrics"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/proxy"
 )
 
 var (

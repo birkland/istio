@@ -18,8 +18,8 @@ import (
 	"io"
 	"strings"
 
-	"istio.io/istio/operator/pkg/name"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/operator/pkg/name"
+	"istio.io/istio/123/pkg/log"
 )
 
 const (

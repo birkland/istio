@@ -17,9 +17,9 @@ package builder
 import (
 	"testing"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/security/trustdomain"
-	"istio.io/istio/pkg/fuzz"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/security/trustdomain"
+	"istio.io/istio/123/pkg/fuzz"
 )
 
 func FuzzBuildHTTP(f *testing.F) {

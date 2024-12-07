@@ -26,12 +26,12 @@ import (
 	"github.com/hashicorp/go-multierror"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pilot/pkg/model"
-	authzmodel "istio.io/istio/pilot/pkg/security/authz/model"
-	"istio.io/istio/pilot/pkg/security/trustdomain"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/model"
+	authzmodel "istio.io/istio/123/pilot/pkg/security/authz/model"
+	"istio.io/istio/123/pilot/pkg/security/trustdomain"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 var rbacPolicyMatchNever = &rbacpb.Policy{

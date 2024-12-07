@@ -25,8 +25,8 @@ import (
 	"helm.sh/helm/v3/pkg/chart/loader"
 	"k8s.io/apimachinery/pkg/version"
 
-	"istio.io/istio/manifests"
-	"istio.io/istio/operator/pkg/util"
+	"istio.io/istio/123/manifests"
+	"istio.io/istio/123/operator/pkg/util"
 )
 
 const (

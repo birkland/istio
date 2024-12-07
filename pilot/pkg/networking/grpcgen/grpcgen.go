@@ -18,11 +18,11 @@ import (
 	tls "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/config/host"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/config/host"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 // Support generation of 'ApiListener' LDS responses, used for native support of gRPC.

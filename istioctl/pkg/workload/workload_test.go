@@ -28,11 +28,11 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var fakeCACert = []byte("fake-CA-cert")

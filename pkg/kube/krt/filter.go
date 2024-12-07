@@ -20,8 +20,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/util/smallset"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/util/smallset"
 )
 
 type filter struct {

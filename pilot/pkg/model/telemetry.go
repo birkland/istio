@@ -34,13 +34,13 @@ import (
 	"istio.io/api/envoy/extensions/stats"
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	tpb "istio.io/api/telemetry/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/networking"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/config/xds"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/networking"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config/xds"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Telemetry holds configuration for Telemetry API resources.

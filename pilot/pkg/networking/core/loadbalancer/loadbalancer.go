@@ -25,9 +25,9 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 const (

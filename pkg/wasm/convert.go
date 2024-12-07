@@ -29,9 +29,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pkg/bootstrap"
-	"istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/util/istiomultierror"
+	"istio.io/istio/123/pkg/bootstrap"
+	"istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/util/istiomultierror"
 )
 
 var (

@@ -23,12 +23,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/mesh"
-	kubelib "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/mesh"
+	kubelib "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 var (

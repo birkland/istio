@@ -17,10 +17,10 @@ package kuberesource
 import (
 	"fmt"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/resource"
 )
 
 func ConvertInputsToSchemas(inputs []config.GroupVersionKind) collection.Schemas {

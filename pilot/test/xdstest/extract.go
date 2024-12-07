@@ -32,15 +32,15 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/util/protomarshal"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 func ExtractResource(res model.Resources) sets.String {

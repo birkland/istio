@@ -26,15 +26,15 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
 )
 
 type Workload struct {

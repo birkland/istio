@@ -15,10 +15,10 @@
 package krt
 
 import (
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
 )
 
 type staticList[T any] struct {

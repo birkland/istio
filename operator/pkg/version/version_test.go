@@ -20,7 +20,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestVersion(t *testing.T) {

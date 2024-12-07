@@ -26,10 +26,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kubeyaml "k8s.io/apimachinery/pkg/util/yaml"
 
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/log"
 )
 
 // FromJSON converts a canonical JSON to a proto message

@@ -39,15 +39,15 @@ import (
 	"google.golang.org/grpc/health"
 	grpcHealth "google.golang.org/grpc/health/grpc_health_v1"
 
-	"istio.io/istio/pilot/cmd/pilot-agent/status/ready"
-	"istio.io/istio/pilot/cmd/pilot-agent/status/testserver"
-	"istio.io/istio/pkg/kube/apimirror"
-	"istio.io/istio/pkg/lazy"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/ready"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/status/testserver"
+	"istio.io/istio/123/pkg/kube/apimirror"
+	"istio.io/istio/123/pkg/lazy"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type handler struct {

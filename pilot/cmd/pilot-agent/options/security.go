@@ -19,13 +19,13 @@ import (
 	"strings"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/jwt"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/security"
-	"istio.io/istio/security/pkg/credentialfetcher"
-	"istio.io/istio/security/pkg/nodeagent/cafile"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/jwt"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/security"
+	"istio.io/istio/123/security/pkg/credentialfetcher"
+	"istio.io/istio/123/security/pkg/nodeagent/cafile"
 )
 
 func NewSecurityOptions(proxyConfig *meshconfig.ProxyConfig, stsPort int, tokenManagerPlugin string) (*security.Options, error) {

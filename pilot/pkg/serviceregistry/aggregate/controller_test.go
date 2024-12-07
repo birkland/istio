@@ -23,14 +23,14 @@ import (
 	"go.uber.org/atomic"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry"
-	"istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pilot/pkg/serviceregistry/mock"
-	"istio.io/istio/pilot/pkg/serviceregistry/provider"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/mock"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/provider"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 type mockMeshConfigHolder struct {

@@ -30,15 +30,15 @@ import (
 	mcsapi "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/kube"
-	"istio.io/istio/pilot/pkg/serviceregistry/util/xdsfake"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/kube/mcs"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/kube"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/util/xdsfake"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/kube/mcs"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

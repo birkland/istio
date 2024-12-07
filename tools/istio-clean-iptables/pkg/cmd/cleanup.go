@@ -19,12 +19,12 @@ import (
 	"net/netip"
 	"os"
 
-	"istio.io/istio/tools/istio-clean-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/builder"
-	common "istio.io/istio/tools/istio-iptables/pkg/capture"
-	types "istio.io/istio/tools/istio-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
-	dep "istio.io/istio/tools/istio-iptables/pkg/dependencies"
+	"istio.io/istio/123/tools/istio-clean-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/builder"
+	common "istio.io/istio/123/tools/istio-iptables/pkg/capture"
+	types "istio.io/istio/123/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
+	dep "istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
 )
 
 func NewDependencies(cfg *config.Config) dep.Dependencies {

@@ -21,8 +21,8 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/util/protomarshal"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // TestEnvoyFilterMatch tests the matching logic for EnvoyFilter, in particular the regex -> prefix optimization

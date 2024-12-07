@@ -17,7 +17,7 @@ package xds
 import (
 	resource "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
 
-	pm "istio.io/istio/pkg/model"
+	pm "istio.io/istio/123/pkg/model"
 )
 
 const (

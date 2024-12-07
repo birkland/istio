@@ -32,14 +32,14 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pilot/cmd/pilot-agent/options"
-	diff "istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/tools/istio-iptables/pkg/cmd"
-	"istio.io/istio/tools/istio-iptables/pkg/dependencies"
+	"istio.io/istio/123/pilot/cmd/pilot-agent/options"
+	diff "istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/tools/istio-iptables/pkg/cmd"
+	"istio.io/istio/123/tools/istio-iptables/pkg/dependencies"
 )
 
 type mockNetNs struct {

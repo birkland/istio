@@ -24,9 +24,9 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 const (

@@ -15,7 +15,7 @@
 package fuzz
 
 import (
-	"istio.io/istio/operator/pkg/translate"
+	"istio.io/istio/123/operator/pkg/translate"
 )
 
 func FuzzTranslateFromValueToSpec(data []byte) int {

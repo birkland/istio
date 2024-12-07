@@ -14,7 +14,7 @@
 
 package resource
 
-import "istio.io/istio/pkg/cluster"
+import "istio.io/istio/123/pkg/cluster"
 
 // Origin of a resource. This is source-implementation dependent.
 type Origin interface {

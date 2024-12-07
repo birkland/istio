@@ -30,16 +30,16 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/istioctl/pkg/writer/ztunnel/configdump"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/istio"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	kubetest "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/retry"
-	"istio.io/istio/security/pkg/pki/util"
-	"istio.io/istio/tests/integration/security/util/cert"
+	"istio.io/istio/123/istioctl/pkg/writer/ztunnel/configdump"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/istio"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	kubetest "istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/retry"
+	"istio.io/istio/123/security/pkg/pki/util"
+	"istio.io/istio/123/tests/integration/security/util/cert"
 )
 
 func TestIntermediateCertificateRefresh(t *testing.T) {

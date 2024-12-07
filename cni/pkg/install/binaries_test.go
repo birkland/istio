@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/test/util/file"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/file"
 )
 
 func TestCopyBinaries(t *testing.T) {

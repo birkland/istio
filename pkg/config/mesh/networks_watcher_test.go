@@ -21,8 +21,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/filewatcher"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/filewatcher"
 )
 
 func TestNewNetworksWatcherWithBadInputShouldFail(t *testing.T) {

@@ -33,8 +33,8 @@ import (
 	"gopkg.in/yaml.v2"
 	yaml2 "sigs.k8s.io/yaml"
 
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/log"
 )
 
 var scope = log.RegisterScope("tpath", "tree traverser")

@@ -19,11 +19,11 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
 )
 
 // NewFakeXDS creates a XdsUpdater reporting events via a channel.

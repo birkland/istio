@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"testing"
 
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 func TestCompareCSRs(t *testing.T) {

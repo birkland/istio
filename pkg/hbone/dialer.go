@@ -28,8 +28,8 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/proxy"
 
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/security/pkg/pki/util"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 var log = istiolog.RegisterScope("hbone", "")

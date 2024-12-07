@@ -26,8 +26,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"istio.io/istio/pkg/env"
-	istiolog "istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/env"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 var securityLog = istiolog.RegisterScope("security", "security debugging")

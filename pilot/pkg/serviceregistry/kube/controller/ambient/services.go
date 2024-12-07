@@ -22,17 +22,17 @@ import (
 
 	"istio.io/api/networking/v1alpha3"
 	networkingclient "istio.io/client-go/pkg/apis/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/serviceentry"
-	"istio.io/istio/pilot/pkg/serviceregistry/kube"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/workloadapi"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/serviceentry"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/kube"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/workloadapi"
 )
 
 func (a *index) ServicesCollection(

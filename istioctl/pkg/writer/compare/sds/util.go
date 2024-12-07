@@ -23,8 +23,8 @@ import (
 	envoy_admin "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	auth "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 
-	"istio.io/istio/istioctl/pkg/util/configdump"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/istioctl/pkg/util/configdump"
+	"istio.io/istio/123/pkg/log"
 )
 
 // SecretItemDiff represents a secret that has been diffed between nodeagent and proxy

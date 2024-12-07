@@ -17,9 +17,9 @@ package app
 import (
 	"crypto/tls"
 
-	"istio.io/istio/pilot/pkg/bootstrap"
-	"istio.io/istio/pkg/config/validation"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/bootstrap"
+	"istio.io/istio/123/pkg/config/validation"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // insecureTLSCipherNames returns a list of insecure cipher suite names implemented by crypto/tls

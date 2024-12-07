@@ -17,7 +17,7 @@ package kclient
 import (
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"istio.io/istio/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/controllers"
 )
 
 func CreateOrUpdate[T controllers.Object](c Writer[T], object T) (T, error) {

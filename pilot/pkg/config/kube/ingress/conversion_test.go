@@ -32,13 +32,13 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pilot/test/util"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/test"
 )
 
 func TestGoldenConversion(t *testing.T) {

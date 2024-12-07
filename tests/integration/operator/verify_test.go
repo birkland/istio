@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/istioctl"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/istioctl"
 )
 
 func TestPostInstallControlPlaneVerification(t *testing.T) {

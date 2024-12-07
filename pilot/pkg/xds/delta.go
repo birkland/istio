@@ -26,15 +26,15 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"istio.io/istio/pilot/pkg/features"
-	istiogrpc "istio.io/istio/pilot/pkg/grpc"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	istiolog "istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/xds"
+	"istio.io/istio/123/pilot/pkg/features"
+	istiogrpc "istio.io/istio/123/pilot/pkg/grpc"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	istiolog "istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/xds"
 )
 
 var deltaLog = istiolog.RegisterScope("delta", "delta xds debugging")

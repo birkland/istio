@@ -17,8 +17,8 @@ package workloadinstances
 import (
 	"sync"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Index reprensents an index over workload instances from workload entries.

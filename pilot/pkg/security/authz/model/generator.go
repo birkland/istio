@@ -21,11 +21,11 @@ import (
 	rbacpb "github.com/envoyproxy/go-control-plane/envoy/config/rbac/v3"
 	matcherpb "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/security/authz/matcher"
-	"istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pkg/config/security"
-	"istio.io/istio/pkg/spiffe"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/security/authz/matcher"
+	"istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pkg/config/security"
+	"istio.io/istio/123/pkg/spiffe"
 )
 
 type generator interface {

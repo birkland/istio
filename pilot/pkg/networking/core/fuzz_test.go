@@ -19,8 +19,8 @@ import (
 
 	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/fuzz"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/fuzz"
 )
 
 func FuzzBuildGatewayListeners(f *testing.F) {

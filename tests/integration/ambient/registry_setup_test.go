@@ -21,9 +21,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"istio.io/istio/pkg/test/framework/components/registryredirector"
-	"istio.io/istio/pkg/test/framework/resource"
-	"istio.io/istio/pkg/test/framework/resource/config/apply"
+	"istio.io/istio/123/pkg/test/framework/components/registryredirector"
+	"istio.io/istio/123/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/resource/config/apply"
 )
 
 var registry registryredirector.Instance

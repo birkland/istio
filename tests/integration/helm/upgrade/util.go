@@ -26,16 +26,16 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	kubecluster "istio.io/istio/pkg/test/framework/components/cluster/kube"
-	"istio.io/istio/pkg/test/helm"
-	kubetest "istio.io/istio/pkg/test/kube"
-	"istio.io/istio/pkg/test/scopes"
-	"istio.io/istio/pkg/test/shell"
-	"istio.io/istio/pkg/test/util/retry"
-	helmtest "istio.io/istio/tests/integration/helm"
-	"istio.io/istio/tests/util/sanitycheck"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	kubecluster "istio.io/istio/123/pkg/test/framework/components/cluster/kube"
+	"istio.io/istio/123/pkg/test/helm"
+	kubetest "istio.io/istio/123/pkg/test/kube"
+	"istio.io/istio/123/pkg/test/scopes"
+	"istio.io/istio/123/pkg/test/shell"
+	"istio.io/istio/123/pkg/test/util/retry"
+	helmtest "istio.io/istio/123/tests/integration/helm"
+	"istio.io/istio/123/tests/util/sanitycheck"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/slices"
+	"istio.io/istio/123/pkg/slices"
 )
 
 // ServiceFilter is used to pass filter information into service based config writer print functions

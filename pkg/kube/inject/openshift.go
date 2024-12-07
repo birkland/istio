@@ -26,7 +26,7 @@ import (
 	securityv1 "github.com/openshift/api/security/v1"
 	corev1 "k8s.io/api/core/v1"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // getPreallocatedUIDRange retrieves the annotated value from the namespace, splits it to make

@@ -22,9 +22,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/tools/cache"
 
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kubetypes"
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kubetypes"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 // delayedClient is a client wrapper that initially starts with an "empty client",

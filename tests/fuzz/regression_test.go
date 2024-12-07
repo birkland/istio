@@ -21,9 +21,9 @@ import (
 	"regexp"
 	"testing"
 
-	"istio.io/istio/pilot/pkg/util/runtime"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/util/runtime"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // baseCases contains a few trivial test cases to do a very brief sanity check of a test

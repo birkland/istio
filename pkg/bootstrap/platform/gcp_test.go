@@ -18,8 +18,8 @@ import (
 	"errors"
 	"testing"
 
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestGCPMetadata(t *testing.T) {

@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/log"
-	testenv "istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/log"
+	testenv "istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // Types mirrored from https://github.com/docker/buildx/blob/master/bake/bake.go

@@ -19,12 +19,12 @@ import (
 	"strings"
 
 	securityclient "istio.io/client-go/pkg/apis/security/v1beta1"
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/kube/krt"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/spiffe"
-	"istio.io/istio/pkg/workloadapi/security"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/kube/krt"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/spiffe"
+	"istio.io/istio/123/pkg/workloadapi/security"
 )
 
 func PolicyCollections(

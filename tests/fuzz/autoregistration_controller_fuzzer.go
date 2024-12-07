@@ -21,13 +21,13 @@ import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/autoregistration"
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/keepalive"
+	"istio.io/istio/123/pilot/pkg/autoregistration"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/keepalive"
 )
 
 type fakeConn struct {

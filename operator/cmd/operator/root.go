@@ -19,8 +19,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pkg/collateral"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/pkg/collateral"
+	"istio.io/istio/123/pkg/version"
 )
 
 // getRootCmd returns the root of the cobra command-tree.

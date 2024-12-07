@@ -17,7 +17,7 @@ package authz
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestNamespaceMatch(t *testing.T) {

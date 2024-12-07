@@ -25,7 +25,7 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/api/label"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func Test_analyzeRunningWebhooks(t *testing.T) {

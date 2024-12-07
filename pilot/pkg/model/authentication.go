@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"istio.io/api/security/v1beta1"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config/schema/kind"
 )
 
 // MutualTLSMode is the mutual TLS mode specified by authentication policy.

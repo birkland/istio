@@ -26,9 +26,9 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	dnsProto "istio.io/istio/pkg/dns/proto"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/util/sets"
+	dnsProto "istio.io/istio/123/pkg/dns/proto"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestDNSForwardParallel(t *testing.T) {

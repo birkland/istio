@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"istio.io/istio/pkg/config/schema/codegen"
+	"istio.io/istio/123/pkg/config/schema/codegen"
 )
 
 // Utility for generating collections.gen.go. Called from gen.go

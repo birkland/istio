@@ -27,14 +27,14 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/config/memory"
-	"istio.io/istio/pilot/pkg/model"
-	memregistry "istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pilot/pkg/config/memory"
+	"istio.io/istio/123/pilot/pkg/model"
+	memregistry "istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 func TestApplyLocalitySetting(t *testing.T) {

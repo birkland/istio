@@ -34,11 +34,11 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"k8s.io/utils/set"
 
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/backoff"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/backoff"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var deltaLog = log.RegisterScope("deltaadsc", "delta adsc debugging")

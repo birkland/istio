@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/version"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 
-	"istio.io/istio/operator/pkg/util/clog"
-	"istio.io/istio/pkg/kube"
-	pkgVersion "istio.io/istio/pkg/version"
+	"istio.io/istio/123/operator/pkg/util/clog"
+	"istio.io/istio/123/pkg/kube"
+	pkgVersion "istio.io/istio/123/pkg/version"
 )
 
 var (

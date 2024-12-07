@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"strings"
 
-	sec_model "istio.io/istio/pilot/pkg/security/model"
-	istiolog "istio.io/istio/pkg/log"
+	sec_model "istio.io/istio/123/pilot/pkg/security/model"
+	istiolog "istio.io/istio/123/pkg/log"
 )
 
 type httpServerErrorLogWriter struct{}

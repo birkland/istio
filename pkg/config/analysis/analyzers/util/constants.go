@@ -17,7 +17,7 @@ package util
 import (
 	"regexp"
 
-	"istio.io/istio/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/constants"
 )
 
 const (

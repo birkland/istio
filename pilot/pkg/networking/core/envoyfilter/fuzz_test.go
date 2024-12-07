@@ -21,10 +21,10 @@ import (
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/fuzz"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/fuzz"
 )
 
 func FuzzApplyClusterMerge(f *testing.F) {

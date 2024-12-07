@@ -14,7 +14,7 @@
 
 package analysis
 
-import "istio.io/istio/pkg/config"
+import "istio.io/istio/123/pkg/config"
 
 // Metadata represents metadata for an analyzer
 type Metadata struct {

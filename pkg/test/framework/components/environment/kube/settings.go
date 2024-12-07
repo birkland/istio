@@ -19,10 +19,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	istioKube "istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/config"
-	"istio.io/istio/pkg/test/scopes"
+	istioKube "istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/config"
+	"istio.io/istio/123/pkg/test/scopes"
 )
 
 // clusterIndex is the index of a cluster within the KubeConfig or topology file entries

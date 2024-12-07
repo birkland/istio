@@ -25,9 +25,9 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/model"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/model"
 )
 
 const (

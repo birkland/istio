@@ -17,7 +17,7 @@ package typemap
 import (
 	"reflect"
 
-	"istio.io/istio/pkg/ptr"
+	"istio.io/istio/123/pkg/ptr"
 )
 
 // TypeMap provides a map that holds a map of Type -> Value. There can be only a single value per type.

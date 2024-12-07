@@ -26,14 +26,14 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	mcs "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/host"
-	"istio.io/istio/pkg/config/schema/kind"
-	"istio.io/istio/pkg/config/visibility"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/host"
+	"istio.io/istio/123/pkg/config/schema/kind"
+	"istio.io/istio/123/pkg/config/visibility"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type endpointSliceController struct {

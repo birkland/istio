@@ -31,17 +31,17 @@ import (
 
 	"istio.io/api/annotation"
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/describe"
-	"istio.io/istio/istioctl/pkg/util/ambient"
-	"istio.io/istio/pkg/config/analysis/analyzers/injection"
-	analyzer_util "istio.io/istio/pkg/config/analysis/analyzers/util"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/inject"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/describe"
+	"istio.io/istio/123/istioctl/pkg/util/ambient"
+	"istio.io/istio/123/pkg/config/analysis/analyzers/injection"
+	analyzer_util "istio.io/istio/123/pkg/config/analysis/analyzers/util"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/inject"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type revisionCount struct {

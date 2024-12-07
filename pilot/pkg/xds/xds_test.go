@@ -21,16 +21,16 @@ import (
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 
 	"istio.io/api/mesh/v1alpha1"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/test/xds"
-	"istio.io/istio/pilot/test/xdstest"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/structpath"
-	"istio.io/istio/pkg/wellknown"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/test/xds"
+	"istio.io/istio/123/pilot/test/xdstest"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/structpath"
+	"istio.io/istio/123/pkg/wellknown"
 )
 
 type SidecarTestConfig struct {

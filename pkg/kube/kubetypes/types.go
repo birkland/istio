@@ -23,8 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 type InformerOptions struct {

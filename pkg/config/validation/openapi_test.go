@@ -25,12 +25,12 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	crdvalidation "istio.io/istio/pkg/config/crd"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/fuzz"
-	"istio.io/istio/pkg/test/util/yml"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	crdvalidation "istio.io/istio/123/pkg/config/crd"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/fuzz"
+	"istio.io/istio/123/pkg/test/util/yml"
 )
 
 type TestExpectation struct {

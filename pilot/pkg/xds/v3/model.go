@@ -15,7 +15,7 @@
 package v3
 
 import (
-	"istio.io/istio/pkg/model"
+	"istio.io/istio/123/pkg/model"
 )
 
 const (

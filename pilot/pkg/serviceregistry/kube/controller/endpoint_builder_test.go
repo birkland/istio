@@ -22,17 +22,17 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/pilot/pkg/model"
-	labelutil "istio.io/istio/pilot/pkg/serviceregistry/util/label"
-	cluster2 "istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient"
-	pkgmodel "istio.io/istio/pkg/model"
-	"istio.io/istio/pkg/network"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pilot/pkg/model"
+	labelutil "istio.io/istio/123/pilot/pkg/serviceregistry/util/label"
+	cluster2 "istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient"
+	pkgmodel "istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/pkg/network"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestNewEndpointBuilderTopologyLabels(t *testing.T) {

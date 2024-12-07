@@ -22,10 +22,10 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/operator/pkg/helm"
-	"istio.io/istio/operator/pkg/object"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/pkg/test/env"
+	"istio.io/istio/123/operator/pkg/helm"
+	"istio.io/istio/123/operator/pkg/object"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/pkg/test/env"
 )
 
 var repoRootDir string

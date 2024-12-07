@@ -33,14 +33,14 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/pilot/pkg/model/kstatus"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/config/protocol"
-	"istio.io/istio/pkg/config/schema/gvk"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/pilot/pkg/model/kstatus"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 var (

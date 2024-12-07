@@ -26,8 +26,8 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/util"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/util"
+	"istio.io/istio/123/pkg/kube"
 )
 
 func TestTagList(t *testing.T) {

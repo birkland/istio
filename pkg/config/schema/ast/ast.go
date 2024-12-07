@@ -20,11 +20,11 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"istio.io/istio/pkg/config/validation"
+	"istio.io/istio/123/pkg/config/validation"
 	// Force-import a function.
-	_ "istio.io/istio/pkg/config/validation/envoyfilter"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/pkg/util/strcase"
+	_ "istio.io/istio/123/pkg/config/validation/envoyfilter"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/pkg/util/strcase"
 )
 
 // Metadata is the top-level container.

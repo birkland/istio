@@ -21,8 +21,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestFindSidecar(t *testing.T) {

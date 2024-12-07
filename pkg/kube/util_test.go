@@ -28,9 +28,9 @@ import (
 	"k8s.io/client-go/tools/clientcmd/api"
 
 	networkingv1alpha3 "istio.io/client-go/pkg/apis/networking/v1alpha3"
-	"istio.io/istio/pkg/ptr"
-	"istio.io/istio/pkg/test/util/assert"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/ptr"
+	"istio.io/istio/123/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func TestBuildClientConfig(t *testing.T) {

@@ -15,8 +15,8 @@
 package collections
 
 import (
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/schema/collection"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/schema/collection"
 )
 
 var Istio = Pilot.Add(MeshNetworks).Add(MeshConfig)

@@ -20,7 +20,7 @@ import (
 
 	"github.com/felixge/fgprof"
 
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/test"
 )
 
 var fprof string

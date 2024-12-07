@@ -31,7 +31,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 
-	"istio.io/istio/pkg/lazy"
+	"istio.io/istio/123/pkg/lazy"
 )
 
 var _ PartialFactory = &clientFactory{}

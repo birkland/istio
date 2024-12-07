@@ -23,10 +23,10 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/serviceregistry/memory"
-	"istio.io/istio/pkg/config/xds"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/serviceregistry/memory"
+	"istio.io/istio/123/pkg/config/xds"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 func Test_virtualHostMatch(t *testing.T) {

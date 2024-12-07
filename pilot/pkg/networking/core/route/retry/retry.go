@@ -24,8 +24,8 @@ import (
 	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 
 	networking "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	xdsfilters "istio.io/istio/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	xdsfilters "istio.io/istio/123/pilot/pkg/xds/filters"
 )
 
 var defaultRetryPriorityTypedConfig = protoconv.MessageToAny(buildPreviousPrioritiesConfig())

@@ -22,8 +22,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/pkg/kube"
 )
 
 func getPodsNameInDefaultNamespace(ctx cli.Context, toComplete string) ([]string, error) {

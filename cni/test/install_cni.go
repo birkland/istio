@@ -30,14 +30,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/spf13/viper"
 
-	"istio.io/istio/cni/pkg/config"
-	"istio.io/istio/cni/pkg/constants"
-	"istio.io/istio/cni/pkg/install"
-	"istio.io/istio/cni/pkg/util"
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/test/env"
-	"istio.io/istio/pkg/test/util/retry"
+	"istio.io/istio/123/cni/pkg/config"
+	"istio.io/istio/123/cni/pkg/constants"
+	"istio.io/istio/123/cni/pkg/install"
+	"istio.io/istio/123/cni/pkg/util"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/test/env"
+	"istio.io/istio/123/pkg/test/util/retry"
 )
 
 const (

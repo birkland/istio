@@ -26,9 +26,9 @@ import (
 	gateway "sigs.k8s.io/gateway-api/apis/v1"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/pilot/pkg/model/kstatus"
-	"istio.io/istio/pkg/config/constants"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/pilot/pkg/model/kstatus"
+	"istio.io/istio/123/pkg/config/constants"
 )
 
 func TestWaypointList(t *testing.T) {

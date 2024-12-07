@@ -17,8 +17,8 @@ package framework
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework/label"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/label"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 var _ resource.Dumper = &runtime{}

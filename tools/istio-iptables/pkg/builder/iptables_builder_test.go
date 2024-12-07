@@ -20,10 +20,10 @@ import (
 	"strings"
 	"testing"
 
-	testutil "istio.io/istio/pilot/test/util"
-	"istio.io/istio/tools/istio-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
-	iptableslog "istio.io/istio/tools/istio-iptables/pkg/log"
+	testutil "istio.io/istio/123/pilot/test/util"
+	"istio.io/istio/123/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
+	iptableslog "istio.io/istio/123/tools/istio-iptables/pkg/log"
 )
 
 func compareToGolden(t *testing.T, name string, actual string) {

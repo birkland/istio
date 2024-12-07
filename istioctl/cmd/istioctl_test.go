@@ -17,7 +17,7 @@ package cmd
 import (
 	"testing"
 
-	istioctlutil "istio.io/istio/istioctl/pkg/util"
+	istioctlutil "istio.io/istio/123/istioctl/pkg/util"
 )
 
 func TestBadParse(t *testing.T) {

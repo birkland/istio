@@ -18,12 +18,12 @@ import (
 	"encoding/json"
 	"os"
 
-	"istio.io/istio/pilot/pkg/features"
-	"istio.io/istio/pkg/config/mesh"
-	"istio.io/istio/pkg/config/mesh/kubemesh"
-	"istio.io/istio/pkg/filewatcher"
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/pilot/pkg/features"
+	"istio.io/istio/123/pkg/config/mesh"
+	"istio.io/istio/123/pkg/config/mesh/kubemesh"
+	"istio.io/istio/123/pkg/filewatcher"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/version"
 )
 
 const (

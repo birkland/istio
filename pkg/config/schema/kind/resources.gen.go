@@ -3,8 +3,8 @@
 package kind
 
 import (
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/gvk"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/gvk"
 )
 
 const (

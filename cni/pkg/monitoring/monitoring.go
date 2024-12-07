@@ -19,9 +19,9 @@ import (
 	"net"
 	"net/http"
 
-	"istio.io/istio/pkg/log"
-	"istio.io/istio/pkg/monitoring"
-	"istio.io/istio/pkg/network"
+	"istio.io/istio/123/pkg/log"
+	"istio.io/istio/123/pkg/monitoring"
+	"istio.io/istio/123/pkg/network"
 )
 
 func SetupMonitoring(port int, path string, stop <-chan struct{}) {

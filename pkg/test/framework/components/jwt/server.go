@@ -15,9 +15,9 @@
 package jwt
 
 import (
-	"istio.io/istio/pkg/test/framework"
-	"istio.io/istio/pkg/test/framework/components/namespace"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework/components/namespace"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 // Server for JWT tokens.

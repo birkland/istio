@@ -17,10 +17,10 @@ package main
 import (
 	"os"
 
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/operator/cmd/mesh"
-	binversion "istio.io/istio/operator/version"
-	"istio.io/istio/pkg/version"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/operator/cmd/mesh"
+	binversion "istio.io/istio/123/operator/version"
+	"istio.io/istio/123/pkg/version"
 )
 
 func main() {

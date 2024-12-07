@@ -17,8 +17,8 @@ package opentelemetry
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework/components/cluster"
-	"istio.io/istio/pkg/test/framework/resource"
+	"istio.io/istio/123/pkg/test/framework/components/cluster"
+	"istio.io/istio/123/pkg/test/framework/resource"
 )
 
 // Config represents the configuration for setting up an opentelemetry

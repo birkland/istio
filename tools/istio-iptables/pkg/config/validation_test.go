@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func NOwnerGroups(n int) string {

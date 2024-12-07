@@ -17,7 +17,7 @@ package framework
 import (
 	"flag"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 var logOptionsFromCommandline = log.DefaultOptions()

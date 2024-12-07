@@ -20,8 +20,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	"istio.io/api/annotation"
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/test/framework/components/echo"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/test/framework/components/echo"
 )
 
 type podSelector struct {

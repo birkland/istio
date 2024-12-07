@@ -27,7 +27,7 @@ import (
 	"github.com/containernetworking/cni/pkg/skel"
 	cniv1 "github.com/containernetworking/cni/pkg/types/100"
 
-	"istio.io/istio/cni/pkg/nodeagent"
+	"istio.io/istio/123/cni/pkg/nodeagent"
 )
 
 // newCNIClient is a unit test override variable for mocking.

@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/operator/pkg/manifest"
-	"istio.io/istio/operator/pkg/util"
-	"istio.io/istio/operator/pkg/util/clog"
+	"istio.io/istio/123/operator/pkg/manifest"
+	"istio.io/istio/123/operator/pkg/util"
+	"istio.io/istio/123/operator/pkg/util/clog"
 )
 
 type profileDiffArgs struct {

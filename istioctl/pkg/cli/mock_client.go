@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/credentials"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 )
 
 type MockPortForwarder struct{}

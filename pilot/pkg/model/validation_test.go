@@ -17,8 +17,8 @@ package model
 import (
 	"testing"
 
-	"istio.io/istio/pkg/config/labels"
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/labels"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 var service1 = &Service{

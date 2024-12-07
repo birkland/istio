@@ -19,7 +19,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/cli"
 )
 
 func Cmd(ctx cli.Context) *cobra.Command {

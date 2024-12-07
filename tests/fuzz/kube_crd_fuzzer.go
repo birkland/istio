@@ -17,9 +17,9 @@ package fuzz
 import (
 	fuzz "github.com/AdaLogics/go-fuzz-headers"
 
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	config2 "istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	config2 "istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 // FuzzKubeCRD implements a fuzzer that targets

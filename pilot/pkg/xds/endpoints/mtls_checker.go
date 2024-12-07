@@ -18,10 +18,10 @@ import (
 	endpoint "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
 
 	networkingapi "istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/networking/util"
-	"istio.io/istio/pilot/pkg/security/authn"
-	"istio.io/istio/pkg/config"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/networking/util"
+	"istio.io/istio/123/pilot/pkg/security/authn"
+	"istio.io/istio/123/pkg/config"
 )
 
 // TODO this logic is probably done elsewhere in XDS, possible code-reuse + perf improvements

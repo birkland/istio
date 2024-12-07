@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pkg/keepalive"
+	"istio.io/istio/123/pkg/keepalive"
 )
 
 // Test default maximum connection age is set to infinite, preserving previous

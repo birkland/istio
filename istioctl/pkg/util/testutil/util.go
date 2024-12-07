@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/pilot/test/util"
+	"istio.io/istio/123/pilot/test/util"
 )
 
 type TestCase struct {

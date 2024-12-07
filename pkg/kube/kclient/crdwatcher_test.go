@@ -20,11 +20,11 @@ import (
 	"go.uber.org/atomic"
 	"sigs.k8s.io/gateway-api/pkg/consts"
 
-	"istio.io/istio/pkg/config/schema/gvr"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/kclient/clienttest"
-	"istio.io/istio/pkg/test"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/schema/gvr"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/kclient/clienttest"
+	"istio.io/istio/123/pkg/test"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 // TestCRDWatcherRace tests for a previous bug where callbacks may be skipped if added during a handler

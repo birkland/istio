@@ -25,14 +25,14 @@ import (
 	status "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"istio.io/istio/pilot/pkg/model"
-	"istio.io/istio/pilot/pkg/util/protoconv"
-	"istio.io/istio/pilot/pkg/xds"
-	v3 "istio.io/istio/pilot/pkg/xds/v3"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/test/util/assert"
-	istioversion "istio.io/istio/pkg/version"
-	"istio.io/istio/tests/util"
+	"istio.io/istio/123/pilot/pkg/model"
+	"istio.io/istio/123/pilot/pkg/util/protoconv"
+	"istio.io/istio/123/pilot/pkg/xds"
+	v3 "istio.io/istio/123/pilot/pkg/xds/v3"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/test/util/assert"
+	istioversion "istio.io/istio/123/pkg/version"
+	"istio.io/istio/123/tests/util"
 )
 
 func TestXdsStatusWriter_PrintAll(t *testing.T) {

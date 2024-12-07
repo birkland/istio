@@ -33,12 +33,12 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
 	"istio.io/api/label"
-	"istio.io/istio/istioctl/pkg/cli"
-	"istio.io/istio/istioctl/pkg/clioptions"
-	"istio.io/istio/istioctl/pkg/multixds"
-	"istio.io/istio/istioctl/pkg/xds"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/istioctl/pkg/cli"
+	"istio.io/istio/123/istioctl/pkg/clioptions"
+	"istio.io/istio/123/istioctl/pkg/multixds"
+	"istio.io/istio/123/istioctl/pkg/xds"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 type execTestCase struct {

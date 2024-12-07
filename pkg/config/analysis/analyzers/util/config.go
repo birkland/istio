@@ -15,7 +15,7 @@
 package util
 
 import (
-	"istio.io/istio/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/resource"
 )
 
 // IsIstioControlPlane returns true for resources that are part of the Istio control plane

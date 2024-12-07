@@ -20,7 +20,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	mcs "sigs.k8s.io/mcs-api/pkg/apis/v1alpha1"
 
-	"istio.io/istio/pilot/pkg/features"
+	"istio.io/istio/123/pilot/pkg/features"
 )
 
 var (

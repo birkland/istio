@@ -19,7 +19,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"istio.io/istio/operator/pkg/helm"
+	"istio.io/istio/123/operator/pkg/helm"
 )
 
 type profileListArgs struct {

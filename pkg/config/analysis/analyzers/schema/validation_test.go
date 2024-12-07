@@ -21,15 +21,15 @@ import (
 	. "github.com/onsi/gomega"
 
 	"istio.io/api/networking/v1alpha3"
-	"istio.io/istio/pkg/cluster"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/analysis/msg"
-	"istio.io/istio/pkg/config/analysis/testing/fixtures"
-	"istio.io/istio/pkg/config/resource"
-	"istio.io/istio/pkg/config/schema/collections"
-	"istio.io/istio/pkg/config/schema/gvk"
-	resource2 "istio.io/istio/pkg/config/schema/resource"
-	"istio.io/istio/pkg/config/validation"
+	"istio.io/istio/123/pkg/cluster"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/analysis/msg"
+	"istio.io/istio/123/pkg/config/analysis/testing/fixtures"
+	"istio.io/istio/123/pkg/config/resource"
+	"istio.io/istio/123/pkg/config/schema/collections"
+	"istio.io/istio/123/pkg/config/schema/gvk"
+	resource2 "istio.io/istio/123/pkg/config/schema/resource"
+	"istio.io/istio/123/pkg/config/validation"
 )
 
 func TestCorrectArgs(t *testing.T) {

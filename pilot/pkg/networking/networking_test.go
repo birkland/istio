@@ -19,7 +19,7 @@ import (
 
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 
-	"istio.io/istio/pkg/config/protocol"
+	"istio.io/istio/123/pkg/config/protocol"
 )
 
 func TestModelProtocolToListenerProtocol(t *testing.T) {

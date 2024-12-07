@@ -15,7 +15,7 @@
 package fuzz
 
 import (
-	"istio.io/istio/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
 )
 
 func FuzzParseInputs(data []byte) int {

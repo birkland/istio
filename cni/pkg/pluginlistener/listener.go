@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 func NewListener(path string) (net.Listener, error) {

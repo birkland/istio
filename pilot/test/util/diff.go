@@ -22,9 +22,9 @@ import (
 
 	"github.com/pmezard/go-difflib/difflib"
 
-	"istio.io/istio/pkg/env"
-	"istio.io/istio/pkg/file"
-	"istio.io/istio/pkg/test"
+	"istio.io/istio/123/pkg/env"
+	"istio.io/istio/123/pkg/file"
+	"istio.io/istio/123/pkg/test"
 )
 
 const (

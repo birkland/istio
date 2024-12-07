@@ -20,8 +20,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"istio.io/istio/cni/pkg/cmd"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/cni/pkg/cmd"
+	"istio.io/istio/123/pkg/log"
 )
 
 func main() {

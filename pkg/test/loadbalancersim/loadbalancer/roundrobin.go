@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"istio.io/istio/pkg/test/loadbalancersim/network"
+	"istio.io/istio/123/pkg/test/loadbalancersim/network"
 )
 
 func NewRoundRobin(conns []*WeightedConnection) network.Connection {

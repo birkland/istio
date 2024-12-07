@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"istio.io/istio/pkg/config/security"
-	"istio.io/istio/pkg/test/util/assert"
+	"istio.io/istio/123/pkg/config/security"
+	"istio.io/istio/123/pkg/test/util/assert"
 )
 
 func TestParseJwksURI(t *testing.T) {

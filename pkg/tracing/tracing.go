@@ -29,7 +29,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	traceapi "go.opentelemetry.io/otel/trace"
 
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pkg/log"
 )
 
 // Inspired by https://github.com/moby/buildkit/blob/d9a6afdf089a7c4b97cac704a60ad70c21086f12/util/tracing/detect/otlp.go#L18
@@ -78,7 +78,7 @@ func newResource() *resource.Resource {
 
 const (
 	// instrumentationScope is the name of OpenTelemetry instrumentation scope
-	instrumentationScope = "istio.io/istio"
+	instrumentationScope = "istio.io/istio/123"
 )
 
 func tracer() traceapi.Tracer {

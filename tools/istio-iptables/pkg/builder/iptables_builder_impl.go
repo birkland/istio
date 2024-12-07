@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"istio.io/istio/pkg/maps"
-	"istio.io/istio/pkg/slices"
-	"istio.io/istio/pkg/util/sets"
-	"istio.io/istio/tools/istio-iptables/pkg/config"
-	"istio.io/istio/tools/istio-iptables/pkg/constants"
-	"istio.io/istio/tools/istio-iptables/pkg/log"
+	"istio.io/istio/123/pkg/maps"
+	"istio.io/istio/123/pkg/slices"
+	"istio.io/istio/123/pkg/util/sets"
+	"istio.io/istio/123/tools/istio-iptables/pkg/config"
+	"istio.io/istio/123/tools/istio-iptables/pkg/constants"
+	"istio.io/istio/123/tools/istio-iptables/pkg/log"
 )
 
 // Rule represents iptables rule - chain, table and options

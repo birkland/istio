@@ -21,8 +21,8 @@ import (
 	"github.com/pmezard/go-difflib/difflib"
 
 	// Force import protos
-	_ "istio.io/istio/pilot/pkg/xds/filters"
-	"istio.io/istio/pkg/util/protomarshal"
+	_ "istio.io/istio/123/pilot/pkg/xds/filters"
+	"istio.io/istio/123/pkg/util/protomarshal"
 )
 
 // ListenerDiff prints a diff between Istiod and Envoy listeners to the passed writer

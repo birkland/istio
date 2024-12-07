@@ -22,8 +22,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"istio.io/istio/pkg/config/constants"
-	"istio.io/istio/pkg/util/sets"
+	"istio.io/istio/123/pkg/config/constants"
+	"istio.io/istio/123/pkg/util/sets"
 )
 
 // IgnoredNamespaces contains the system namespaces referenced from Kubernetes:

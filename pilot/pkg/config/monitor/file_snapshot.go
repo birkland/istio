@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	"istio.io/istio/pilot/pkg/config/kube/crd"
-	"istio.io/istio/pkg/config"
-	"istio.io/istio/pkg/config/schema/collection"
-	"istio.io/istio/pkg/config/schema/collections"
+	"istio.io/istio/123/pilot/pkg/config/kube/crd"
+	"istio.io/istio/123/pkg/config"
+	"istio.io/istio/123/pkg/config/schema/collection"
+	"istio.io/istio/123/pkg/config/schema/collections"
 )
 
 var supportedExtensions = map[string]bool{

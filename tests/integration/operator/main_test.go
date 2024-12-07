@@ -20,7 +20,7 @@ package operator
 import (
 	"testing"
 
-	"istio.io/istio/pkg/test/framework"
+	"istio.io/istio/123/pkg/test/framework"
 )
 
 func TestMain(m *testing.M) {

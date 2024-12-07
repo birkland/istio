@@ -19,7 +19,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"istio.io/istio/pkg/test/loadbalancersim/timeseries"
+	"istio.io/istio/123/pkg/test/loadbalancersim/timeseries"
 )
 
 type ConnectionHelper struct {

@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"istio.io/istio/pkg/kube"
+	"istio.io/istio/123/pkg/kube"
 	// +kubebuilder:scaffold:imports
-	"istio.io/istio/pkg/test/csrctrl/signer"
+	"istio.io/istio/123/pkg/test/csrctrl/signer"
 )
 
 const (

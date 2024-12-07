@@ -29,12 +29,12 @@ import (
 	sa "k8s.io/apiserver/pkg/authentication/serviceaccount"
 	authorizationv1client "k8s.io/client-go/kubernetes/typed/authorization/v1"
 
-	"istio.io/istio/pilot/pkg/credentials"
-	securitymodel "istio.io/istio/pilot/pkg/security/model"
-	"istio.io/istio/pkg/kube"
-	"istio.io/istio/pkg/kube/controllers"
-	"istio.io/istio/pkg/kube/kclient"
-	"istio.io/istio/pkg/log"
+	"istio.io/istio/123/pilot/pkg/credentials"
+	securitymodel "istio.io/istio/123/pilot/pkg/security/model"
+	"istio.io/istio/123/pkg/kube"
+	"istio.io/istio/123/pkg/kube/controllers"
+	"istio.io/istio/123/pkg/kube/kclient"
+	"istio.io/istio/123/pkg/log"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"istio.io/istio/pkg/log"
-	sec_model "istio.io/istio/pkg/model"
-	"istio.io/istio/security/pkg/pki/util"
+	"istio.io/istio/123/pkg/log"
+	sec_model "istio.io/istio/123/pkg/model"
+	"istio.io/istio/123/security/pkg/pki/util"
 )
 
 // TLSOptions include TLS options that a grpc client uses to connect with server.
